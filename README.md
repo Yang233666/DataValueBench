@@ -25,6 +25,14 @@ Core verification is tested on Linux with Python 3.10.12. Graph reference tests 
 
 To use an existing environment, set `PYTHON_BIN` to its interpreter and run `bash scripts/setup.sh --check`. Graph reference tests use a separate pinned environment; see [reproducibility](docs/REPRODUCIBILITY.md).
 
+## Artifact capabilities
+
+DataValueBench supports three levels of reproducibility:
+
+1. Result verification: verify released hashes, schemas, evaluation memberships, and reported outputs.
+2. Frozen-input reconstruction: recompute supported downstream analyses from released frozen inputs and outputs.
+3. Full upstream reconstruction: rerun original pipelines when exact historical snapshots, provider-accessible resources, and model environments are available.
+
 ## Repository structure
 
 | Directory | Contents |

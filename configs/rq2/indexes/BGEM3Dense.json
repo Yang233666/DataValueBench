@@ -1,0 +1,10 @@
+{
+  "dtype": "float32",
+  "dimension": 1024,
+  "normalization": "Official dense_vecs unchanged; RQ3 local normalization is not applied to RQ2",
+  "row_count": 100000,
+  "representation_sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+  "source_sha256": "7e382de1f95e01d86d4fe655de7a94a5895a996bcb6398bd9354f890586c72d0",
+  "vectors_sha256": "6bde838e08be2fc607ee8d7992e7337bbe11c3523541705cfd9485076ffdc09c",
+  "document_ids_sha256": "7fbc37d55b91466d8eba79a7456b43db058426e14dc6008bbbc378c739a64370"
+}

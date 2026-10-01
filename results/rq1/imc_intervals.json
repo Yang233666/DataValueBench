@@ -1,0 +1,244 @@
+{
+  "intervals": [
+    {
+      "condition": "G0",
+      "method_id": "IMC_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.1080845811757197,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1074718761224695,
+        0.10871776486526943
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "592ef98e7f1128d65d5dd31c110bbe3d9f299dcbf6970f3621be6498b9c34d24",
+      "per_seed_draw_metrics_sha256": "3bfb220ce6d710184572199a5558cf1cbc6f2d9843f80454c46776c3a57ddf02"
+    },
+    {
+      "condition": "G0",
+      "method_id": "IMC_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.39003812325715115,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.3819202151268003,
+        0.39762398067597726
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "592ef98e7f1128d65d5dd31c110bbe3d9f299dcbf6970f3621be6498b9c34d24",
+      "per_seed_draw_metrics_sha256": "3bfb220ce6d710184572199a5558cf1cbc6f2d9843f80454c46776c3a57ddf02"
+    },
+    {
+      "condition": "G0",
+      "method_id": "IMC_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.7072786082275647,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7041415262716061,
+        0.7106104728099268
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "592ef98e7f1128d65d5dd31c110bbe3d9f299dcbf6970f3621be6498b9c34d24",
+      "per_seed_draw_metrics_sha256": "3bfb220ce6d710184572199a5558cf1cbc6f2d9843f80454c46776c3a57ddf02"
+    },
+    {
+      "condition": "GD",
+      "method_id": "IMC_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.23140827699738092,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1231392046127231,
+        0.24165336382731215
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "24183b015d529f0c59ee64ec1e42c489aa8230cdbc4f7a4f663ef34d610c3874",
+      "per_seed_draw_metrics_sha256": "5145676c972a6e0f8de895e4a8ed70eb4ca69dd932f7a04a0015a43acab6b899"
+    },
+    {
+      "condition": "GD",
+      "method_id": "IMC_MINILM",
+      "metric": "R2",
+      "point_estimate": -1.4449392638243082,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -1.5431485827774154,
+        0.264890132565674
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "24183b015d529f0c59ee64ec1e42c489aa8230cdbc4f7a4f663ef34d610c3874",
+      "per_seed_draw_metrics_sha256": "5145676c972a6e0f8de895e4a8ed70eb4ca69dd932f7a04a0015a43acab6b899"
+    },
+    {
+      "condition": "GD",
+      "method_id": "IMC_MINILM",
+      "metric": "Spearman",
+      "point_estimate": -0.012258562838684334,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.035899998687319315,
+        0.6230807681362822
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "24183b015d529f0c59ee64ec1e42c489aa8230cdbc4f7a4f663ef34d610c3874",
+      "per_seed_draw_metrics_sha256": "5145676c972a6e0f8de895e4a8ed70eb4ca69dd932f7a04a0015a43acab6b899"
+    },
+    {
+      "condition": "GF",
+      "method_id": "IMC_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.13386287727587895,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.08537329176423863,
+        0.1872203709702429
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "e4cf6c6d7006fb6285fa4877c5a7c02f214defe5f018d7a2acaaab90daa4038f",
+      "per_seed_draw_metrics_sha256": "b1c7d4b98105eafdc1636f655a1581eca67ec341882aa057ce0253afcc04e9bd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "IMC_MINILM",
+      "metric": "R2",
+      "point_estimate": -0.03719972696228915,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3879447925986688,
+        0.18254052349025698
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "e4cf6c6d7006fb6285fa4877c5a7c02f214defe5f018d7a2acaaab90daa4038f",
+      "per_seed_draw_metrics_sha256": "b1c7d4b98105eafdc1636f655a1581eca67ec341882aa057ce0253afcc04e9bd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "IMC_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.48694889359482,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10274344026615395,
+        0.6830382223072036
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "e4cf6c6d7006fb6285fa4877c5a7c02f214defe5f018d7a2acaaab90daa4038f",
+      "per_seed_draw_metrics_sha256": "b1c7d4b98105eafdc1636f655a1581eca67ec341882aa057ce0253afcc04e9bd"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "IMC_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.35670220520257306,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.2764454260405788,
+        0.4373281000516786
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4745489f18eab331f8fdef2de8e80e394a61a662bd9372e44cea2563905ebb31",
+      "per_seed_draw_metrics_sha256": "1d365a75671308de067f50bd89837e1e0bb0d42ad88d83f1799456a44c6c6e0c"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "IMC_MINILM",
+      "metric": "R2",
+      "point_estimate": -6.644767411121535,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -14.444498256952222,
+        -4.432294317620161
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4745489f18eab331f8fdef2de8e80e394a61a662bd9372e44cea2563905ebb31",
+      "per_seed_draw_metrics_sha256": "1d365a75671308de067f50bd89837e1e0bb0d42ad88d83f1799456a44c6c6e0c"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "IMC_MINILM",
+      "metric": "Spearman",
+      "point_estimate": -0.5348597843045833,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.6783324794212786,
+        -0.3183052223917654
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4745489f18eab331f8fdef2de8e80e394a61a662bd9372e44cea2563905ebb31",
+      "per_seed_draw_metrics_sha256": "1d365a75671308de067f50bd89837e1e0bb0d42ad88d83f1799456a44c6c6e0c"
+    }
+  ]
+}

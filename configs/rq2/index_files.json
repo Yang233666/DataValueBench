@@ -1,0 +1,5612 @@
+{
+  "inputs": [
+    {
+      "method": "BM25",
+      "component": "bm25_index.joblib",
+      "sha256": "e2d9f7fb558dda8746c396d7a6a9d5aebc50f065bc7f291d2773f1d2948b1a7a",
+      "bytes": 32963950,
+      "included": false
+    },
+    {
+      "method": "BM25",
+      "component": "document_frequencies.npy",
+      "sha256": "780c5a3b29679c1311f9fb2933ba65f4c34c0d5ea10a9105904ca9736a3d5403",
+      "bytes": 567028,
+      "included": false
+    },
+    {
+      "method": "BM25",
+      "component": "document_ids.parquet",
+      "sha256": "c9b9e00b319fb21fb3fb9d4107224ffbfa20389be8696e127f8d221b7a644a04",
+      "bytes": 1939412,
+      "included": false
+    },
+    {
+      "method": "BM25",
+      "component": "document_lengths.npy",
+      "sha256": "3d173074ccc2a1cc3769a2a5c8996479fd5e57db0f5f621e902e8f552aa875a0",
+      "bytes": 800128,
+      "included": false
+    },
+    {
+      "method": "query_independent",
+      "component": "metadata_completeness_corpus_ranking.parquet",
+      "sha256": "ab25b72c4953581792bf110b68e1cd8d1db151edb37bfe46e918d41d452732e8",
+      "bytes": 2674242,
+      "included": false
+    },
+    {
+      "method": "query_independent",
+      "component": "popularity_corpus_ranking.parquet",
+      "sha256": "aed645c33e310260e9a182a307c19251803615549392930e1bd6dc426f9bb5b0",
+      "bytes": 3665971,
+      "included": false
+    },
+    {
+      "method": "query_independent",
+      "component": "random_corpus_ranking.parquet",
+      "sha256": "7dc7850f3e995ad2f8f60a3eaa6163c97c9d6946b7a1cae08a1146cf562d9490",
+      "bytes": 9721997,
+      "included": false
+    },
+    {
+      "method": "retrieval",
+      "component": "rq2_v2_hf_metadata_representation_v1.0.parquet",
+      "sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+      "bytes": 31191316,
+      "included": false
+    },
+    {
+      "method": "TFIDF",
+      "component": "document_ids.parquet",
+      "sha256": "c9b9e00b319fb21fb3fb9d4107224ffbfa20389be8696e127f8d221b7a644a04",
+      "bytes": 1939412,
+      "included": false
+    },
+    {
+      "method": "TFIDF",
+      "component": "idf.npy",
+      "sha256": "427ad5ab9df4bec616471a2336be30aa62704ea35b57a9d4d052096c1649e147",
+      "bytes": 249440,
+      "included": false
+    },
+    {
+      "method": "TFIDF",
+      "component": "tfidf_document_matrix.npz",
+      "sha256": "c4d65bfedac904ced1c410c734f91bda27fd1728e5f88ecdbf0181708cf43bc3",
+      "bytes": 10493191,
+      "included": false
+    },
+    {
+      "method": "TFIDF",
+      "component": "tfidf_vectorizer.joblib",
+      "sha256": "a2d4599633de29076417b0113008431e2811c7bfaa6dbde9431898fbffaca79d",
+      "bytes": 1242103,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000000_000128.npz",
+      "sha256": "cf3f72ab00085e9556b86fade4d9ddda817c7e19ab79e8ce91b75cd819d518f3",
+      "bytes": 3713034,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000128_000256.npz",
+      "sha256": "47c2b7dabc8bcec24165c7f9bbed589a0fa3b3638f0b24f43978e814e4c7e4c8",
+      "bytes": 3695114,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000256_000384.npz",
+      "sha256": "2979dbf3e9b5cc1ac1a0422e4f31abf963f31b262cbe2354644ddd19aa750ff2",
+      "bytes": 3556362,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000384_000512.npz",
+      "sha256": "0be5421cd2eb1aed2a0846b492c19c8dd45213272087891d9b420364ca1465d4",
+      "bytes": 3712522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000512_000640.npz",
+      "sha256": "cb8e9b4129431bd5357cbb4fec68c54585ab3922a44a34a3158db9c9fb2b25c7",
+      "bytes": 3209226,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000640_000768.npz",
+      "sha256": "e474e9fdd2ba281b93dfbacbbf7a6eb31340c726a5eaa8f7c8e4d5a9e255da63",
+      "bytes": 3264522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000768_000896.npz",
+      "sha256": "9cb93e2c5b7331531a2a6c34d0551046ce7920cb5df2599ab80d5780780e33e6",
+      "bytes": 3861514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "000896_001024.npz",
+      "sha256": "e25b07e3d977477204ee0c2a25e52f56fa13272a75ac66f4f7a9a5b4163cdc9e",
+      "bytes": 3626506,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001024_001152.npz",
+      "sha256": "6a36443526baaa4a7449658cfbb4194d07f3b6626a912daf89d423c28150b5ac",
+      "bytes": 3937290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001152_001280.npz",
+      "sha256": "27e9e7108418b4aaa6b31083137de8189754f380c54b9357cc93a2fbd4a4d01c",
+      "bytes": 3559434,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001280_001408.npz",
+      "sha256": "c73965820c063d727c4546aeee69c28499ff10a1b8cb5c00152c0e17402a66f0",
+      "bytes": 4008458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001408_001536.npz",
+      "sha256": "40964d6748802e5077c8604f38bca54270371ec67d7456f0df6df3b787ddbca3",
+      "bytes": 3629066,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001536_001664.npz",
+      "sha256": "97ebdcc3047765669abc62a9f836bead46ec9fa5ab027fc19c2e4760596af060",
+      "bytes": 3731978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001664_001792.npz",
+      "sha256": "30ab31240bf990895f4ed057edeecafb4a349b34e4100da436d9a8e175976b65",
+      "bytes": 3679754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001792_001920.npz",
+      "sha256": "7c088d36dd3c27099600c030d8ffa6ad908f6a4fddd851d60f564e49f4e5db68",
+      "bytes": 3685386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "001920_002048.npz",
+      "sha256": "cc151f2286a0316423664f9dc28811a9ac7c373b5d11b5416d3330974b8ca852",
+      "bytes": 3564042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002048_002176.npz",
+      "sha256": "4941d3ee7609d5d117afad6072a412f0aa133974fffecfe055c4deac43ad88a2",
+      "bytes": 3731466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002176_002304.npz",
+      "sha256": "0f31430bd1139dd70b79911ae7f789df1dc85cedd145cc3aa41c87bff05aadea",
+      "bytes": 3730954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002304_002432.npz",
+      "sha256": "1bfa708c1a0eb09f778ec55f22eb51a386c1175e490f6fa81ab434c1d443102a",
+      "bytes": 4318218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002432_002560.npz",
+      "sha256": "57e50dda40fce15f46c34ef1931f575961a574509d5da75ab983ec2a6a1659fc",
+      "bytes": 4093962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002560_002688.npz",
+      "sha256": "0d832de36091addfb6cadd0f3082690717eda4599de039b8d1d85d568ce38c89",
+      "bytes": 4166666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002688_002816.npz",
+      "sha256": "e2205836271312ba013e00bf395e41f68e1bbba301bde1161ec2e654ee88ff1a",
+      "bytes": 3609098,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002816_002944.npz",
+      "sha256": "182c2fcf3dcde2b34f8d16d205c80446a74afed04a7949c552a77be8560a2bf8",
+      "bytes": 3271178,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "002944_003072.npz",
+      "sha256": "7d48a1b123b00e15f82678dacad376f2d29d1a99c53cc023d9d9c8668b97f4c3",
+      "bytes": 3617802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003072_003200.npz",
+      "sha256": "61b923d4f64adc158a3f9ec479194cea47d037cfc98b04a9378861a1cf2c3aba",
+      "bytes": 3517962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003200_003328.npz",
+      "sha256": "e9769f4699bf8e44c7ca6e67c71abffe379f7b3210b84886f7cc59091725f68e",
+      "bytes": 3297290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003328_003456.npz",
+      "sha256": "a7ebb6e52f0391c2961c327df409e313429d4ec66722adf071d1b21870d89fbc",
+      "bytes": 3781130,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003456_003584.npz",
+      "sha256": "0503df49537c190889e0a0b79a3c6c7d7d229723c56efb86502ea6b8ec5ffb63",
+      "bytes": 4154378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003584_003712.npz",
+      "sha256": "c753a18afb411270efe880ad35c4a1dc7fdcda7dbe16d4f2df8ccaf2bd619c67",
+      "bytes": 3491850,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003712_003840.npz",
+      "sha256": "2915015f6e88ff3ef1be3e9d6a08841fc33423ccc1fb550497d31367f752ed44",
+      "bytes": 3933706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003840_003968.npz",
+      "sha256": "c913309980c8b5d689723f906fe3a088b279dc5ddfb7504ef0247dad5082a654",
+      "bytes": 4173322,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "003968_004096.npz",
+      "sha256": "40d7fb6a70b5fcade9e180813547957af41b04f899fa430aad6454fc901d66ce",
+      "bytes": 4248074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004096_004224.npz",
+      "sha256": "b0991a43646fce5860fda8e4e1eaa4f7b0309a027808ed2dfa5cb270f19fd271",
+      "bytes": 3681290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004224_004352.npz",
+      "sha256": "d3bea888b00c1f7d444c9be88922428454cf1643fe36ca96475bad7f438ccb80",
+      "bytes": 2568202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004352_004480.npz",
+      "sha256": "5c68cab5d163861a8b829dd42144ae4cfd33d83572e8fb4526428811b064ede9",
+      "bytes": 2607114,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004480_004608.npz",
+      "sha256": "9e4d06e133fd3e72bc07963caba1d20d3b1a6bd15f1321de5cfbe182e70364e8",
+      "bytes": 2720266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004608_004736.npz",
+      "sha256": "2d0a7aa1b107527a80361b204d2f1f35915fa0945fdd8838cc7ef218af3d0e9d",
+      "bytes": 2590218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004736_004864.npz",
+      "sha256": "cd9a0ba7aef01a1d2422386c0c8ff8ca0e97df9dff522da8888e83e9db666fce",
+      "bytes": 2726922,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004864_004992.npz",
+      "sha256": "26d40652804c30837ea473c77a9d0e13a5eeef4e9e58552e73bab623bda4c754",
+      "bytes": 2552842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "004992_005120.npz",
+      "sha256": "00646a385ce3ce6a4b885478bd1564ed14ad5b90eb93646d0a1cf8093baf76ea",
+      "bytes": 3720714,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005120_005248.npz",
+      "sha256": "0c8bd94500a03c7702b3ffea21d2a5dd4406ebfed7a7ed77ecaa72d95a2b1547",
+      "bytes": 4194826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005248_005376.npz",
+      "sha256": "9f055ae4d6914059f228c4f585c0d67f1d30240027c7459a385a51142bd17d21",
+      "bytes": 2802698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005376_005504.npz",
+      "sha256": "b7e4743922fbacc26c9b7fcbb8d261999428442b29f1382b18f98f72b99d4f20",
+      "bytes": 4472842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005504_005632.npz",
+      "sha256": "248cb6306277b624008f016f4c364001e6667a61f5bd90b9d64f34b0aa26f0b7",
+      "bytes": 3631626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005632_005760.npz",
+      "sha256": "98873b1698d6433d719f207a60093d9b010f72c07444d2b4f3cccecbdabec70a",
+      "bytes": 3298826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005760_005888.npz",
+      "sha256": "0f4f4ba7468210af1302d8f9f190cc039a79f512808023d672f29ef2cd546304",
+      "bytes": 3652106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "005888_006016.npz",
+      "sha256": "dda352e09451aed7eebdfc518940b9608fc607600e95d25461164ee7138dcc75",
+      "bytes": 4107274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006016_006144.npz",
+      "sha256": "e98d2ed546e699be16a02ddc929b486d97e4c4c6fe648a82352c402c6237d229",
+      "bytes": 3551242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006144_006272.npz",
+      "sha256": "7d258cf0decdb00b9364aed0fc0d67f03b6496bfe118865e9b596fd824370470",
+      "bytes": 3744778,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006272_006400.npz",
+      "sha256": "6c1b8284dbe1ba57909bd7372d76e11c8de764194f430053f6457b1eff50aa46",
+      "bytes": 3565578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006400_006528.npz",
+      "sha256": "ebb5eed0114cba639abcf854ac1e35614cfec1473e87e1da6b584f17c3ba68f6",
+      "bytes": 3640330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006528_006656.npz",
+      "sha256": "93074a8395edb6bcff4a12c66fca380332d22ece499bebde818a2c5ebe7a8afc",
+      "bytes": 3933706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006656_006784.npz",
+      "sha256": "fd8b85e8ec74ae2c981fc8142f1cf552f90f86cdc2d304660db0619941eb8a41",
+      "bytes": 4268554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006784_006912.npz",
+      "sha256": "b95017740e3e13ecefe1db4963755a1b8ef100c22967d1f0603dcb23b9db3a1a",
+      "bytes": 3617802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "006912_007040.npz",
+      "sha256": "b132f4130c4f3733183167a99fd6eb392de1f3220081fbba77fff7f4c1306e24",
+      "bytes": 2977802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007040_007168.npz",
+      "sha256": "97efaa000c3ffe25b6c740d2e719773837bd9db25883056a471241199a21d7a8",
+      "bytes": 3511818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007168_007296.npz",
+      "sha256": "ec4051e282f1a9ab25417bbc8d2f68d44c08de969ed99ff3d188e35df4f9aa48",
+      "bytes": 3355658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007296_007424.npz",
+      "sha256": "51efd35752d34a75175ae07a63ba5bc124f36ef463a38e5d630cea7112280e13",
+      "bytes": 4158986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007424_007552.npz",
+      "sha256": "cafa50317b264b8b228a1af45213e9ff11fa8583482a9e3dba6fd528479f45ef",
+      "bytes": 4642826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007552_007680.npz",
+      "sha256": "c26782751a3ff309fee1227b4c1295e3465a36ac7058dd55e636ba02428c02d0",
+      "bytes": 3810314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007680_007808.npz",
+      "sha256": "5245a1f948f89ec945b55c8ddb813a59c2dfe3e9b4d873d1ff5c36fdc081dd3f",
+      "bytes": 4136458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007808_007936.npz",
+      "sha256": "8bab676a46553c9ea647bac0f6e4d16b4a9dfd42b1fa625c38afe1b2440eb6ba",
+      "bytes": 3924490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "007936_008064.npz",
+      "sha256": "e25b9f10099822de62cbd74da9659fed78ee46f03b99bfb5e6cb7846da53356e",
+      "bytes": 3556362,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008064_008192.npz",
+      "sha256": "80b412b9b9fff4150aa21f4d0462f130bf2429c994f154ace825a905bb4842e3",
+      "bytes": 3492874,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008192_008320.npz",
+      "sha256": "78c5862ccafc380d4d58765aa96002182fd9979612b7d4d9ecc4d65cdbe05fb6",
+      "bytes": 4072458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008320_008448.npz",
+      "sha256": "d789879156cb9115776e190c39784de20908f1f3dcd0c33ff1bf5b25411cc279",
+      "bytes": 3982346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008448_008576.npz",
+      "sha256": "9b2770f6dc6b25c364e3ef57dbdc9df3e5dcde5a956660536dca7b31f2f7cba1",
+      "bytes": 4435466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008576_008704.npz",
+      "sha256": "bfd61781c5f28dcc502b453b9bfa5600975c819ea3f8d78075870246937b112d",
+      "bytes": 3337226,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008704_008832.npz",
+      "sha256": "f3eff553c8fd36d5dc2f50b4bbeedb6573d410297011f94047cb1350ac137cd9",
+      "bytes": 3479050,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008832_008960.npz",
+      "sha256": "000c15479757416d1375a75599f0d0b58a025977a76df86d0842ed26b31a1cab",
+      "bytes": 3497482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "008960_009088.npz",
+      "sha256": "d54e459d816c23bddd533914082e198d273f48dd7347a0cd11c45416b9f73f4d",
+      "bytes": 3479562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009088_009216.npz",
+      "sha256": "441d8b99fb8e7f00f45be2622e217e49fec5426dec1e4026fbf16eda1e291f3c",
+      "bytes": 3600906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009216_009344.npz",
+      "sha256": "3b0f9655d963da51c8eb915fbfd0604bad146d4cb41539a78dcf1b197b4d0388",
+      "bytes": 3560458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009344_009472.npz",
+      "sha256": "389a9aa93d01933232dd863a4bfbe8d90079dbad5e83365dfe80b5857254a5ba",
+      "bytes": 3642890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009472_009600.npz",
+      "sha256": "ac9cc26e7b8d9af621160a399c03f4e81acbcb4f22e2064adffbc0f7ba45d11a",
+      "bytes": 3667466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009600_009728.npz",
+      "sha256": "beb21fb6b3cfa46622a2bbcea5fa75483a8b331d1a1ce964d860f7ed8a4e9f6d",
+      "bytes": 3734538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009728_009856.npz",
+      "sha256": "e0100122a44985ff35627881abd91773fa9fa9a98c7321a95232accd24556f2b",
+      "bytes": 3654154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009856_009984.npz",
+      "sha256": "7c81be596ea4962ebe9c6077b9258f6b2baf0df9111176194512de2e311a8213",
+      "bytes": 3698698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "009984_010112.npz",
+      "sha256": "29c5bff99364b04d091f1e9e3f1a62cf67d220096e552189043a4fdc125f9457",
+      "bytes": 3858954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010112_010240.npz",
+      "sha256": "504172083f47a32fa82dd33a871d833252c011ae786f6ac973dadc5bdefa6858",
+      "bytes": 3705354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010240_010368.npz",
+      "sha256": "b73ec5df582f5b5537bf600d8641fca412326ed51d27c39f2ce2511d85cc8372",
+      "bytes": 3386890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010368_010496.npz",
+      "sha256": "cdc83e4152b20a89c11d6739b9f045a04c92c458ba97661d2f23559271b5558d",
+      "bytes": 2692618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010496_010624.npz",
+      "sha256": "57aa90b83fa5ca075cbb9063c4b4dae119128df4ef4f916a3f9151c6f1d9bac5",
+      "bytes": 2552330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010624_010752.npz",
+      "sha256": "7b3fce203562a7d92eab25146348e22072907a9559d98f7043fde87688ec0d98",
+      "bytes": 3530762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010752_010880.npz",
+      "sha256": "05e4b8a8c3a8fc8b619d8d5a1b51f39a9272277853327f6d66efa6864af1b015",
+      "bytes": 3943946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "010880_011008.npz",
+      "sha256": "8d603ec33cab13bfebce77aa94ffbc4a73245a0395a56d629d8db7b2e2cf769b",
+      "bytes": 3802634,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011008_011136.npz",
+      "sha256": "54c4dca583c5302fdf7207e7c41d04cb7d9393381960b575c58fe96dc79e800b",
+      "bytes": 3350538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011136_011264.npz",
+      "sha256": "12a5472f5538171e0553ec77ee691c0ae0f63424b9a11c57cf3a7c22d797b49c",
+      "bytes": 3499530,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011264_011392.npz",
+      "sha256": "0b1fafd36f3cbf92aaba1d93141a28f360da4f464043e04c48b0d6eb15b3c88a",
+      "bytes": 3485706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011392_011520.npz",
+      "sha256": "13c03099f0acbac1c4c6095bf2236e4443e5be3dc001a48c7f5f2300476bc51d",
+      "bytes": 3660810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011520_011648.npz",
+      "sha256": "35a668596c4f389334d613568010e859a89d8208f67d127201544281e8462306",
+      "bytes": 3726346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011648_011776.npz",
+      "sha256": "a3518f1ea0381ce3cdec204690cdd310cef0fd95e383256b654a38b462f9be81",
+      "bytes": 2985482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011776_011904.npz",
+      "sha256": "da7edc2d7848075570c37357ac01f1e25709fff80069d661b35625938e0c61d6",
+      "bytes": 2149898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "011904_012032.npz",
+      "sha256": "3d1e88c2eec6da5cd00cb30d8c1845c6bfd47771f68e13b0ca9530bc6f614efe",
+      "bytes": 3740170,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012032_012160.npz",
+      "sha256": "b947b1c14afac57f8f4eac66e26aae6a5d1f05060b9e4a8e25c0296ebfede077",
+      "bytes": 3544074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012160_012288.npz",
+      "sha256": "66bfa0cf241fb2bd4b74bbfd826c1c96e8318e62db8cd22fa69b775b5ab042b2",
+      "bytes": 3687946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012288_012416.npz",
+      "sha256": "4d76462e5f15bf248c0cbe481aa40a0362dddc352c763a7a867fad685073fe9c",
+      "bytes": 4478986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012416_012544.npz",
+      "sha256": "720c96f24f772abc072dbdaa7effc511c0ff5b3e23c08c11bde854a3b29ef671",
+      "bytes": 4147722,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012544_012672.npz",
+      "sha256": "7c801e292d9793da25416fca067eec179bc7e618440caf7493e65f0f134093d8",
+      "bytes": 3555338,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012672_012800.npz",
+      "sha256": "41ba2525155c1bbfe0fe6898525b4b5f4e4168b24a77d678bffdb36259a363da",
+      "bytes": 3788298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012800_012928.npz",
+      "sha256": "e3f20bfb0d9e2eed2c0ac6731e33fe370dae5fb47bc8a214f792f573f8b18fbe",
+      "bytes": 3221514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "012928_013056.npz",
+      "sha256": "f6045f5b11d966c21c6131f45d997724b7c6696a777d679df56d4140808a2651",
+      "bytes": 3019274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013056_013184.npz",
+      "sha256": "a66f6aea9cc519452ca40f970fe069018ba2737cd74d0c8b575123c47ddc7fae",
+      "bytes": 3515402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013184_013312.npz",
+      "sha256": "acca937e59e5a477ac0792a6188a65f1e476e54e63a76344ac6c18b4026fdfc0",
+      "bytes": 3832330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013312_013440.npz",
+      "sha256": "9fad4e919cada947a02944dc0a27cd83327c5f8874b464e5610155a3774c0f4d",
+      "bytes": 4652554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013440_013568.npz",
+      "sha256": "682835e4122968c990c9330ab544b2f3d227b6e4a4c9389efe1f08fb96c702b3",
+      "bytes": 3472394,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013568_013696.npz",
+      "sha256": "35653f1a93fb5bbef8c1e7ddcbfe16cf6b5e607d4903da112f8fc297f82e43b2",
+      "bytes": 3465738,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013696_013824.npz",
+      "sha256": "b45bcddc74e9638c5a2054e8719e4922687041b33bbad891464823ac0603dd09",
+      "bytes": 4705290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013824_013952.npz",
+      "sha256": "214872d03a8481b29ee0d7adb0f0477a08b5e32d28f060699f278ead05896b96",
+      "bytes": 3625482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "013952_014080.npz",
+      "sha256": "2d94a15a885abf559defa27d4c96f0163748ae2bec96c8f59680e6a0c3af1c12",
+      "bytes": 3304458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014080_014208.npz",
+      "sha256": "5bd551d760237642be22e6b2a125cdaac47021ae4ef55a2cf67f8643aa5d9aac",
+      "bytes": 3397642,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014208_014336.npz",
+      "sha256": "a26905d9af7869a1233236832a0c377e913f951b310bf8ec53264d54602b039b",
+      "bytes": 4632586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014336_014464.npz",
+      "sha256": "65bbf98ff489390f074f152f6b67bb2b95e56e57dedbbe84244c88194f0e4a17",
+      "bytes": 4350986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014464_014592.npz",
+      "sha256": "eb694b8d0f932c5b5fc326b6e2d91c50ee31c92cc79f103b56251b94af713bbb",
+      "bytes": 3325962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014592_014720.npz",
+      "sha256": "cdbeae09e13b375c9a4903e42d89a86c8d98b3b8d986884cb9694964f842843f",
+      "bytes": 3654666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014720_014848.npz",
+      "sha256": "b9dc9eaa8c8ceebcdbcd6b62745bb7c319e16abfcca171c86f5ab87dc7b67b52",
+      "bytes": 3620362,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014848_014976.npz",
+      "sha256": "e2dbea880b64f0a0ee1703ba61b3deef47c02f37689fd5882a57bcae42aac7ce",
+      "bytes": 3804682,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "014976_015104.npz",
+      "sha256": "b6bd8404656d699f18b5c9c2ab82c46cbf411a50cdaba152e4cc462db359869b",
+      "bytes": 3526666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015104_015232.npz",
+      "sha256": "41d6afaf8728b6c9003c3d9987e93e2837b2b665ffd93138402a1406d2dcd971",
+      "bytes": 3916298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015232_015360.npz",
+      "sha256": "3b2daef46e49c81fbb1951f913b5a8ccd7f4f08f324f588a1a18c5e3ddf82781",
+      "bytes": 3989002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015360_015488.npz",
+      "sha256": "3afcde6be8ab5143e0fda433db3f2c4765a150c11fd60fcd941582e7aaac73f5",
+      "bytes": 3165706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015488_015616.npz",
+      "sha256": "01adf2c43562c838baf5ce5a3c536cacbdb665bc467eb9e4c7de134adf144cc6",
+      "bytes": 3853834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015616_015744.npz",
+      "sha256": "d120ae5445b9d26170ad2b94bf6d4b4faa5292ca0e0ad0ebe9f44ac36396448d",
+      "bytes": 3529226,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015744_015872.npz",
+      "sha256": "84fe53c7cd1fd56e3a0237532d086064587e4d506f32e666e8aba6166bdab180",
+      "bytes": 3771402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "015872_016000.npz",
+      "sha256": "581e6c0bdcdcf475e0ee1c25d7158f91bc1d70e2a8ef4bbad0503b342991c692",
+      "bytes": 3406858,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016000_016128.npz",
+      "sha256": "212d2d98719f069ac0bc29008c9b382943b6aebc0a37fc9b96d8f1ffa0eff3e3",
+      "bytes": 4062730,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016128_016256.npz",
+      "sha256": "fe43fee4dcbc231c4004986f5137a547a3c2552fc01378599b8fc36eca8ee21d",
+      "bytes": 3653130,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016256_016384.npz",
+      "sha256": "0a450a629c5c27bf4e980d268f36d61d5ddf252e652e8331a6182e4a33ecd1b0",
+      "bytes": 3566090,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016384_016512.npz",
+      "sha256": "ad8e70359c5c6d2d5a945f7c416423e6ebece156b215dfe95d82d0b0d927dd11",
+      "bytes": 3200522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016512_016640.npz",
+      "sha256": "bb8514752ca2300a772cb809c47b8510e83ec64197a49a2570edc4af04500b0a",
+      "bytes": 3231754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016640_016768.npz",
+      "sha256": "c6de587c6f4014c78db87743dcd1b44fe5042097390aa70d9ae0778e3f639c2f",
+      "bytes": 3217418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016768_016896.npz",
+      "sha256": "8da728c659c8e1a3d852cd2ba1fd0fddf676cdaa039cc11af4d61dd8f62679a1",
+      "bytes": 3835402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "016896_017024.npz",
+      "sha256": "a3da0ccd9a1c85956b0332f6d58eec0d495cedcd530fdc76010ab974facc0dd8",
+      "bytes": 3655690,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017024_017152.npz",
+      "sha256": "43fac444f7f3bccf72de17d73d878f1176ce6158ab31a34983d03346783b2a3c",
+      "bytes": 3779082,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017152_017280.npz",
+      "sha256": "5318715906a7ccde778e1cf8670363a712e47a45d2d5a3399848ec612aec9a57",
+      "bytes": 4164618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017280_017408.npz",
+      "sha256": "6fadc4265e2d3ced4af2ccf0e55b5be8fd836c1ba8ac7752d49425ba7dc0f787",
+      "bytes": 3493898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017408_017536.npz",
+      "sha256": "2249b8e5b39d300993bd260ab0cafa15fa707889c13a6f753a950c7442d95674",
+      "bytes": 3312650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017536_017664.npz",
+      "sha256": "b3138abd6f5c38f3fc0e66f95f1708cdba7766331ebaff703d1ef32dfc1a933d",
+      "bytes": 3433994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017664_017792.npz",
+      "sha256": "2fd97dbc4ada70f795a04ab226be094838b84b39f84082b962dfa4714f3a3faf",
+      "bytes": 3256842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017792_017920.npz",
+      "sha256": "ddf755eb487c1f1e41b690cc186e278b3a4f6b8cc4fe7a6412353bb4678d2f89",
+      "bytes": 3985418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "017920_018048.npz",
+      "sha256": "9bbee4b2f19ffc3b8e927629d985d1cfb4aa03ce3340d406a40aa6b3f6b50878",
+      "bytes": 3569162,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018048_018176.npz",
+      "sha256": "10eb9a6faadc7a38d17d25f590b40146b085126eec4760bbbac2b9220d34ba7e",
+      "bytes": 3745290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018176_018304.npz",
+      "sha256": "3aba17088df02c01ed280e147bc62272ff33655050f3e68ea0ab55737b11b15e",
+      "bytes": 3628042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018304_018432.npz",
+      "sha256": "16e774b2fdb3a6b42ade8bb18295c05fddc4e36362d2b7e385138203c5dfebbb",
+      "bytes": 3635210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018432_018560.npz",
+      "sha256": "379c6ff51307bc6241f924e945a6cb1ffb310ff791eb549775b240bb609aae30",
+      "bytes": 3598858,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018560_018688.npz",
+      "sha256": "0ab73b0bc990062890c90f73c059196e87e2fcba1638cce24e2637ffb2163e11",
+      "bytes": 3748874,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018688_018816.npz",
+      "sha256": "64cc1aef7fcdb8379d736cc57ad48b4c348673941319afff7bb328430c7168ef",
+      "bytes": 3767818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018816_018944.npz",
+      "sha256": "3f177d84aa61b9273ead9b15fba3aa59d438ea4c6d4c854195a94d4dde95fa90",
+      "bytes": 3440138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "018944_019072.npz",
+      "sha256": "1515ef7831c8502576267ea175fea22bfc7d4ac938521254bb149b52646cbb02",
+      "bytes": 3787786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019072_019200.npz",
+      "sha256": "178240030e35ef55853ddf08a7895187b298339693c8d55b5c260531a01360cb",
+      "bytes": 3845642,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019200_019328.npz",
+      "sha256": "baa2c1b46010aef0ae7f789f470d7bdebb0b3ee9ab21e5b86b8aeb96f00f49ce",
+      "bytes": 3949578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019328_019456.npz",
+      "sha256": "c56242ad6250e821e57a2d2b59448a969c87ec982c211247a048c03cb5c8259b",
+      "bytes": 3860490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019456_019584.npz",
+      "sha256": "dcb5445f6491c7061bb91f40fbaf5711277b9ef57fd5c095fef5460453058996",
+      "bytes": 4329994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019584_019712.npz",
+      "sha256": "d4702b88ad5c53330226b51a91d1cff9e3b6dd51187da232edcfbaab1b2a83b2",
+      "bytes": 3658762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019712_019840.npz",
+      "sha256": "79cab12b942add96e3c47c50fb6964da3800b2b5bd0a7bcf7a33542e67d64001",
+      "bytes": 5121546,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019840_019968.npz",
+      "sha256": "b881cd5e71c75e13199327a6fd6857cd9c80f4fdddf659f3a801a417bb468a3e",
+      "bytes": 2977802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "019968_020096.npz",
+      "sha256": "aee440e5acf475ab25bbc589048cd86b12347ddd6058681fca35393283d5b853",
+      "bytes": 3800586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020096_020224.npz",
+      "sha256": "4c534de060b675b83fc7dbb1072f703a94563bda604d785046f75d2766f68f19",
+      "bytes": 3813898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020224_020352.npz",
+      "sha256": "89bc042f3e98a626e191b6bb6f8898bc67a551c4956f5a804e6d959129a8beb0",
+      "bytes": 4012042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020352_020480.npz",
+      "sha256": "8d33ca6a66b1939841fb71824dfa99d7276eb772feb020f18320706f183bdf9e",
+      "bytes": 3737098,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020480_020608.npz",
+      "sha256": "0afd75568dade5a850c1b2e0fd933c8d4c0884b138f72430bc75d83ef2ce730b",
+      "bytes": 4153354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020608_020736.npz",
+      "sha256": "93830d0a3ade7bfd6fbe2c276e66710a730eeed8cf8910b25147b9bc7f27f239",
+      "bytes": 3663370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020736_020864.npz",
+      "sha256": "139bdd638ab99d156bdd2c14ba0f7f5446d54f2a44d127bb4824986b8df1d1ba",
+      "bytes": 3688970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020864_020992.npz",
+      "sha256": "48e6a64027d35ddd3b54a9bf99f2308cda2d0f04b700d82c5aa36d18e33042c2",
+      "bytes": 4082698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "020992_021120.npz",
+      "sha256": "02c58324cdc43ede221c0de705c6f9fc8c3f975e01e3a1c5d976578c8686a113",
+      "bytes": 3796490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021120_021248.npz",
+      "sha256": "d4c2b01814421a10cca439599a4a898c86919b1c5ad17a11e11c2f31c88e6dd6",
+      "bytes": 3380746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021248_021376.npz",
+      "sha256": "455e6b5c41486d80c4dfbac1663c9d29edbd59927a8e30002e8b057191391d25",
+      "bytes": 4970506,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021376_021504.npz",
+      "sha256": "1d6794091cf92f7e1f9d1c9737e153d3c56817bd2ee7177fc40d2851d0d9f9b1",
+      "bytes": 3689994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021504_021632.npz",
+      "sha256": "e78156ab87504a8e92a00dcc6c90562cd176b6e367d4ff6592b2dbd741ed54db",
+      "bytes": 3466250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021632_021760.npz",
+      "sha256": "538851ee48a38b38de9841806a1a60eb40a4b2e8a570c60cf58ce2d6bce51b21",
+      "bytes": 3893258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021760_021888.npz",
+      "sha256": "cfe33979932656d4555c64bb475d6bdea993223b294173352609d45f4449e082",
+      "bytes": 3509258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "021888_022016.npz",
+      "sha256": "8154d3f2edec26e197ed0f628c77c86fe536057c85db40b9a50932b0c7208791",
+      "bytes": 3456522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022016_022144.npz",
+      "sha256": "b1d914ec1f0592ae04f6ad2e34c303093c320fddb6c27a1ec1f37c56b672f128",
+      "bytes": 3859978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022144_022272.npz",
+      "sha256": "4d2a114358eddd92ed218dff4fc3b62a9e345078ee6ef588f3aa72439707d186",
+      "bytes": 4194826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022272_022400.npz",
+      "sha256": "1444db3da6d895f130ae255faf42a4903c17bde3561b3e59f92db5aade193e59",
+      "bytes": 3962378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022400_022528.npz",
+      "sha256": "7cfb66cf3323012397cc98fe93f812f3d007eac0fd8b520564d456050f9d74df",
+      "bytes": 3828746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022528_022656.npz",
+      "sha256": "bbee0a6bcf1a2a1747929eac64674acfd21ae762642842a48c2b4d98773c5ff7",
+      "bytes": 3679754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022656_022784.npz",
+      "sha256": "aa45c8268d38102d25fc9e410ca84ceeec3cfe431c53088444b2a5ff11da37d6",
+      "bytes": 3642890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022784_022912.npz",
+      "sha256": "a2ac54fe4ccc3e8a555de013e8f7c6b332be971b7b23916c46e9152ab367091c",
+      "bytes": 3731466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "022912_023040.npz",
+      "sha256": "08ccb14a08e126c229d86abb9b9e2a4a5b89f6eb94c4bde9251e41a4078e9684",
+      "bytes": 3162634,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023040_023168.npz",
+      "sha256": "147cb8c6fcbae8550ceb25391ad19ad6278a6a6f0a52cedf330bdea6ec06e8d0",
+      "bytes": 3669002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023168_023296.npz",
+      "sha256": "9a6d950cc991da53e1d12a0497f2601c73252aa326307f7b7c44db271be90164",
+      "bytes": 3684874,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023296_023424.npz",
+      "sha256": "ea775d4e7ccfbe14fdc5bfc19af44d0e9950012f65581df004e48087ae3f69fc",
+      "bytes": 3801610,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023424_023552.npz",
+      "sha256": "ff31e946ce2a06780abd2f1ea826f3757c6e72a7daf5426a085c063f48b6d754",
+      "bytes": 3855370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023552_023680.npz",
+      "sha256": "4b56a9d472532329807379d888849b8fc181b25f216218f0a4199474d3c7a5d7",
+      "bytes": 3517962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023680_023808.npz",
+      "sha256": "9c9855cfc7cc907c71075b49b79f5f905c8368a26c4fac150fe98e40a5647ce4",
+      "bytes": 4140042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023808_023936.npz",
+      "sha256": "9bc4ebc4d83c8a3d8341a16d8118affc5cd2c9dda3628bd4a45c7c7173014b3c",
+      "bytes": 4335626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "023936_024064.npz",
+      "sha256": "61ef59a83dbc36fbe40b55c836b9a90b6e0cee47ae8a7dd5a43661f88c2dc169",
+      "bytes": 3857930,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024064_024192.npz",
+      "sha256": "02fb60238480cf49efff71327afbd3429123690099caa4f4a1e1cb54d6411af0",
+      "bytes": 3672586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024192_024320.npz",
+      "sha256": "9d7c9e2e86aab55b168aa6b66cb6922e32e340b0a78d568226a60be1d72e588f",
+      "bytes": 1899018,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024320_024448.npz",
+      "sha256": "f53d2207f667e78545502f6c8a2f53a2b3b142fc7b1a4cfbb7140951cc5530f8",
+      "bytes": 3434506,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024448_024576.npz",
+      "sha256": "6ff2f27b600c1b89b1855e0490b396a042ba15c7c87fd1ba664b194dc0437517",
+      "bytes": 4174346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024576_024704.npz",
+      "sha256": "c7156ded0da375b69953956881c335361bb228840cd9e598b6e91d3d8be89adc",
+      "bytes": 3738634,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024704_024832.npz",
+      "sha256": "62595a4d3bf7ad57020b4ec151ac667c12a65a5be09df4a520fe1e280c603bd8",
+      "bytes": 3484170,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024832_024960.npz",
+      "sha256": "8d2715443293626ca84c53cbcc60a550712708520083590945f66a6515b6650b",
+      "bytes": 3509258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "024960_025088.npz",
+      "sha256": "9d1f960c1fa7cb386e44ae1146e88668004577a2afaf48298c52d32c5f7f28a5",
+      "bytes": 3542026,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025088_025216.npz",
+      "sha256": "b435ea8328862ac9d9b4c97b11c99fbf9a380afe1c57a164132e56c86b8f5310",
+      "bytes": 3586058,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025216_025344.npz",
+      "sha256": "8004ae2ce74c71f30c43aa9fa05aa304654e43a6dce545940a7fa59b528fdec8",
+      "bytes": 3503114,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025344_025472.npz",
+      "sha256": "4058f4c5af3a78057dec0896941a18bbc9a791707a19db15ea68b371c0046116",
+      "bytes": 3575306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025472_025600.npz",
+      "sha256": "af60e5e7506e1ed9ef0765ca77f409efea1c4db547d9a1f2211014f4e682f04a",
+      "bytes": 4144138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025600_025728.npz",
+      "sha256": "0f2cc0f4cfeb7120f670578c2e8bf890c4c2532982f78aa2424ba4dfc2c2a091",
+      "bytes": 3398666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025728_025856.npz",
+      "sha256": "35cac5d01c6b8863671b1508d285527a7294ef1f184015d376b9c26b8f6ef7aa",
+      "bytes": 3762186,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025856_025984.npz",
+      "sha256": "ce6b150c4efa766ff78ed0727d2fdab7e0e9501d95c1643cdea2d1a64bd90245",
+      "bytes": 3584010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "025984_026112.npz",
+      "sha256": "fb24459e0da2231f65c34a88043514cab79f087884e05f4e92a635c1e162a071",
+      "bytes": 3409418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026112_026240.npz",
+      "sha256": "175dd4ef455a91c2dc998a07e542a7f98a5fda845192e60959b2b16eb2f32a8c",
+      "bytes": 4638218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026240_026368.npz",
+      "sha256": "91b6b574cdd6ad1ee5003db37440789eceb5735740479adc69861dfa1f151a08",
+      "bytes": 3221514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026368_026496.npz",
+      "sha256": "2fe9bf67f5d3b52ee20523de5524b1e2417329fd80df404cf58ab02c75bd70e0",
+      "bytes": 3365898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026496_026624.npz",
+      "sha256": "e0d84d9097749ae849251e3da1e28f92b33d4901b088d38b7f3728a27b5f2223",
+      "bytes": 4066314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026624_026752.npz",
+      "sha256": "c681cadec5655dc51f4e21ab6fdde01b1584737f0e23d3506091fc0bc1530f8d",
+      "bytes": 4015626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026752_026880.npz",
+      "sha256": "6653609f5e0cb4278b9fa156cd30723165fcbc8f81d7668dc0cc97fbf5749a7d",
+      "bytes": 4245002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "026880_027008.npz",
+      "sha256": "2b7d90d7c72bb536cf2c789357c0d792f30a5c16589895c5462e45fb8cbf1675",
+      "bytes": 4519946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027008_027136.npz",
+      "sha256": "e33424ec1e1f3d7d0b328f815995ee91c07a269779ad859f684b0d5c4078304d",
+      "bytes": 4113418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027136_027264.npz",
+      "sha256": "76e8e750084543b8d438412fbf05e3a59532124664e263bba7b1cd71b88491ad",
+      "bytes": 5228042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027264_027392.npz",
+      "sha256": "420a5fde5eea66850c9ae66ce21c70fcb7ba0c4c6696f87362b039f62360c1bb",
+      "bytes": 5743626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027392_027520.npz",
+      "sha256": "bb4938f97c143303d0302887b2142f73a8ecd128d30a0d0c0b84ed05f6c011bd",
+      "bytes": 4502538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027520_027648.npz",
+      "sha256": "617431aa586c934984fe00aa2feded3a7fc932554989c3f6cd2b85eee966b0b2",
+      "bytes": 5456906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027648_027776.npz",
+      "sha256": "1b9cd72d9bf867b9bd70025982af4173f09e482ea23f70ed639c5f73abbcd793",
+      "bytes": 3576330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027776_027904.npz",
+      "sha256": "89762e979bce0aaf5e4186eeb38c0e1078fa3c00360bc99b0ae451e8421f9c92",
+      "bytes": 3521034,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "027904_028032.npz",
+      "sha256": "ec7e3040bb2ab4d6a02599d751456d7a0cdf116ce7f269ff7fcb9e5d91f9733c",
+      "bytes": 3709962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028032_028160.npz",
+      "sha256": "46db65b9f3c8c9e2d33726ff346d68d1b7a8ee2a8c1a432559fa807ea6bd100c",
+      "bytes": 3681290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028160_028288.npz",
+      "sha256": "ef269f30e5768873bba8a72eb1f79a446245d8bda7e950b59d652994ba3e2170",
+      "bytes": 3788298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028288_028416.npz",
+      "sha256": "0960f8c7f35939850072b8c8f50d6e0006c9fea1e28a34747085ca39b049e4f6",
+      "bytes": 3168266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028416_028544.npz",
+      "sha256": "7581a20930517ab451359125b1aa3945bed3d0b904c03ebdb033e281dba3d803",
+      "bytes": 3456010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028544_028672.npz",
+      "sha256": "267e74160b55c85675e1b66572c1c3ed5edc9b3d6bf0e5bbe070da2568af95a4",
+      "bytes": 3998730,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028672_028800.npz",
+      "sha256": "ea42b0c6ab86d5a558b0cfe1a87139b1000d4ac53364bbadd58cfc7a95ff5b70",
+      "bytes": 3485194,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028800_028928.npz",
+      "sha256": "ab69fd781cdd3c406267fff280429c784ec76722155bd43f2221b778b8bbe8e8",
+      "bytes": 3639818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "028928_029056.npz",
+      "sha256": "78fa6db5929d515c7ead66194dd7547100bcd20de86475ebb1af4d91a472f2e8",
+      "bytes": 3997706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029056_029184.npz",
+      "sha256": "224bf8a48aea108d99fc3dd571fabb5bc1c578b0f2bbebf6b93b559fc5856643",
+      "bytes": 3552266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029184_029312.npz",
+      "sha256": "8da58bba826c37f0a85981e4daaf4bf6f60f18886f87cab5f81916038f167548",
+      "bytes": 3609610,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029312_029440.npz",
+      "sha256": "62437f097f400f670ef896b3ffc8141b17a0feb107f7a02774c9604ca3536ac3",
+      "bytes": 3592202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029440_029568.npz",
+      "sha256": "0ff125243e39f85f170fe2f789231f79d50417805bed3aec2769ba75bbca03a9",
+      "bytes": 3548170,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029568_029696.npz",
+      "sha256": "51f15ef7b9d9abf3c659cdf4fa412a046b505a40521b3d619846e5b3a974e331",
+      "bytes": 3402250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029696_029824.npz",
+      "sha256": "8fb07087fae2d44d15c40123239dcb74b1c1c98a7554d3e1fca4e5e4262bc208",
+      "bytes": 3681290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029824_029952.npz",
+      "sha256": "efa00784b3be9999473a47d4fea7e099b326609e2e768698310bf4e8e7128bc3",
+      "bytes": 2970634,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "029952_030080.npz",
+      "sha256": "e8e5c9abe5ed9de1e86969e309b99722fd5928804a9d98e2effcb8c723e9c865",
+      "bytes": 3753994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030080_030208.npz",
+      "sha256": "d8b587e92161d1d70d648272a205a160835f50761aea6b66c7a9208d6470fe35",
+      "bytes": 3983370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030208_030336.npz",
+      "sha256": "987ee43d4286dfd7a747173f576cf85da0e34a8f767af270a4d80af7084cbb02",
+      "bytes": 3654154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030336_030464.npz",
+      "sha256": "f9dc93639b0bd151b34223ba3d0dd088c59c901d76c0715b59ff3be6dd7ace40",
+      "bytes": 3380746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030464_030592.npz",
+      "sha256": "6a2db12a4640fc8dcef5884f7d0ba45f429c41783cfe7fe3e47a02cafd07310e",
+      "bytes": 3749386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030592_030720.npz",
+      "sha256": "f187f57dc4b04e8281edf6a489deef49ce8696770a2aeff96c5192c6bc6e9bad",
+      "bytes": 4178954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030720_030848.npz",
+      "sha256": "d5e5d99b7b27a98c7ec4185a3f3fb0a696598bc8d177f1dd8d3eab3da0d6ced3",
+      "bytes": 3637770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030848_030976.npz",
+      "sha256": "40945b7a75919e22c79801f2c7e43a3a7d360835507e62009914a9c8015640cd",
+      "bytes": 4093450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "030976_031104.npz",
+      "sha256": "f827f015d9a9d980e56b716562b4e5fa18ed251bce60285b8744dc3437434cdc",
+      "bytes": 3912202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031104_031232.npz",
+      "sha256": "d27e633053caa9cf888fac1532141567e3745790bc1b201cc48c868115d66bef",
+      "bytes": 3970570,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031232_031360.npz",
+      "sha256": "6f7f4f3e52a464fe3392b82bfede4b94e8902ab339ebde655d787ad6d8fae88e",
+      "bytes": 3810314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031360_031488.npz",
+      "sha256": "7c9c388df705f2909e5529743d389af392d31e1af0058c5f3202938142d497a4",
+      "bytes": 3277834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031488_031616.npz",
+      "sha256": "f973305d512566fb18ccfc74118067594ae8748887d09c1687d9e887fc5cd62e",
+      "bytes": 4595210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031616_031744.npz",
+      "sha256": "75974bdc41722184a69be38f4a48e2e1a9ecbac0fe05a9bd001765160b645096",
+      "bytes": 4404746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031744_031872.npz",
+      "sha256": "8b96aef9effcee2cbdf07343bd009f3d911102d78f76401aedfdbb3f7ec9709c",
+      "bytes": 3990026,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "031872_032000.npz",
+      "sha256": "6b8aae17d82aa936652b00f65965d02f7c766dd1fd13a7bc0fe4c94486c1b41b",
+      "bytes": 3645962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032000_032128.npz",
+      "sha256": "e809235c20130e5f2d83b6eb88bcf7b6f862f860af69f304c6ddff699ef8fc6b",
+      "bytes": 3389450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032128_032256.npz",
+      "sha256": "d9fb0acf907ee45027bed8ae22b205c2706f363efb1315e0a9cac6b73c1bea30",
+      "bytes": 3673098,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032256_032384.npz",
+      "sha256": "617e64f39f24d25bb6b20e1b654f8dc5de610d2a3329791b216ff97e0f950c38",
+      "bytes": 3738634,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032384_032512.npz",
+      "sha256": "5578a3503d980706bc906e8b407b1078f3ce287fdb1f024a531bdf4bbe6e3d27",
+      "bytes": 3554314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032512_032640.npz",
+      "sha256": "f65b4022613bf1829b5de34f577ded40df2e88144f869d13c45811a4fc58ac01",
+      "bytes": 2989578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032640_032768.npz",
+      "sha256": "a19dd9f9982b1bda39d0722fe2e53c370b9a2390c51b891c65a7a99fc9d5d554",
+      "bytes": 3573258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032768_032896.npz",
+      "sha256": "a44e0c115cd318be1547ee91684f6137040ed8fcd3b0006b631e6c5a4a3f6b1b",
+      "bytes": 4577802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "032896_033024.npz",
+      "sha256": "cf13a613d5bd7a3afe90b9cb755d6488c0dd7dcef394170ff47c8d566aa8a7e3",
+      "bytes": 4334602,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033024_033152.npz",
+      "sha256": "95dd54b3c41b94d9f9136bb9763c524b432042a0147044a9d228ec58fa8ddac1",
+      "bytes": 4224522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033152_033280.npz",
+      "sha256": "b45f913a5695e0fb92cd421960743f3107e206bfc352973eaa5866191df5796e",
+      "bytes": 3857930,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033280_033408.npz",
+      "sha256": "f52182e32ada62bb2b4f0248d7926c8582aadbca24735875e30c270e86a202ed",
+      "bytes": 3350026,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033408_033536.npz",
+      "sha256": "35e3fc5add570c6054e80187e35a9dc8ab3856ba1faaf6b6ad60ec8cd0d486b4",
+      "bytes": 3743242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033536_033664.npz",
+      "sha256": "ecbacef4ec71fdba94b062b1ed6c9e265ac21f86795386e1da7292bed2c00ec3",
+      "bytes": 3523594,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033664_033792.npz",
+      "sha256": "842ac99f21a1d28ff72ba23505ed801556423a15814de4e18394688a2ed8a4a0",
+      "bytes": 3848714,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033792_033920.npz",
+      "sha256": "53e40daf1a05a76a9cc985ee7397130d281dcb46b939e417d023b41cccef9cd2",
+      "bytes": 4396554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "033920_034048.npz",
+      "sha256": "6fca9cf83b657ff4e9ad874e2270a01e59b8fa19facdd9252891ee06ac245351",
+      "bytes": 3663370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034048_034176.npz",
+      "sha256": "b088777c0062b7224151cfd715f18e8b69b5cdc42dc0cc84c0998d8eb93edb27",
+      "bytes": 3312138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034176_034304.npz",
+      "sha256": "a10b3668a6e828c054bfc634675b3985da901366c5efff3c10978ee8c7058212",
+      "bytes": 3666954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034304_034432.npz",
+      "sha256": "d3c225ddf4f54c11cb0e7d9f6e8b54f7a30d66af5f828d768172d3f2320781db",
+      "bytes": 3243530,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034432_034560.npz",
+      "sha256": "6f9503ff614a8285a05234eb203b44e0984b8dc0834e0e5df8dd44251492c932",
+      "bytes": 3531274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034560_034688.npz",
+      "sha256": "ca39d907c5b12f02163f94e7f906d26844876f46bee540a4b6b3c3a291260b26",
+      "bytes": 3820042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034688_034816.npz",
+      "sha256": "04cbe636f8704051e9d56e25ff0ff8ff0fb14ab7919ddaac4ac3e8e0e5745ee2",
+      "bytes": 3537418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034816_034944.npz",
+      "sha256": "c1b60816bc5bcb845776c13c5eb314b82045d460b2a77e5bb26987760d886110",
+      "bytes": 3483146,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "034944_035072.npz",
+      "sha256": "d8071dfa77937d6a6d2fd706e4e271b89cd70c4e471027050a2e4bc3926e8cb9",
+      "bytes": 3649034,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035072_035200.npz",
+      "sha256": "027918762816c7e3fb1733a095af970881d096f36d67cad208722f3713d5934a",
+      "bytes": 3493898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035200_035328.npz",
+      "sha256": "b6158af4745b73cf3ed5654565bb2012bdbcf840d12fc9d64ee639e330facea6",
+      "bytes": 3104266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035328_035456.npz",
+      "sha256": "62f644cce8cf429eb32a8f4883b7bd325a2b377c2bd3e94fc79b08166e233949",
+      "bytes": 3345930,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035456_035584.npz",
+      "sha256": "b3becf3b6b5f2c1e3cf75a354923c63bab0d18c2db4e1b868ff13eb70b280966",
+      "bytes": 3497482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035584_035712.npz",
+      "sha256": "597108c1db15bdab3f1fc6cffff1e2b8e485842017aecc25100d7447f61247a6",
+      "bytes": 3385354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035712_035840.npz",
+      "sha256": "c75d8842c28dda907770b15c17510a8f5d6b16484bd9b99ac71988c1fee5b24b",
+      "bytes": 3285514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035840_035968.npz",
+      "sha256": "f522f1a81d971e53cbbd8ad8f8bd03f301c68ef4d0b217a7e535ede981784426",
+      "bytes": 3396618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "035968_036096.npz",
+      "sha256": "877e3275c2e4dea3fa8c3b0dd390078cbb630b6ed5c639fdd77e32864be2e745",
+      "bytes": 3214346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036096_036224.npz",
+      "sha256": "08eea5a193cabb4d746c3dc08ae51b77db48959b2fb17e3a0e01491d7e579ad5",
+      "bytes": 3324938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036224_036352.npz",
+      "sha256": "01729fe398d29dd668d31fe5e600614f8bc97ae20f5b3ee681465e6867a7c3a8",
+      "bytes": 3631114,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036352_036480.npz",
+      "sha256": "75c74e904727608ee880a8c75bb4e95ccac5453f61b95ffb187a2e5818ace67f",
+      "bytes": 3470346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036480_036608.npz",
+      "sha256": "1ae84b8aafac39721f700ad2b54a2bfd357ce5a01ee70ac7851ab34950643b56",
+      "bytes": 3535370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036608_036736.npz",
+      "sha256": "d5a65b57f55313cd9f15d7127f69323a008dc80752df2512b666432765a80a56",
+      "bytes": 3541514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036736_036864.npz",
+      "sha256": "368a8c2ce70f5f47c513a4ddfa3a540886356f9424b4207a9695259f61ca54a9",
+      "bytes": 3889674,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036864_036992.npz",
+      "sha256": "00161f002d298190766336b99fa77c58b80f1d9c5a53af8ef25fd5841cc0bc0d",
+      "bytes": 1805834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "036992_037120.npz",
+      "sha256": "b89e985bda73e2648c6f2b6bd0ecd3ceefa4a72e7c7ca52f04f2f2b7d65c0d03",
+      "bytes": 3215882,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037120_037248.npz",
+      "sha256": "61f82d1385635ebd8c022601f441024cb13e82ef782a87d3908100b406c346b9",
+      "bytes": 4364298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037248_037376.npz",
+      "sha256": "e472f52045b4e306017df8c1bb5f731150baf298add6dfcff0f30e9492c5c88b",
+      "bytes": 3575818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037376_037504.npz",
+      "sha256": "1b7c43d9b851b835a71d1d662c6b0fbddd7d9e2e347c380baf9ec029963ead84",
+      "bytes": 4050442,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037504_037632.npz",
+      "sha256": "251063e4af82008443c7ab35c353f024985506b898c96b147c225ebc712322f0",
+      "bytes": 4419594,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037632_037760.npz",
+      "sha256": "98a469b09979554e620c02a61e757aa4a035a94cd239d8d29add772104c198ea",
+      "bytes": 3451914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037760_037888.npz",
+      "sha256": "6a9502555e732188cdf5780dc287b1aefb28caf99fce22a043bf39416cc9eb07",
+      "bytes": 3792906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "037888_038016.npz",
+      "sha256": "bd0eba3b0058e3d30e5feb601d50c5307a4599f9991d2ca7229552e7bc992aed",
+      "bytes": 3757066,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038016_038144.npz",
+      "sha256": "481e75771e8f779ddf714b4afa2f54fac09d12f267e704bf9639b516eac16ce1",
+      "bytes": 3824650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038144_038272.npz",
+      "sha256": "aa21d8db1a6f790bec4321397c7e51f6c37bc206a26ac029374a4082553a523e",
+      "bytes": 3436042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038272_038400.npz",
+      "sha256": "ed12058c0383f4d02b2773937a32eb3b7cecba409d0798dd24d4b76b90a0e648",
+      "bytes": 3795978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038400_038528.npz",
+      "sha256": "54226bd9027d7f253df8873a043d889fb55937081b8c0d2a0be0d644bdc681d9",
+      "bytes": 3680778,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038528_038656.npz",
+      "sha256": "b23303f7c20a004392a46860e02698a7a2fa195afabfe6d6d6db80b4e814cc6b",
+      "bytes": 4713482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038656_038784.npz",
+      "sha256": "13751c3d15bbd11ca04aa99a95d4b78b89f03506a8a32151cf5c85c8b6e19dc3",
+      "bytes": 5154314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038784_038912.npz",
+      "sha256": "84295b3c1ece311f7c5acbf48c40dc4535364b5ef05740915267a7ffe69f7093",
+      "bytes": 5111306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "038912_039040.npz",
+      "sha256": "531d0a834af9734f12cbf89ef1d20838f2cd93ee2e50126553660c12d489036d",
+      "bytes": 5087754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039040_039168.npz",
+      "sha256": "771872d571bfb1602a24f975e9ce9052c6ce474133617dc10570292515a9421c",
+      "bytes": 5163018,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039168_039296.npz",
+      "sha256": "5c86c3c832d2515a536b067f0e57108f758519aa43bcce9920d1cd106d6fc22f",
+      "bytes": 5208586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039296_039424.npz",
+      "sha256": "bd68de25681dcca1c2aff4b1a023cf3521fc9d3f09029d22b2f0c31605876874",
+      "bytes": 4742154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039424_039552.npz",
+      "sha256": "a790cc9cadf02f3f14eca5933c4af81cf6b32831e0d321e57b5feb81be09f993",
+      "bytes": 4261898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039552_039680.npz",
+      "sha256": "78bb00354ebe7c40cd52007f42635e16fa2a5bf023e9ba7122a5b8fa5a68d891",
+      "bytes": 4143626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039680_039808.npz",
+      "sha256": "626e553dc7c55d4cf243c40fac3fde91e81024e7017787e6237e0d525d83f2d4",
+      "bytes": 3920394,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039808_039936.npz",
+      "sha256": "f27ee6fb15f815126a4e3cd974a730410ab3304dccd0dda55818af8bfcfb4378",
+      "bytes": 3349002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "039936_040064.npz",
+      "sha256": "4f6eec2e654f8003b6dd0883708051241bea41c3b9e4d0a2b47c13e11c755faa",
+      "bytes": 3408394,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040064_040192.npz",
+      "sha256": "5de8130f5dbfa5ebea8404b4f35104860dc6dcfcfcb90c71c84b21708f27dc5e",
+      "bytes": 3396106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040192_040320.npz",
+      "sha256": "cd955418d2e6ca354afbb624febb983cfcec7a9d6e76234f7966f34c5a81949a",
+      "bytes": 3022346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040320_040448.npz",
+      "sha256": "a14f5f0d7310579a6397698b562940d5c24963e5fe649abfd0d66b6c73e84f62",
+      "bytes": 3751946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040448_040576.npz",
+      "sha256": "0a7e9682260cef43c23693edefc93fc4862f8e8b289451cb69abb3de89c1ed66",
+      "bytes": 2964490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040576_040704.npz",
+      "sha256": "899fd969c6275f71ca298bd3346b6dd3a705db36707608af85d6f6a47eb54b94",
+      "bytes": 4784650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040704_040832.npz",
+      "sha256": "8e429fc5cfec7f00902492b8524af302c3d1e2de5ae0ff790bf5a0bb7ba78aa4",
+      "bytes": 4595722,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040832_040960.npz",
+      "sha256": "63414aa3cfd9f7818378b9e97cade2e9707d86a10fecbf2f1d1069084aac5ad5",
+      "bytes": 3557386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "040960_041088.npz",
+      "sha256": "615c68cf21654b729b833e1315e5ade6b9c445c120fffa7ec220aaeae2b4c797",
+      "bytes": 3872266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041088_041216.npz",
+      "sha256": "6f09122535be79f6cfb98f647a9a366ecf01ae1fad666bd9ed03649dbcdcf369",
+      "bytes": 3954186,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041216_041344.npz",
+      "sha256": "3cd1cdb53eafc98a0a0f6d3b5a9a6cf7464d281f3b77c96e77e3435f683ae7c9",
+      "bytes": 3512842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041344_041472.npz",
+      "sha256": "282433074e06f1fd9153b2df3313e9863abaaca314646621dce4686b60aa6e29",
+      "bytes": 3427338,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041472_041600.npz",
+      "sha256": "ce8ae39f2ea555f88e9f36910e173b53124ce4f97b0b2e458b7ffe4a801a7dd2",
+      "bytes": 3966474,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041600_041728.npz",
+      "sha256": "c7e3a399b898e0dd28c58973508345341bedf207a99a3993e9ad4fb22429298a",
+      "bytes": 3576330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041728_041856.npz",
+      "sha256": "f9c6c57e11ca3a204e66c9f6bf082a8c1140e9f6d18a20996a63024ca7e1c147",
+      "bytes": 3857418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041856_041984.npz",
+      "sha256": "c59df83bc0f335758a43f13b024413cfcca0148e8cab4c15a8159d86c0f3142a",
+      "bytes": 3713034,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "041984_042112.npz",
+      "sha256": "24b20d95e88ee086605e7a1dbe62b65ee474d3d01e8dc5cc3f204c6118de56e5",
+      "bytes": 3779082,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042112_042240.npz",
+      "sha256": "c25d539d3dcae8c856b034f797d5c5d30cbbcaa4b326e1b9f40913a1e3800fd3",
+      "bytes": 3147274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042240_042368.npz",
+      "sha256": "28c952f7b26d769318c4b0ac5df4c898c8544261d12f1c2d04b2be2d1f392ef8",
+      "bytes": 3502602,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042368_042496.npz",
+      "sha256": "f653b3a3b557817de6c8b69695d8cd6792f52abd9d5ecda4ad9225eeb67a0a9f",
+      "bytes": 2483722,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042496_042624.npz",
+      "sha256": "a57973c89fe068bfce06046e48f4c13d6af0eba3805ab0380bb8e66bd20381fb",
+      "bytes": 1354762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042624_042752.npz",
+      "sha256": "45d7f69cce7b67c151d51e7a3deb2b913cfbb54e7d65a80973e8023e069f2ea5",
+      "bytes": 2367498,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042752_042880.npz",
+      "sha256": "390ae17bdc0836d5d7d57565d7e7d29bb1459ccd0801e18d967dfafc6114cd6f",
+      "bytes": 3760138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "042880_043008.npz",
+      "sha256": "4db0c1c512c6740871eb28131d09fc947b8ec67387540508f9da50a373478341",
+      "bytes": 3314186,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043008_043136.npz",
+      "sha256": "e99a2991b70b1361f7dc357bef55f8116be7f8f0408051e82eadfe886a6cc2ef",
+      "bytes": 3832842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043136_043264.npz",
+      "sha256": "ab1189da22a3f13304b6524798fcb721a4ca520113415e65039ea62ef97ea7c3",
+      "bytes": 3255306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043264_043392.npz",
+      "sha256": "c62ac621ca3c65a19881ec3e7bcc5ea47942390edc7bc014e95b1a7b022122b9",
+      "bytes": 3123210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043392_043520.npz",
+      "sha256": "86b83c96b280927e09bd529015cd4d44c0db03bb84daca44cc15c7510d8c0bc3",
+      "bytes": 3586058,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043520_043648.npz",
+      "sha256": "0a988a3d81660de5d2f064fdaef2d2a688274951a164349d4d5b4b752bc83775",
+      "bytes": 5260810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043648_043776.npz",
+      "sha256": "2f8aa5e9c157702826467d86c9d97e35d13e489f42171214939ccd63ff469a03",
+      "bytes": 5229066,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043776_043904.npz",
+      "sha256": "8f561afb7cb7b20bafff2566e594e039bc33a45f1213855307e7a59543525359",
+      "bytes": 4008970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "043904_044032.npz",
+      "sha256": "f0c9265d177b391b5b5d4dad67852ce182f31507947c87dc163e028e11acd974",
+      "bytes": 3537418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044032_044160.npz",
+      "sha256": "aab5440cc27a08542ab48e2c38c150bb0c608cb660e6c216f74d5f29bcce33ee",
+      "bytes": 3613706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044160_044288.npz",
+      "sha256": "f91d7f0376a4f32712b7e83a7eaacda1bd714efe22711cc4065f003398fb3388",
+      "bytes": 3859466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044288_044416.npz",
+      "sha256": "532111c98447719069cb5273d68a1fcfdc7648cc4d7a970754c6d3064a5f8ef9",
+      "bytes": 3624970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044416_044544.npz",
+      "sha256": "da2ee293c98174d8e19672e85860d550f87f28b2c35b0fc567010f280f14a664",
+      "bytes": 3660298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044544_044672.npz",
+      "sha256": "5a0f8e54dac8d0f368d6e42595303819945738482ac25b26debf9cba088dced9",
+      "bytes": 3532810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044672_044800.npz",
+      "sha256": "74d91589a030c27ce77cd7083cb9b66250c23484729527f174b664308eac876b",
+      "bytes": 3795978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044800_044928.npz",
+      "sha256": "f49fa773e17739d08bfbf4f0406e8535849d0bff84efeb0d447d3e0a26d3137a",
+      "bytes": 3527178,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "044928_045056.npz",
+      "sha256": "d2a7962de558431661cf6f346087852afce87d4096644fd53ab4b3605dcf43a4",
+      "bytes": 3739658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045056_045184.npz",
+      "sha256": "e76c367ce02a4e6487cfb3dac509984f75a89e5c0321c97a73cb1ff3194cdadf",
+      "bytes": 3672074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045184_045312.npz",
+      "sha256": "1a477488a99aa6a8bf60e22f4f91b36a24728676ab6af29b8b6578357bbe4e10",
+      "bytes": 3773450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045312_045440.npz",
+      "sha256": "cc16754d16779a8010bf1c11ab294221f4ab72736b533bfd1a7c7be28bd1e7f1",
+      "bytes": 2634250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045440_045568.npz",
+      "sha256": "89d3780cb27e7574e1caba6311641506c925e7a339860c4714bcfcff8d252410",
+      "bytes": 3836938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045568_045696.npz",
+      "sha256": "13aad2652f9615b2fde546a8eef4bae491d954f0ccfc282f161610bf2418824a",
+      "bytes": 3517450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045696_045824.npz",
+      "sha256": "dc394b5f5feb134cb1931902e70da88b889253be4ea227d0c0784c678f65f19f",
+      "bytes": 3581450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045824_045952.npz",
+      "sha256": "6067730c14554e166f71b09a094e460d02e07e11b970d143b1abfc104ac3643b",
+      "bytes": 3488266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "045952_046080.npz",
+      "sha256": "bcd2b3b2983ddcf02c4ec059b0235c5fa77d9ba67c93300f0918ebc10813fe0c",
+      "bytes": 3570186,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046080_046208.npz",
+      "sha256": "1aaefc529ae6a9a17c58b7e00b6bd97358f7942b1c7fb58b020f2edb6f1c095c",
+      "bytes": 3746314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046208_046336.npz",
+      "sha256": "80d61c394c3e1cc5d466417d50e45251c93527bbd9df3862c5c2bf4316d99e25",
+      "bytes": 3400202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046336_046464.npz",
+      "sha256": "55d308503bd62298f4f328f6132a248b2db2bd9db7a679d8e6bb9c29b0765c2f",
+      "bytes": 3288586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046464_046592.npz",
+      "sha256": "ff22ac425cb1544ba7219200a05257742e552cb864ed92659a6e341b0edc6198",
+      "bytes": 3019786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046592_046720.npz",
+      "sha256": "3900ab70612a9955ad1a174db564906ae27c86ebac0a2049198b3ea46631f376",
+      "bytes": 3713546,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046720_046848.npz",
+      "sha256": "a96803bac79e0652234d9353837742acf92dc650e758a5fdec96cc53220d076f",
+      "bytes": 3509770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046848_046976.npz",
+      "sha256": "a26c41266c10cc663daf3da597ccc4b8c92ca07be46388c65d7ea8b6c31458b5",
+      "bytes": 3314698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "046976_047104.npz",
+      "sha256": "a95ba21d8be4899d3581f16d7b53be23c48faef33bbec3b7f22aa6e1bbfb14f6",
+      "bytes": 4073994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047104_047232.npz",
+      "sha256": "6666a569d5b2b7ab47ea19c75a2422a9d8a617afa7ad8a04d8b5dd2fec1897cd",
+      "bytes": 3837962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047232_047360.npz",
+      "sha256": "dad5470f4d7b87d4d6af646e40b6ecddb48a8621ba5d3aedd27b5b51fa26d1f5",
+      "bytes": 3857418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047360_047488.npz",
+      "sha256": "eeeb10f6cbf14e4e44e5e6a1ece382e76b9dc5e55c07c9a51c9658d647425d65",
+      "bytes": 3498506,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047488_047616.npz",
+      "sha256": "eeb96c5c61156dfc07215af1252dad44d57b148b6316288e501632c95900bd88",
+      "bytes": 3592202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047616_047744.npz",
+      "sha256": "8cfeb2120e004e016657387cadf440f3c0ca48a011c1ffe00588a9be2ea79b18",
+      "bytes": 4154378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047744_047872.npz",
+      "sha256": "641901d30018f3273324bc4a75c9e49ab5b6b420ce30b617b212cba1bd24e558",
+      "bytes": 5106698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "047872_048000.npz",
+      "sha256": "59a7b83fb6ca3f20ca5163bbfcca696827ef2f24a2b945edd246e360b7fe0453",
+      "bytes": 3767306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048000_048128.npz",
+      "sha256": "22171c49383f0af3c1e6dca8882dd4fa0f6843d8269b46fdf97f86bbb9a4ab5d",
+      "bytes": 3723786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048128_048256.npz",
+      "sha256": "bb09ae761040542e63b9036d8df4b184ede1b85db481aa3beb2d2cb4e054f08b",
+      "bytes": 3589642,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048256_048384.npz",
+      "sha256": "ad9fc23049feabb355c925bd20fe8a8168a303d6986e8c9145a50c8b2db7ce00",
+      "bytes": 3877386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048384_048512.npz",
+      "sha256": "84b40bda07db37cedb015908b7e6c418c08116c414c2ad1f8c058bfdb0c289d2",
+      "bytes": 3624458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048512_048640.npz",
+      "sha256": "ef2308bb344ae2ef2367818a80361c1706afaf88be00911654a24c9da174e191",
+      "bytes": 3801098,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048640_048768.npz",
+      "sha256": "f97bbdc0fc8f970f35cdf32558a46f92159b8ee6382d61f28ff1b07cd6b4d21c",
+      "bytes": 3453450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048768_048896.npz",
+      "sha256": "9a4ab0fdf506627275d4150a1dc85fd25b8b65112a6dab7f8f0c4938927e6d93",
+      "bytes": 3008522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "048896_049024.npz",
+      "sha256": "873329e512bb43aa73eadec8b191e8c654198d39b904d36bb3601277fab4a178",
+      "bytes": 3701770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049024_049152.npz",
+      "sha256": "36cfa7c2e594c887d8d900b94d9707da77b3ac3132b582adae3213164d736918",
+      "bytes": 3448842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049152_049280.npz",
+      "sha256": "e176ecbd4b6db51051c0949f02b0ca50ea9f17b819c950db077c1a5734991ea3",
+      "bytes": 3244042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049280_049408.npz",
+      "sha256": "7f83201f269f42dd39856183f7ab19cf5f4e08c4e9087c7a20e9fa0da3275703",
+      "bytes": 3053578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049408_049536.npz",
+      "sha256": "1f2c8c49793cce70b35c5283b46f30d69a3b9272f78ffda13ff54f083f0738c8",
+      "bytes": 3544586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049536_049664.npz",
+      "sha256": "24d6ce867c3e46027a676a9bebcf139111658bd7e7f87597f6293c53e73521c5",
+      "bytes": 3557386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049664_049792.npz",
+      "sha256": "cd6ed3424cf32ebc7a6752e2c556b3c1ffc5321fc507edd82c87988c5600796e",
+      "bytes": 4012042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049792_049920.npz",
+      "sha256": "8385679846cb4e68dcf48563c2f27b538dca98192f7bdb25a95af8120e32a26c",
+      "bytes": 4001290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "049920_050048.npz",
+      "sha256": "81f3ad5d31e72418e0f9e7e7ee4fbcef4a8dba41238f76a26442c51ab303d189",
+      "bytes": 3293194,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050048_050176.npz",
+      "sha256": "f29d1188e505b0d5dd74c08043af626fc5f01cb432eee17388dd5ef36836669b",
+      "bytes": 3945994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050176_050304.npz",
+      "sha256": "ba1a99b1f169fef8ac8a46b741c873fd660e4e0414bbd2f5200ca2786676a55d",
+      "bytes": 3314186,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050304_050432.npz",
+      "sha256": "538e2f3ac4053cc13659469628f2da795ef30d2e33fa93cdcbf1d17cdb88bfd5",
+      "bytes": 3621898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050432_050560.npz",
+      "sha256": "b649ea9bb1b00b518dda84105b4c588aeccd128e7e388ccc087fae5fc17a37cb",
+      "bytes": 3378698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050560_050688.npz",
+      "sha256": "4865c65dae517ad37b3c03be90beb5f9495dd9389cb67a4cde765613658a6326",
+      "bytes": 2907658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050688_050816.npz",
+      "sha256": "8c11c16161a814324aa28537ae34550204ccb956e7a4d97dbde57fd034b51fe9",
+      "bytes": 3613706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050816_050944.npz",
+      "sha256": "c43721fd8d18ef5350cf6e3ce67bc5c76813cb7f408ebc34903afbf53cf608d5",
+      "bytes": 3232266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "050944_051072.npz",
+      "sha256": "6df443eedc5c6b5a3b7b6cccb0b100ef943c487e3ca3578d0cdcb41e640d2097",
+      "bytes": 3770378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051072_051200.npz",
+      "sha256": "ee3d11c9ca361bc3ac8f38d270887ad7a10039212f1e2b12ec5729e2234a650c",
+      "bytes": 2371594,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051200_051328.npz",
+      "sha256": "83aeea6d534cbdd2373288d5750978ce7c30f83fc76a141ab6365edca59223bc",
+      "bytes": 1592330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051328_051456.npz",
+      "sha256": "5563146766b8ef0d9b68f4b89cce150c412b25b7c63ecc5133a7c44c31790d81",
+      "bytes": 3109898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051456_051584.npz",
+      "sha256": "f9fee8620a856b4d1ee188856e5c4941dcd212dd3ecafca329d73adb0bbb92cb",
+      "bytes": 3413002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051584_051712.npz",
+      "sha256": "569fe760464e53228cdbee697a1a57296cbd684ec0e4fea7ec58b53431c55b68",
+      "bytes": 1531402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051712_051840.npz",
+      "sha256": "7993be2150babc8e0dc34e235d332de3c21fb55865321f7de950cf825b34b0c0",
+      "bytes": 1235978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051840_051968.npz",
+      "sha256": "e8e81bb0ef1da64a0951d778789f230a87b085d76e1877da4f6d343f8c06e932",
+      "bytes": 2716682,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "051968_052096.npz",
+      "sha256": "0847e9fc3e564399c69a1c1778c4c44026a19be67aaf479fd49ef769806749fb",
+      "bytes": 3833866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052096_052224.npz",
+      "sha256": "e380b78fd95eca6e125eb5a19ffbfdcad7752b6aa9f6666281e76053111262b0",
+      "bytes": 4838410,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052224_052352.npz",
+      "sha256": "2c807439ba3cac6eb03916df91d7d06722641c5cf4cf85789b019ae6ad0af3b6",
+      "bytes": 6474762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052352_052480.npz",
+      "sha256": "333411e4352ad482559979d89cf535d3d18df20af7d0bc4e1877dfcaec3f3f0e",
+      "bytes": 5936138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052480_052608.npz",
+      "sha256": "ca127f98487497747a59ee8566d23304bd647c6e6ed86699b955feb1e1222800",
+      "bytes": 7238666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052608_052736.npz",
+      "sha256": "9832cc08c2cfaa5c0e1dd59c9d79b0c632077ba7287c4e9f96cfe41a636532d4",
+      "bytes": 5347338,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052736_052864.npz",
+      "sha256": "bed0a390d245b4106f839dc194aa588c881e7cad4267dd91a733d4350a735bd5",
+      "bytes": 5479946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052864_052992.npz",
+      "sha256": "8ed546140d37cb0759c285909eeefdeeb276245fd288f887af7b4747681ebcc3",
+      "bytes": 5780490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "052992_053120.npz",
+      "sha256": "783fa6998a0a27bb1aaeda370e35bf860ddee2594b43fd4498870700fb65b238",
+      "bytes": 5128202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053120_053248.npz",
+      "sha256": "b011d97c252b5ceb6b7c80abbc5242ea78a58f97949427a2a150535a99f146e8",
+      "bytes": 3407370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053248_053376.npz",
+      "sha256": "cc84ed4fd96e0378d63befe0106dea4d1dd4f12a3495a1d66f38b77b81ad7f99",
+      "bytes": 3670538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053376_053504.npz",
+      "sha256": "39b2680b8f9ad4708c8604b377b6739209ff66fc8b0d3413a1216b6c6e92d4ca",
+      "bytes": 3628554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053504_053632.npz",
+      "sha256": "b1f371d2bfc7f81e914efcd7845f3a0b54c819d38bc86366cf6515ff6a89d81c",
+      "bytes": 3574794,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053632_053760.npz",
+      "sha256": "38234f746d7897c2d1eddc4d23d79b03425ea02a5fa1cdaf256a2101c2f6914f",
+      "bytes": 3987466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053760_053888.npz",
+      "sha256": "d0cbd62c788b7ef53d0530f57a6cc7fc3e9464fb24ccd319da929e6b781ed5d1",
+      "bytes": 3348490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "053888_054016.npz",
+      "sha256": "c5f93b2d3dd72e5566d32b49118c41c3a62cc958e1cd3f53ef778b90fc9056fc",
+      "bytes": 3688970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054016_054144.npz",
+      "sha256": "f158a5f923f60cb404f558687f2341e66b601df2d9789c469f9f21f15c2fb777",
+      "bytes": 4294666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054144_054272.npz",
+      "sha256": "473a84278856f8fe938abf3ab051ec7ba4cd91f71f7e3de969819ba5d0b02366",
+      "bytes": 3402250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054272_054400.npz",
+      "sha256": "7802a35693fad8de429d759d2a3d9130813d29657f13ead1ef8e0f6d5a0f1c03",
+      "bytes": 3514890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054400_054528.npz",
+      "sha256": "ac12df63d5a9c204334b76221b614f58aa4e8ea17e3fb669368eb6c470dc13c0",
+      "bytes": 3788810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054528_054656.npz",
+      "sha256": "91d332b879a53b9c9ad0c7088f76de4e51033d69cf6fb3ce6e740643a03f2dd4",
+      "bytes": 3631114,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054656_054784.npz",
+      "sha256": "b7f4a0c10d240ccc717a2553e448be78494190f26e291f079048d1c27788d97d",
+      "bytes": 3504138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054784_054912.npz",
+      "sha256": "dfcbded9c13475526f11e36ed0d522e206188066a649e5590280ca8e9b2e3193",
+      "bytes": 3986954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "054912_055040.npz",
+      "sha256": "785e42d563db7f334e405f24312e518b40e86202f0723157bbc4e4226b28e85e",
+      "bytes": 3618314,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055040_055168.npz",
+      "sha256": "3b00b1052ff3bfc156bd8e6e666ef3d88d556c1be97e4f4fd351df4cedce3e54",
+      "bytes": 3416586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055168_055296.npz",
+      "sha256": "5bf7733d0f4628be566e3f90d16983c52bd97cb1c31778be74b948a3d0af1cdd",
+      "bytes": 3702794,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055296_055424.npz",
+      "sha256": "47473e19e0189622ea62f4e3d1f28727430bbb4ad168c3f742ba05d78f76f10c",
+      "bytes": 3869706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055424_055552.npz",
+      "sha256": "f983c744c8da7e9199ec9ef65d37d228585a04448572d93631fe669141ee32d4",
+      "bytes": 2917386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055552_055680.npz",
+      "sha256": "e9c763e9918d7bd1eeba2610100b78a5ac72a41d8fa87823b6a287c9e8d1fe29",
+      "bytes": 3858442,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055680_055808.npz",
+      "sha256": "7247c25298a7663797ba51c5297e0cd43a48b423f169967e50b57043acd31d95",
+      "bytes": 3533834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055808_055936.npz",
+      "sha256": "d8daa10fd9e70a5de18ed46f01c38e4ddbbdd8587d858ec4c015fef3b2914620",
+      "bytes": 3424266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "055936_056064.npz",
+      "sha256": "f5a313604a24002eb2b1deb421e1da6087262937e41854a8c3a39f8c6ac56797",
+      "bytes": 4198922,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056064_056192.npz",
+      "sha256": "43013779c5e0e5a1684d0150ccdf9c1c89b7a5f476d74c56b68520e7a0759e5a",
+      "bytes": 3618826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056192_056320.npz",
+      "sha256": "9440f90a4d3b31f739ef227de5afae97b0dbb810c6f87f72712fce2bf3f63b06",
+      "bytes": 4058122,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056320_056448.npz",
+      "sha256": "1b1a7f5ced76af79b5905706242e61c616e16c5a266d2144165585292c37ff8c",
+      "bytes": 3390474,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056448_056576.npz",
+      "sha256": "aeb8f790ded292d5f19116ba64fd85760fd4a6d1e402f6a7ca4e2f091fa7f30f",
+      "bytes": 5104650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056576_056704.npz",
+      "sha256": "24250ff7f84a353f51ff34ddbf1075903525c5ad905379bc278907db906ae799",
+      "bytes": 4002826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056704_056832.npz",
+      "sha256": "63c8983532d116529571006814313c7efcdf87b38381fb9d138a4745d14e8440",
+      "bytes": 4408842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056832_056960.npz",
+      "sha256": "e965cc889d1bfecdafd494590aa3193db6bd368657ca693b1f78d4b730654e03",
+      "bytes": 4094474,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "056960_057088.npz",
+      "sha256": "2727289ade370ce06d95d78d77ac39e6310b862fc1531bc80ff80c8ca807028a",
+      "bytes": 3386890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057088_057216.npz",
+      "sha256": "1858bc62047b04c24349d9f44af632d2d2593349ad0d4ce7665e2ae64c405bf5",
+      "bytes": 3361290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057216_057344.npz",
+      "sha256": "f78db8ceaf916189aa42ea579dda55b3b8b5c060d2fcef8224245f20fb265dcb",
+      "bytes": 3423242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057344_057472.npz",
+      "sha256": "be2a0a73f03a34aea2c5b5f3c59a4180ebf6c0ae017a4b1413476ee355157a4b",
+      "bytes": 3052554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057472_057600.npz",
+      "sha256": "e3291918638f7331b04bd03d849bf97282441a8a9e23d0ac2333a87f4d418ef9",
+      "bytes": 3560458,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057600_057728.npz",
+      "sha256": "904962889ad12a8864f0b8adf5aaf086dcd40a0a8591d289018389aa72e837ab",
+      "bytes": 3161610,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057728_057856.npz",
+      "sha256": "9ac12311c85a301da3401ac0dfea62203583d5232fce0c45c8a61d7206b6cd9b",
+      "bytes": 3508746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057856_057984.npz",
+      "sha256": "535ef2bce6b12bebd8b0e331ac5321220c97490c0b2959bde456d9a61bb96cbf",
+      "bytes": 3157002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "057984_058112.npz",
+      "sha256": "e37d06f6c45afc43abe39ec7f5d762fa80c6fe0a0299ee7bc1faa962a7e61423",
+      "bytes": 2805770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058112_058240.npz",
+      "sha256": "1a0de3d2189f56e8f70a79a0c184b6ea79f4dbb2949fa5aeb15ac38c9325ed84",
+      "bytes": 2912778,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058240_058368.npz",
+      "sha256": "bde93bb79fa3405fe657fc4c073197417eaa257bd6e4d850c58ab0cd2360a407",
+      "bytes": 3708426,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058368_058496.npz",
+      "sha256": "0e1175f662cc9b1db7e65190b5a31e4c3c5493d8d6871adf41eba031e74e7762",
+      "bytes": 2256906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058496_058624.npz",
+      "sha256": "2df9e3d58cb787eb52d94103a5aa774e88740e6c7d24c65afbac9e107fcbb219",
+      "bytes": 3227146,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058624_058752.npz",
+      "sha256": "869ed54e92f3d0715f26468d25fae0ae1b8edecf677daff5ac4bea57b655b859",
+      "bytes": 3769354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058752_058880.npz",
+      "sha256": "6650c12fb11ccffd6a9ee3a2e406728732a5110b31d1359314a2cc9de70d94b6",
+      "bytes": 3616266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "058880_059008.npz",
+      "sha256": "0b1094960266197938456bc8fed7434edaa807828b4a3a1cdf221aa8d9906910",
+      "bytes": 3185674,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059008_059136.npz",
+      "sha256": "640f803726621c88d891dd13b090a7aead157daf9f0c5f1ed276504fd193890c",
+      "bytes": 3652106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059136_059264.npz",
+      "sha256": "1c5e64a8fd306c850126384ae17636daeff569fedbc81fe3b1fe88593a6df643",
+      "bytes": 3034122,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059264_059392.npz",
+      "sha256": "d4936b65c34f5761b326dce0315757ce6c5555854f323320e7c545ca353ea429",
+      "bytes": 3591178,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059392_059520.npz",
+      "sha256": "b910aa06beff2068f06eee8920ecbad3516cf822de5febdcc02a684d19fd5671",
+      "bytes": 3641866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059520_059648.npz",
+      "sha256": "b87a192a4b94ce09a8a8d8bf5f39f926e0eeb8ebfc888021a1df075bfad16701",
+      "bytes": 4142090,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059648_059776.npz",
+      "sha256": "b56e060f663756d28f59e1322ec75ae83f98d9520e05a6ba319fa8b9b04d13d8",
+      "bytes": 2599434,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059776_059904.npz",
+      "sha256": "8a27007db4c914cebf120285be5c610994b0e94e284ab214b051c226ae7bee34",
+      "bytes": 3063306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "059904_060032.npz",
+      "sha256": "022d00741d07a17535555a84937b323015c1cbb393f936ddc09c29934221e76b",
+      "bytes": 3534346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060032_060160.npz",
+      "sha256": "85db70a9f6600ef7ea9311a745e9347fd42f129f16d5a029e679f53432d61218",
+      "bytes": 4497418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060160_060288.npz",
+      "sha256": "f115d20bbe675742fe9e9b4cff69da598beaa8763bc9bd88c2c8d74312b93fa1",
+      "bytes": 3866122,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060288_060416.npz",
+      "sha256": "9c66339420e7ec182f7c351fe8abdc6a1739004f9c4889bb67ec0f2acd39e100",
+      "bytes": 3508234,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060416_060544.npz",
+      "sha256": "ae48cf4cecb5e76d3ce2d3720ee0598dd182a047da5187430b8ce77801990978",
+      "bytes": 3764234,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060544_060672.npz",
+      "sha256": "187d56cd4f42d87753115d02553439a6e3e327d162aba0b5c65887dfe4608ec1",
+      "bytes": 2482698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060672_060800.npz",
+      "sha256": "d0bb4ec5c352addfe6afd2a15fae279f751e565bacd51996b608df2e418e0f1f",
+      "bytes": 2323466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060800_060928.npz",
+      "sha256": "c7168606b59774364ef8fb18ba32356d93418242bcedbed32719e510a277f555",
+      "bytes": 3580938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "060928_061056.npz",
+      "sha256": "2f5d273f6be4f63a0f28187a840539bf5c387e5daa2d42cca705eaba61856c77",
+      "bytes": 4203018,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061056_061184.npz",
+      "sha256": "1dd92f8b6438fe97a4938eb624ba157a41dfced7eb67a0e92ef2ab0aa6a11020",
+      "bytes": 3835914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061184_061312.npz",
+      "sha256": "ecf1cd848ed31885c646ff7554d3cf45446b030eac3e19a0590dc35b8ea5e5c8",
+      "bytes": 4432394,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061312_061440.npz",
+      "sha256": "9cf89d55942c75d1bda4cd53585290bf9ec4cc2d2d28608be945a1090859b2f4",
+      "bytes": 3963914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061440_061568.npz",
+      "sha256": "e160e3a0a3415535e81de20182834aef2448a80e3f48ceeb2986fbef6b18d7fc",
+      "bytes": 3863562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061568_061696.npz",
+      "sha256": "86643d60af361c310625c16daedf4feb17ca970418a207ac738671414aa8c09f",
+      "bytes": 3935754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061696_061824.npz",
+      "sha256": "fa458c314b37c4b06717c035149db49a780e231d331c040d27b698dd89492394",
+      "bytes": 3911690,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061824_061952.npz",
+      "sha256": "7aa6cc3938b7c2208ad571c0f49e40e1615a541bcd0618a17da5b3deee2cdc55",
+      "bytes": 3937802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "061952_062080.npz",
+      "sha256": "a353c8d2303d15de4e2cd50d33f8608edd382e683645a9c5b7fe8636d8a9a523",
+      "bytes": 3978250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062080_062208.npz",
+      "sha256": "a8577e347915375bfb167c718cf862232069dac85f62f4790efaf7bf53eac98a",
+      "bytes": 3935754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062208_062336.npz",
+      "sha256": "5ccd8cb8eca0d89139dce5304dfa9edc9e27a08b5bf1f61074698bb7e97eb627",
+      "bytes": 3896842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062336_062464.npz",
+      "sha256": "8a83d718010d8b0b26a566d94c9333619ba2021f8fe03a264bfcd0d2801dbfcd",
+      "bytes": 3923466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062464_062592.npz",
+      "sha256": "8dc73a36b78e5b0770fd8b7b9d47749ff46969d3b0ed31080dd3500dd58fe6d2",
+      "bytes": 3910666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062592_062720.npz",
+      "sha256": "881d7595e1834d040a49d6b9a16df13b2a3b09589df615e733e5840070d0df7c",
+      "bytes": 3874826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062720_062848.npz",
+      "sha256": "cd8131f50a1680454384f24adc57a0c7d465c7df99ae999b5a83c435b5bc833c",
+      "bytes": 3695626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062848_062976.npz",
+      "sha256": "6eae84ca19a1d79df4066499474492a2e521b0f45c28c8b6e5336c37517c5138",
+      "bytes": 3778570,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "062976_063104.npz",
+      "sha256": "48f8b8afe7b552b8d5deb7e39f07cea9d760453a524aeb2c73876d403ab37435",
+      "bytes": 3762698,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063104_063232.npz",
+      "sha256": "fa23454ab828a1847fb53ae48a89169230894096a61877a533f88b7ac070a8f0",
+      "bytes": 3505162,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063232_063360.npz",
+      "sha256": "fd698e813ba56829fc3445a3ef88a6ac76fec3642a35e475114e5366ad8f6b35",
+      "bytes": 3518986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063360_063488.npz",
+      "sha256": "aa04bb3b124c8ab96f9f887cb2080d2815579fa875e4760103c346023f948af7",
+      "bytes": 3850762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063488_063616.npz",
+      "sha256": "46ff0406599b9689809dffba77d3f7601de00317168d34ab872b92e380dcaad6",
+      "bytes": 3227146,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063616_063744.npz",
+      "sha256": "2d7e0271df86e41c684efe346150b4377fc213f6a0e11035b57c3b1faf30011d",
+      "bytes": 3627018,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063744_063872.npz",
+      "sha256": "bd52fe2b6359158b00bd497327798c857f083e65130ec1867e1b0e1a340d36c6",
+      "bytes": 3468298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "063872_064000.npz",
+      "sha256": "3829cd49e760b662ed289949c440ad917a4de715b5b406169d145b6f3a22274e",
+      "bytes": 3398154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064000_064128.npz",
+      "sha256": "8a189b01cb4c85a681028aa52c4666f10b0e11ab392eed4a21f97e31f26183c0",
+      "bytes": 3430410,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064128_064256.npz",
+      "sha256": "130baeb2c1518778e604b9a3686341a7362084d8fb03a5bbc08af22387b16af2",
+      "bytes": 3899914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064256_064384.npz",
+      "sha256": "fb36b39bdf4b2bde763f74bd6a8415c5f07d471b599e0e54f3b6eb8dd06a947c",
+      "bytes": 4101130,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064384_064512.npz",
+      "sha256": "8d080b147638c98de773c05cd498b08dc9b283e0fab56d87681982007b36ba62",
+      "bytes": 3741194,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064512_064640.npz",
+      "sha256": "62d98bc2bdebdfe370fc71b70ea00cdec6db55702866864cf913fb734ada94f5",
+      "bytes": 4013066,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064640_064768.npz",
+      "sha256": "27301610e532bb2e1eae2c0b284807eb5f6e3c906497b32088a53552b190af9a",
+      "bytes": 3310090,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064768_064896.npz",
+      "sha256": "1ef37cb799179a495ed4d2a75b76d6f611b3d1155e3cf1dee2338b03848d0c24",
+      "bytes": 3191818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "064896_065024.npz",
+      "sha256": "019fb7396e47fde69fc1e7992dd9624bd04b0707989519fc4ed715484c9bbc41",
+      "bytes": 4724234,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065024_065152.npz",
+      "sha256": "4cbe2c768a4f6d63b0ee8982717a468ca708aba9ae3b51dad0be00c6e7e8602c",
+      "bytes": 4268554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065152_065280.npz",
+      "sha256": "9508326f194503d1ffd8a52de269497187702df16772e113a4a7901747a31e23",
+      "bytes": 3629066,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065280_065408.npz",
+      "sha256": "4aee0617dbfcdf673f917d7579cdf04e4fc0ed2bb63efb521d976126d5b6b53b",
+      "bytes": 3438602,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065408_065536.npz",
+      "sha256": "c272fb5879bf6ade50db7e1b9d00033ee7b6bfa506dcd2c6a9ae34c0c6e31146",
+      "bytes": 3615754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065536_065664.npz",
+      "sha256": "9cd6bd7bbd8a7138ff084d57de288a66f31e2b411653596595bff99fef2e891e",
+      "bytes": 3989514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065664_065792.npz",
+      "sha256": "e0399a8b5946696aa72ca4b879d56c05e25ddfde0554cadd542b760b7dd637da",
+      "bytes": 3421706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065792_065920.npz",
+      "sha256": "0d828aac01da5b1e0f7b7a0a0f1fea65cd2cf533e9236ac550ddd1c02a2f79bd",
+      "bytes": 4089354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "065920_066048.npz",
+      "sha256": "fb9eb590a340007845f3cf416e65f8f99b775143170c38c0321a1a143edb8a54",
+      "bytes": 3531274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066048_066176.npz",
+      "sha256": "02b6d8c828b9060a531b27d08d3547646973f3b4214af7ae112d8104ed821cd3",
+      "bytes": 3517450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066176_066304.npz",
+      "sha256": "231f4c01ea5686044b6fe5ecce5831ff3aa29e45edb8c1ea0ebaae0717fa8e16",
+      "bytes": 2896906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066304_066432.npz",
+      "sha256": "f521d75fd7897831b2d2f3730dfc14d6bc8b41cdc5851b6dc824dc87ec6540d3",
+      "bytes": 2677770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066432_066560.npz",
+      "sha256": "a09e6dd3eb41517ca028fdf9db4be82afb68f6697b2379e30d309e996edcb593",
+      "bytes": 3898378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066560_066688.npz",
+      "sha256": "7d16e9a3ecbce91401f057eff75c55960682d283d8e0c2bb34fe1cda217f9915",
+      "bytes": 3384330,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066688_066816.npz",
+      "sha256": "98db3b44d169104146741c36f9bf732f5978647112fabb204995267da9cbab5e",
+      "bytes": 3577866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066816_066944.npz",
+      "sha256": "94925e88f14c1c4b558d8c55a613bd0aaeea0087de939465d16082e63522324e",
+      "bytes": 3353610,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "066944_067072.npz",
+      "sha256": "0925abc645126d76aa7894f87fca9c9f97880ddda14ec4e34c28ebe76d50ea48",
+      "bytes": 3673098,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067072_067200.npz",
+      "sha256": "6fd75a7e5bd98cf626cc23c52abdf945dc5270521ea73419efb64aea98e32e0b",
+      "bytes": 3605514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067200_067328.npz",
+      "sha256": "da0e38f175c5ca39008a6c8a3054679fc444729568f78c6b2a171953438411f4",
+      "bytes": 3724298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067328_067456.npz",
+      "sha256": "a9ac450be793b9bfb6a8cbe3cd536ea47628c4df433b0a36137c543c76e4ed07",
+      "bytes": 3575818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067456_067584.npz",
+      "sha256": "50f197867c16fcc08d5a1d845f0ebe665ca078913df6766f361de9e83da80cdd",
+      "bytes": 3829258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067584_067712.npz",
+      "sha256": "245ecf4dd44824f30b4f5501982a351f94f38b0d76fc443d3ee427c36aff8736",
+      "bytes": 4118538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067712_067840.npz",
+      "sha256": "91ddf43b32a07c2c1eecff9752051bcc0c9df9bd67d328feb6343990a7220edc",
+      "bytes": 3718666,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067840_067968.npz",
+      "sha256": "0bbba4ff0e5cb2462e341955b0332ed5ad36fe19ff5f9b2893ffd9a1d48a426f",
+      "bytes": 3495946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "067968_068096.npz",
+      "sha256": "12117facd2f999bb0590b7287ceec87c3dd8f761e8a591e5ebd59fa84db29e68",
+      "bytes": 3836938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068096_068224.npz",
+      "sha256": "69e8caa206ba769442a45eed865560be8081f41e05ac02e231d66b86047b4de0",
+      "bytes": 3294730,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068224_068352.npz",
+      "sha256": "2cbc4fabed7747ac0b319102470913d665e2409efee57a7d942e43ff5d426247",
+      "bytes": 2784266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068352_068480.npz",
+      "sha256": "e1b60f6972bc40ff7857198629caac8cf18041662df67a3bc7eb127c5505e8b7",
+      "bytes": 3680266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068480_068608.npz",
+      "sha256": "33f167b874c23a463b837feae848224ef1b2983462da74c508867e45c6839c84",
+      "bytes": 3012618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068608_068736.npz",
+      "sha256": "76235b5a64dd2f4c5b27559068cc0d4db580b2de00a302fb37fd77bce2449a6c",
+      "bytes": 3535882,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068736_068864.npz",
+      "sha256": "83db6134cbb62311a4451cc8d379711271440255c1a432d8e1da2ca64f38c81f",
+      "bytes": 3967498,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068864_068992.npz",
+      "sha256": "01051478dba201e9bf038a7ddebede3ef55f6e29e1ed2431b0e0436496f594b2",
+      "bytes": 3782154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "068992_069120.npz",
+      "sha256": "2b0ace065c338d39a4b52ca3f18036799e5bc3b00247b47fe4dc287bd3594d7b",
+      "bytes": 2809354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069120_069248.npz",
+      "sha256": "8041de385b19d505cd2c74c1073401809fdc7b6732258ae21a9b204251b2b7c7",
+      "bytes": 4064266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069248_069376.npz",
+      "sha256": "8116b263de0ecd12c5c30bf0ec37ef8f4fa4f36a8f496cc70d1ce9f6bc32574d",
+      "bytes": 3282954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069376_069504.npz",
+      "sha256": "f3ac96b09acd5b955fb9063dc858c0bfa9cd1983614d84343ccc4e2a69a90929",
+      "bytes": 3815434,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069504_069632.npz",
+      "sha256": "dd75b0e488fd950ef806c5a95edb26c9d022231c91ba6ecb81dff2d63211f453",
+      "bytes": 4007946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069632_069760.npz",
+      "sha256": "c79ba5dddc36dc2c10bc12237e6364817a39d2b5e7ed8b2b21ba0e8bd1146651",
+      "bytes": 3876874,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069760_069888.npz",
+      "sha256": "7adb4cec3d0dc07e7264cb3511685e48a3fd49cf2eed8ba555ba4d95420a1d30",
+      "bytes": 3466250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "069888_070016.npz",
+      "sha256": "7b20f66d44cfa0c67c07e416345c9ffe1495daf92e28cb5f98c9590611ce7630",
+      "bytes": 3863562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070016_070144.npz",
+      "sha256": "a834f874c377b5f2913f8547693296661b43b956028df99171be7b2dbea57374",
+      "bytes": 3278346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070144_070272.npz",
+      "sha256": "38f6faa178134cdabbd49fa544ffc97dbe33c1fb2c568ead4b9bacc2a7c30cb7",
+      "bytes": 3736586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070272_070400.npz",
+      "sha256": "44053863f07e207680da7c7aca70b907d687b24080eb577b0f3a661de471892c",
+      "bytes": 3413514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070400_070528.npz",
+      "sha256": "51e5ca957027785fec3dd6fb7870fe739ad03e5afb0b52afe4d9420db4d4dbf4",
+      "bytes": 3020298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070528_070656.npz",
+      "sha256": "eada9429af15d53afd40d12d16e3e068d1cfc6d708f9103b6d7ee3657b8f06c7",
+      "bytes": 3430410,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070656_070784.npz",
+      "sha256": "560a07c2b3d2c7244984442afc1299b16559cb24ead5a7f0f9dc5f56bf58f424",
+      "bytes": 4411914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070784_070912.npz",
+      "sha256": "4decb3b7e4d93025f8c5596eeea09fa475cea45145e4cb40728a43d476573799",
+      "bytes": 3401738,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "070912_071040.npz",
+      "sha256": "faf21cc9eb84cc48fcb5fe1c1cc3b01bd378362b13bf8be1530780fe11a06130",
+      "bytes": 3877386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071040_071168.npz",
+      "sha256": "ea251f010e564c53f795e581026f47bddd972f2514f59bc2c3fc230c5536126a",
+      "bytes": 3596810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071168_071296.npz",
+      "sha256": "4ad47f3db70fe3559634d9a7d06340cebcee0602e8c561df22a9a027b89f7220",
+      "bytes": 3485706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071296_071424.npz",
+      "sha256": "d94177cbe8f3da4739676c69de82f6260847ee94d9b5e8b68567b0e760fdee16",
+      "bytes": 3479562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071424_071552.npz",
+      "sha256": "4597c807ad688d1af0a3a3e25d12d36159b7352f533d15344720dce5a4861309",
+      "bytes": 3705866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071552_071680.npz",
+      "sha256": "c69be422327d8c7fe6856745603600b73245b05000874e1046b17053e4043618",
+      "bytes": 4409866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071680_071808.npz",
+      "sha256": "6ab037d8dc71b75568f2e63332c04f53b12d030d08e62d55109b1ee87df4a480",
+      "bytes": 4262922,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071808_071936.npz",
+      "sha256": "f720f5ac6ab7a21c29f41e8fbef366c13b4ac1163c00a4d52f2661bef517c9e4",
+      "bytes": 3669002,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "071936_072064.npz",
+      "sha256": "0550f04ab9ae137da8b8dcaeae510648dd1bbf7ca1ea9221a421000c53fa24a5",
+      "bytes": 3708426,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072064_072192.npz",
+      "sha256": "b59be67c125c9d736cd4c5cb834a138ccb2de5e7f3ea950a2b2ad70d310c361d",
+      "bytes": 3060746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072192_072320.npz",
+      "sha256": "95dfcd7175e840c45876651a4b2317c228446ad0bcc8c9300abc06ac0d12641a",
+      "bytes": 3540490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072320_072448.npz",
+      "sha256": "4e65f747823052e3094d379dce7e63fefd1808bb1baee8e2b2af370c8ed264dd",
+      "bytes": 3388426,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072448_072576.npz",
+      "sha256": "dcb1e194ab62345e186b93faafb3f91edbdbe5c3da6fb899b886db2c98190ce5",
+      "bytes": 3411466,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072576_072704.npz",
+      "sha256": "2577114d39f8931ba404f873001361af1dbfd82658ac04de5ed1ca489c38b603",
+      "bytes": 3783178,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072704_072832.npz",
+      "sha256": "1b8011837720656bf9df92ddf0a031a38f832965d4bf2cda2c78268228ff2f85",
+      "bytes": 3601418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072832_072960.npz",
+      "sha256": "9718f042dd39a6573b12226db79c15ebe321f8d2bc5b58e98ab3c9c61a32ad17",
+      "bytes": 3882506,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "072960_073088.npz",
+      "sha256": "4db67825c2f2d3d0be80035d924681b53038568e436b20296ca306526c0d6cc6",
+      "bytes": 3568650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073088_073216.npz",
+      "sha256": "57f786cd0a6f9b911dcadf8e3f924cb52e59698d7c74ebf89a046a8ae24d7543",
+      "bytes": 3415562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073216_073344.npz",
+      "sha256": "5584792080e6213a866eebcd7e833f27c4c556351a485f06c5373a868009131c",
+      "bytes": 3555850,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073344_073472.npz",
+      "sha256": "8f8eba9e76a54c9f32b0c871589b6cd29b80ed2ebe3664d70bbae374ed26824a",
+      "bytes": 3681802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073472_073600.npz",
+      "sha256": "64fe0c268dce1e3e9e142e2ed70530a36060a37a95b22ebb6bb4d546dcef8554",
+      "bytes": 3781130,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073600_073728.npz",
+      "sha256": "c47b2a2d1e7fb801c7c6937a3ae706bc3cbb5f0e67e295dd67f7a60a0cc816f1",
+      "bytes": 3528202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073728_073856.npz",
+      "sha256": "cb0a78c85bb392d95e611ae7ecc20047eedb010ceb6dc251f648276c2863e743",
+      "bytes": 3193354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073856_073984.npz",
+      "sha256": "c65bca926e4239475441563807942c9a8faa2e6c32ad8c15724bbf7cf7085f32",
+      "bytes": 3644938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "073984_074112.npz",
+      "sha256": "53df24d38ffafd1eccd254daefe8ea2666adbe871095a71b157511385e688d19",
+      "bytes": 3514378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074112_074240.npz",
+      "sha256": "9899412e93e9f5bab848cdb58bb5ce8625c87496277b7a6fa6f78c8d4b077169",
+      "bytes": 3614218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074240_074368.npz",
+      "sha256": "7154483b456926a45a3a81a19b70530d7131260b8294fc185912ae5b27e3d707",
+      "bytes": 3396618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074368_074496.npz",
+      "sha256": "6ae7028b4b5c3b98886b23611c12e4d71fa45d925d45b310209f8b24ca740b3a",
+      "bytes": 3643402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074496_074624.npz",
+      "sha256": "9229e6332957bbd48f61afad196955fa35f4f8c066f1c6259f35fef8e884f4fe",
+      "bytes": 3779082,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074624_074752.npz",
+      "sha256": "b7d7577e667277831635387dd0aa803099a3dfc83a9960bedfe0e159c90425fd",
+      "bytes": 6601738,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074752_074880.npz",
+      "sha256": "9e39add02f3ff292f609f20cc3a53e390baab514416e4bcae895a95545705fa4",
+      "bytes": 6779914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "074880_075008.npz",
+      "sha256": "ae05a42e6d22516d1f3019f6e14c86bed83106481b476c4ba1714480bb3b6695",
+      "bytes": 6896650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075008_075136.npz",
+      "sha256": "d93663bf6c0b5cdc5d57cff0d8f54b14c809b1c84bf3e37704d89029f418d0d3",
+      "bytes": 5381642,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075136_075264.npz",
+      "sha256": "18a7ac4a985d8a634e72e2da660bbf25baf1bafeca5de1e28fa83d96f8d4fc71",
+      "bytes": 4866570,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075264_075392.npz",
+      "sha256": "3ff82fc2162b78f1fafb7af941e5d05307fd28fd6ae8c75158b34f0f56292654",
+      "bytes": 4113418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075392_075520.npz",
+      "sha256": "a40ac4e38315ef1eb5f5e09a04cb01010445941af684a7e9fa252f049fa98740",
+      "bytes": 3723274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075520_075648.npz",
+      "sha256": "5d1fffb26b45bc6b26205fcc613538ffc4019da0feb15d367b98beacd46b1340",
+      "bytes": 3245578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075648_075776.npz",
+      "sha256": "3d97ab25caaf3ed4dcc4d18d2520c8135e486e2232b3e27c8843a9f14d2033c9",
+      "bytes": 3533322,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075776_075904.npz",
+      "sha256": "b52af252c6a29cba32b5fe123313e9dc294298a6bbf5c31066a97ed5a1775f2e",
+      "bytes": 3392010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "075904_076032.npz",
+      "sha256": "4ec51e1359075baac0e1917ac5098feaac970fed7a37b6c33fb797d52ab344c2",
+      "bytes": 3324426,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076032_076160.npz",
+      "sha256": "5dac47aa3bf30e0ed498cc220751cbe7f0afa95299001f60408b9a8777cd2012",
+      "bytes": 3591690,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076160_076288.npz",
+      "sha256": "9eb7ddd5255bf13bd133384b1f787bf9f88ec776dc61bd5a8c9a8edc0bdeb199",
+      "bytes": 3361802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076288_076416.npz",
+      "sha256": "39293a2844695d626304fef845369338a036d388951495b863e33ccb51ef0a95",
+      "bytes": 4312074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076416_076544.npz",
+      "sha256": "e1e88cdefb5cf336f79c8147709241700b6baeb5f4a188beeb9266341e50f896",
+      "bytes": 2454026,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076544_076672.npz",
+      "sha256": "b180fb10122666ebf3858d17371a374524fd9b4b92290a1931960b6e0bde1534",
+      "bytes": 2314250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076672_076800.npz",
+      "sha256": "ae2db54bbfe9f5443ecca670d69067e97bf8f2c648e8580836392ea7a7a10633",
+      "bytes": 2187274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076800_076928.npz",
+      "sha256": "2ab6eaf381cd4c4c7ff33922e1f489fcbd52ece972576d031fbc4876c8ace223",
+      "bytes": 3141642,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "076928_077056.npz",
+      "sha256": "752240d70f2f7554af16bc3e3cd619c2d828679401489edeb5ca19f3e291f8ca",
+      "bytes": 3414538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077056_077184.npz",
+      "sha256": "5ec4781b08ffa81937bfdd9982ad2494ffbec231bbd9dfe0e41358d2952ea701",
+      "bytes": 3620362,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077184_077312.npz",
+      "sha256": "d806c01bae382d81bb3978fcc856487b17a5cea13e2a235326fef80834d6146f",
+      "bytes": 3874826,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077312_077440.npz",
+      "sha256": "f6db9d7559c516575d551dac5851d6cb21e2a76b3f89d0c1f5fcb8a391d91c54",
+      "bytes": 3774986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077440_077568.npz",
+      "sha256": "58e16ee192b8160d164f861dd013092380b21a62e6a77da2e12b5cb3ef19c472",
+      "bytes": 3916298,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077568_077696.npz",
+      "sha256": "70caaff56defd7511e4f2e42c3480ba85bef15dcde6b58d70bb2b1ad8eba3950",
+      "bytes": 3857930,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077696_077824.npz",
+      "sha256": "492ad22312d4eabf99332497d7909dc35c4d20de1337b2a4f8ea600a343a879c",
+      "bytes": 4235274,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077824_077952.npz",
+      "sha256": "f346f224e4760646c75fd1dfc8ef690b9f0b8465be5aca1c15d0bee83b29bb05",
+      "bytes": 4942858,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "077952_078080.npz",
+      "sha256": "470865fe256619baa2d376903859e8ff831d244c506e8b02ccd65f4f45ae0c24",
+      "bytes": 3970570,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078080_078208.npz",
+      "sha256": "72a4aa85fee9ac14ed019698c0134a6c12462c50a5694f7d9729faca29c51e4c",
+      "bytes": 5147658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078208_078336.npz",
+      "sha256": "af5dbf7e2ca1893bd76e9c1800423a60637077cbe49b952413f43e8e6f1b37c9",
+      "bytes": 3689482,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078336_078464.npz",
+      "sha256": "660f88bd78c91f46fec9e88522aa88f8a01b4e2a4d21f8fef4592bc8fffc1a85",
+      "bytes": 3564554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078464_078592.npz",
+      "sha256": "9293ed432a2dd93249a689cf1a336ba22f665612112b957a39e2840107b2efe4",
+      "bytes": 3569162,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078592_078720.npz",
+      "sha256": "e99c13dbc60b4037957768ea08bfcd368c38b176a9392e7e8c7a417db3e037ed",
+      "bytes": 3240970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078720_078848.npz",
+      "sha256": "06e44f4a56945f14a8b72091fc7bf7027ca8eb4dcbf10db9cd183fba806dcdc4",
+      "bytes": 2392074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078848_078976.npz",
+      "sha256": "8db106d96feec57ff55f57f8c08425f3a9a3106bf7c818bf213caafca4986df2",
+      "bytes": 1655306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "078976_079104.npz",
+      "sha256": "b3f1f000f09ee85e0e21d50d824aa06406bbfa05c7384ae027ffdf951b5e4ac3",
+      "bytes": 1629194,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079104_079232.npz",
+      "sha256": "6c2e6df88274754225765842d60c844d3690fac50031189c6913a3ef57513be5",
+      "bytes": 1657866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079232_079360.npz",
+      "sha256": "ef7b8f864d45eee6f7c3ebf46345b7c366e795f6ae3653c1f778dda84805cd80",
+      "bytes": 1611786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079360_079488.npz",
+      "sha256": "4b4228b3970b41cd2077678be0fe73da11f0bcea74eb3ca2b413ba1c6a0e9345",
+      "bytes": 3522570,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079488_079616.npz",
+      "sha256": "35d32b9969665645fbde89cf441f77b3331b251443bebce8b311ee0aec0e8b27",
+      "bytes": 3919370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079616_079744.npz",
+      "sha256": "3a194792f5288e76b6a4073d2cf1b5fdf0b2d101645880a6551b4e0384e6910c",
+      "bytes": 3833354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079744_079872.npz",
+      "sha256": "aec45e08597dd56d916d705a2da3a9e8cba3371c8e4bec0a84d3c636f583c8c3",
+      "bytes": 3819530,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "079872_080000.npz",
+      "sha256": "3b69ecc53d265f24c7a342700002d3ab51feb720992738015070274bbba8f2eb",
+      "bytes": 3729418,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080000_080128.npz",
+      "sha256": "5f0acd2e497abc722e189e24c30ab035296f7de21d8ea24c4fe363021fa64470",
+      "bytes": 3861514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080128_080256.npz",
+      "sha256": "76360a71f570fb3ae2e155e3575924adeeab84cae2c2f46a2b483809c6f5ba59",
+      "bytes": 3699722,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080256_080384.npz",
+      "sha256": "57c67820707adb20c6a990a91a319e98bdf7faf180a56b09d117b77044a5bcb1",
+      "bytes": 3672586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080384_080512.npz",
+      "sha256": "0f28989a76912e4b32fa2f736d5d0bee1a8074c650cd87b1916508357c531e65",
+      "bytes": 3941898,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080512_080640.npz",
+      "sha256": "0f3616fdf15362c0eee4888ae804c8fe708ac72df9d9389f8dadb88530e4da14",
+      "bytes": 4182538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080640_080768.npz",
+      "sha256": "cff5ba2eb97600f1f83258b305c27edc184cc23ef0e542deede5a5c7ac88ef95",
+      "bytes": 3131402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080768_080896.npz",
+      "sha256": "8b0653038266ff625ed6f39335db6a7ee3c227aea8f40b9a729e4ff280fcd9b3",
+      "bytes": 3466250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "080896_081024.npz",
+      "sha256": "974896041e586cf423743ffd6ac551203fb264e6b90cd2cf2b42a4834974006b",
+      "bytes": 4606986,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081024_081152.npz",
+      "sha256": "ef3d6d45647d58143b91e4c3cd6e4a6b41817649f615115ea5c0e1616be79402",
+      "bytes": 3422218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081152_081280.npz",
+      "sha256": "9d540c6a49b51578aed459b93dacf6700455f1d895005348759e703f29badf33",
+      "bytes": 3686410,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081280_081408.npz",
+      "sha256": "a912850aa3aa1e41c8dfe21136c7ed0e1b592861f9beb15cd57b6b24b969d6be",
+      "bytes": 3747850,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081408_081536.npz",
+      "sha256": "e31aea445abbddb3cb4fec0ff3f9411c09f97d2cad0bc054f70ecccc687c7b2c",
+      "bytes": 3588618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081536_081664.npz",
+      "sha256": "042b7644a001f13969ae3dde62ef643d07b86d1e718f68bdd6ea503657d920fb",
+      "bytes": 3513354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081664_081792.npz",
+      "sha256": "e171168c8da5fcc60ef5fa3894188cf47b65b1da2d423347f0e067d236856f16",
+      "bytes": 2934794,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081792_081920.npz",
+      "sha256": "75f94884c5076c0394fab0ffe1123394983d0afcd5c50f7475875dfb9e4b4bf4",
+      "bytes": 2503690,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "081920_082048.npz",
+      "sha256": "3965be952ba18c2cf0a18405d46f690e5cade08f9e6fe5d93ad350066d0309dd",
+      "bytes": 3194378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082048_082176.npz",
+      "sha256": "286e902edd4c872975f1d203085f4c85ba769a83e0e3220bd40e4d3d53c45cdf",
+      "bytes": 2824202,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082176_082304.npz",
+      "sha256": "9c5779b00eb2b0fccb3847a25d858b34ce80a8a0501fb53f8115a63ba490c5a3",
+      "bytes": 3743242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082304_082432.npz",
+      "sha256": "b6a038a58d85bf46a9847584779a5239b44f16b0870e10a3c8605e85965241dd",
+      "bytes": 3324938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082432_082560.npz",
+      "sha256": "aac8e5b67f28ec780b15b411ee16b27a0bf17136d8da57e76ccc179930a4dd48",
+      "bytes": 3797514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082560_082688.npz",
+      "sha256": "3e6cede19a2640fe69af1b5d9b83a613f27afe878bf8ecb6131848f3fea07a6c",
+      "bytes": 3710474,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082688_082816.npz",
+      "sha256": "979b2516b52d907588259eacacae21653e5b65579ad4905af5224fce298f5722",
+      "bytes": 3260938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082816_082944.npz",
+      "sha256": "4ffd508476382f6f66a1f87f57e8c3c96ec29bae68b32585d38088ea041ff7c8",
+      "bytes": 4170250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "082944_083072.npz",
+      "sha256": "f34ae9a3b817f18e8dc29e715c946268b43425378678d38b68a5f7a1b5927708",
+      "bytes": 4685322,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083072_083200.npz",
+      "sha256": "a0a6e8305fa62325818f38d5b27dcd8429cc1a2a3dfb6462126cd65223cde4d3",
+      "bytes": 4096010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083200_083328.npz",
+      "sha256": "95541f96068eb2bee3a1f789b1bb717f8777e528182775a778c055ee9af763c2",
+      "bytes": 3540490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083328_083456.npz",
+      "sha256": "3694cd8f5f04aafda9b18a4acc32268e29919d95feb3682be3e0a89fcf20f882",
+      "bytes": 3759626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083456_083584.npz",
+      "sha256": "1f2bf2a1e51cd77501a254c622a009031c8802f07d134a072ef1ab5dc1b3a5fd",
+      "bytes": 3510794,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083584_083712.npz",
+      "sha256": "eda7afb0c03c4d240e952c3f30a67581b4197bac6d0b75adc4c2d1e375c9b806",
+      "bytes": 3339786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083712_083840.npz",
+      "sha256": "40ba02d458f2b63eba1cc26390d3ac51599ccc33e51ed5d0ecbeee47cbf573f8",
+      "bytes": 3332106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083840_083968.npz",
+      "sha256": "b5bb76ec0f47d23488f467f750dd19386bcbf00ebce5a1f52738fa7de4c7b54f",
+      "bytes": 4367882,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "083968_084096.npz",
+      "sha256": "7104e9913daddd4d12e7b1aba0159cf8c00766be19764f93b1033a9404626bf5",
+      "bytes": 3998218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084096_084224.npz",
+      "sha256": "d637c7661ae4db325ec6e3de6f57423dc183a6b10dd85f97d3335c1aca8a29e3",
+      "bytes": 3617802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084224_084352.npz",
+      "sha256": "34d721a7734ddeeef80560336dbf05f1781dc61ee1d9468d35d72379ae10d38f",
+      "bytes": 3886602,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084352_084480.npz",
+      "sha256": "acede420bf387dce26090745afe28912584a0c4407cca0dfe22135b47ebae392",
+      "bytes": 4120074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084480_084608.npz",
+      "sha256": "a57bf626546a85c9ad802462ef5916070f583ffe51dd40fb9a9a0b89d29bf373",
+      "bytes": 3578890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084608_084736.npz",
+      "sha256": "da1673e45617be17870a9f97ae621320c0961e2b78e00f2da4e1c7af605d7faa",
+      "bytes": 3867146,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084736_084864.npz",
+      "sha256": "9f5073c345be31e0150d028840ceea23796a6b763653d740a7973abed2436165",
+      "bytes": 3767818,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084864_084992.npz",
+      "sha256": "0d89d00c1bbb99e6036af08e31fa176deb5944cb588aa86a841104844115688d",
+      "bytes": 3520522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "084992_085120.npz",
+      "sha256": "b63b6d152d834f116b4975135fa352306719952c73065053573efd981f28cd5e",
+      "bytes": 3470346,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085120_085248.npz",
+      "sha256": "15215d84a4bafb986a376b004d238117dd00d5704780d2ab8941f8b31f9e4629",
+      "bytes": 3886602,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085248_085376.npz",
+      "sha256": "30ca3b1dc3551cb05b0c6905575d29c429ebb2f5b4b8065ea9b3aa1174789d1d",
+      "bytes": 3503626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085376_085504.npz",
+      "sha256": "2cd369b0ad44e961eaa083c3b026ef8ff3b3808b08079a7b38d1310624acb075",
+      "bytes": 3714058,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085504_085632.npz",
+      "sha256": "b2099187e58b9e703d8ce656ac496b2215af70fced90a58d095338bd6bd2fdc7",
+      "bytes": 3595786,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085632_085760.npz",
+      "sha256": "eeed7c900b33023aca41deca56c85c5d52a219a32ffc5e433bfa95b9583339f7",
+      "bytes": 3363338,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085760_085888.npz",
+      "sha256": "0f102bbf88ca935a0dd6000b0832a03211c7dfa6ec72a3de1a0a0dfe135da413",
+      "bytes": 4162058,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "085888_086016.npz",
+      "sha256": "c2f38ec315e60d9cda7d72770fd74727325479f059844c1c129ff732e973791a",
+      "bytes": 3359754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086016_086144.npz",
+      "sha256": "60c88afdc7011c45fc1c862b39cd1f93e83c2e2dc23473c7635f6faf584f0d49",
+      "bytes": 3544586,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086144_086272.npz",
+      "sha256": "b422c076c5855b639d0d4fd187b35be26093555a294275f69db1fa7043465768",
+      "bytes": 3755530,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086272_086400.npz",
+      "sha256": "d21b375512addf505edbec30d94ff30b72137bc46e02a081cb5d6090cae38788",
+      "bytes": 3691018,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086400_086528.npz",
+      "sha256": "3fb9c52031c06c26af6a09705e3ba8f83c745e02b0f023717331179621e2f146",
+      "bytes": 3772426,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086528_086656.npz",
+      "sha256": "fd8c5093a2a83bdf5866cd2d9b0445b1e74c3a4e9e21aff86b568d6c87897272",
+      "bytes": 3310090,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086656_086784.npz",
+      "sha256": "b2e142061baf3dbf3b58b73b55d96ef6fa7b5242fa5f67d4e4986da0cb0e049b",
+      "bytes": 4193802,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086784_086912.npz",
+      "sha256": "d58f472a191732c213b0b1e11ea800c4f2d9368ffcb7ec0ecd519cc4d09be2ad",
+      "bytes": 4659210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "086912_087040.npz",
+      "sha256": "69865ae24dc207b401cb6fbd909d3212dc8cdb9367411ed622470a4792d1e776",
+      "bytes": 3651082,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087040_087168.npz",
+      "sha256": "3faa7164174933604df21cc19cd538ea7f103a6b4556bb7a140e865e1c95fc23",
+      "bytes": 4008970,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087168_087296.npz",
+      "sha256": "2c091f776cfdafbb7ce10525928f13a4e86f819b57ee3c3a9b45cf20c5890daf",
+      "bytes": 4039178,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087296_087424.npz",
+      "sha256": "0b105bfa89d39f02dc99327c155108b5284f42f3e098e6f5ebb500c065f186f4",
+      "bytes": 3642378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087424_087552.npz",
+      "sha256": "986b889ffa737257eea151c5ae29e506b2a749cdec0ea6449a9ccbc5d77ebc20",
+      "bytes": 3580938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087552_087680.npz",
+      "sha256": "1cc4ac3733728105baf21fcd7f7ba42e5459be7b920dc327b15090f619fdf137",
+      "bytes": 3367946,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087680_087808.npz",
+      "sha256": "cb882125a569a607d8957bc07bf2bcafa285b6b83b1ace3e6c928d570668cad7",
+      "bytes": 4145674,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087808_087936.npz",
+      "sha256": "05201bf868bec4e562472c38d7dc3d55cfcdce4f46181e331fa9a7dfe4f3ed6c",
+      "bytes": 3429386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "087936_088064.npz",
+      "sha256": "dd37aeab94355272ad367721109b6e3d844bb998b766e1b792b492993b329d88",
+      "bytes": 3514378,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088064_088192.npz",
+      "sha256": "fb30fdec14eafb63b3611059f10e993955df41876c7c3ad1831bfdce91be6d14",
+      "bytes": 3931658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088192_088320.npz",
+      "sha256": "ea7095bcdf2f1b1a27166c96172ed84f1023a24b7d7f557b907c7343f4434399",
+      "bytes": 3359754,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088320_088448.npz",
+      "sha256": "a70aa8e7ae94ad2caa9411ee7f3298c125903c519c6d1d8d7ca0d118bd59df5d",
+      "bytes": 3520010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088448_088576.npz",
+      "sha256": "25c2b4e90ca7e000fe876f0dbd193f2e74b735f32bd31a2a44ffce8b8985f809",
+      "bytes": 3346954,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088576_088704.npz",
+      "sha256": "8288180869a91cf339a3c319b636a4f80d7b309394021c31395dcf72a1168dd6",
+      "bytes": 3834890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088704_088832.npz",
+      "sha256": "b939a110601fed3aa8191809d20c63182c60507f6627e4556dbc1ac8703becc3",
+      "bytes": 3548170,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088832_088960.npz",
+      "sha256": "cf6a5a6dd6a102dcd048bbccbdd74f2386df45d22fe6986e658f7c8a649c7819",
+      "bytes": 3699210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "088960_089088.npz",
+      "sha256": "0c08f8bafe56a77f2f49d33ff07437e985c4b64987539e821e09812aca1dd49f",
+      "bytes": 3708938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089088_089216.npz",
+      "sha256": "a83373de12f5c04618ef399fe936fdffb85e752fa8d5ad05bf0ebd6f5f4d9706",
+      "bytes": 3133962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089216_089344.npz",
+      "sha256": "b7a5691b5b8930aff5680690f57260797beb328704cf7cf770e0436bb22244dd",
+      "bytes": 3857930,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089344_089472.npz",
+      "sha256": "078901d6b68249799757ee365c3da7e0b312b17add29bc607fc1ede8d65bf6af",
+      "bytes": 3925514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089472_089600.npz",
+      "sha256": "256b4d8056dbfba94c6468fea1f4cdde12fc2361e192127b94de0c653594798b",
+      "bytes": 3931658,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089600_089728.npz",
+      "sha256": "db8542effbfadd6de6e02df03a3cf0779e1c471cf1528c0cf109389f3b2c6d73",
+      "bytes": 4519434,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089728_089856.npz",
+      "sha256": "ab87e0dbc494fc92892e8302866d8ad1c53e41ecf5a52759c53194b5b76a5a01",
+      "bytes": 3701258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089856_089984.npz",
+      "sha256": "a1cd25bc2c364bcc965d51b66bb1f2f21fad3c23b91ffe08ef1076f95d6e8d67",
+      "bytes": 3530250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "089984_090112.npz",
+      "sha256": "08a5413b12271a7d94ed5b4084f1517e94794cad909cac6d0253bcc7512147a9",
+      "bytes": 3829258,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090112_090240.npz",
+      "sha256": "0fffa246f466b758d581a4b0c43ecab7cad063cb5e78ea7382a87c78b7f8765c",
+      "bytes": 3521546,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090240_090368.npz",
+      "sha256": "0674110644f51a80c31471cfe404f991e94b74e879d1a10c026b9b0d64b19299",
+      "bytes": 3321354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090368_090496.npz",
+      "sha256": "db93d62b837d08484a610e1f0e67018dcd9793c751e4b9e4194580da378f8ca3",
+      "bytes": 3253770,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090496_090624.npz",
+      "sha256": "520a6f19b8db5e27a82155424a90af63d6c4628d1ab923ff1f1c8535dbc49fc9",
+      "bytes": 3344394,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090624_090752.npz",
+      "sha256": "46e5f988931e8f30468f27a76034dc5fa2b3247fa8597f679f8e13c9ad788bde",
+      "bytes": 3924490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090752_090880.npz",
+      "sha256": "2aefc3926971dfbbf56828ecc59404ab22ffce2930a4720b6962eca88163d2a9",
+      "bytes": 3669514,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "090880_091008.npz",
+      "sha256": "bb4d7d89311e1b7333cd43c1cfbe13ce65eb134164d17f9ee2f8744347b75d32",
+      "bytes": 4131850,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091008_091136.npz",
+      "sha256": "3374f89dabe97e555ed4508c96c7b2be02e386a12fb036a6afbc7231baaa6fb3",
+      "bytes": 3512842,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091136_091264.npz",
+      "sha256": "b79c09e714a8294ec7e3fb433512375abd220bd4aadad96dae862cef931aa3cc",
+      "bytes": 4001290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091264_091392.npz",
+      "sha256": "eab69e434eaef1b3a77281978b8d98650cdaf99cdd9d55bafecc1b33428322cb",
+      "bytes": 3865610,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091392_091520.npz",
+      "sha256": "e33ed772058682096176ed88233085b5186cfd81fe08534e7ef604a58e9ff0ff",
+      "bytes": 2427914,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091520_091648.npz",
+      "sha256": "001bf50b88c6dbe6e910bd15108db69b144d787a2d2b12621dd39383bf95a52a",
+      "bytes": 3702794,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091648_091776.npz",
+      "sha256": "d597c6bf4eec40887f810aaccb8be9a8b51dde1f6c7a7271523ef93c5c78f112",
+      "bytes": 3195402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091776_091904.npz",
+      "sha256": "e0679006023012e7aaa585705149a07ced8bdca58ea1915d5398052d4ddab003",
+      "bytes": 3863562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "091904_092032.npz",
+      "sha256": "8e0307982a95f04defb608b48b8870032cfd47681546fcab7111aa7e55c62b07",
+      "bytes": 3258890,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092032_092160.npz",
+      "sha256": "cd5e638bbe3c7ce1844a6b8574f82380b01760aa6d19b43ec79d748a32556866",
+      "bytes": 3972106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092160_092288.npz",
+      "sha256": "a76e3d9d56984217976959080436ebe77a002fad2746dba25f8097432fe123ec",
+      "bytes": 3892234,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092288_092416.npz",
+      "sha256": "602f7ac4e993c2666d88ae62ff1098ca73e5619e02d7847a05da82405a974de5",
+      "bytes": 4089354,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092416_092544.npz",
+      "sha256": "d58d5bad02f134152777360123663cccc034a567527be125716174aa0cb8b696",
+      "bytes": 3359242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092544_092672.npz",
+      "sha256": "def2950ab4d7e346ecca80f895cea4095020d8d2d348464ded7c1f000ce2dbaf",
+      "bytes": 3251722,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092672_092800.npz",
+      "sha256": "29f6fa11ae0aacd5d20469a02df68b1d5f721f553bf19c9c2dcae92b700ba191",
+      "bytes": 2099210,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092800_092928.npz",
+      "sha256": "d7b9a9028e53263a7cf618fa4a3b019a3474fa40fd1089a642b93cfedf93af79",
+      "bytes": 3517962,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "092928_093056.npz",
+      "sha256": "a475517fd3e8a4700638962dcf56bbc4c3f7892f18541dfcb0ae328ea5b0f292",
+      "bytes": 3003402,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093056_093184.npz",
+      "sha256": "417d7009eb336ba3ac0da6ab76c5f1dc293dcb195abaace28731ebf51ace5149",
+      "bytes": 3072010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093184_093312.npz",
+      "sha256": "5f9fa1468d6ac7723eb945c790f0ec77ef404cd0108af24b2b3231617baf6e89",
+      "bytes": 4115978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093312_093440.npz",
+      "sha256": "d5839613624255c26c04f6b34040012cf514f0a9741f844d13cc8d317684c123",
+      "bytes": 3725834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093440_093568.npz",
+      "sha256": "111cb57f3b9abacd423e9d14bf37123d871c28a1887398a66261c045fd672a1a",
+      "bytes": 3844618,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093568_093696.npz",
+      "sha256": "711d7750441a216d5f3a01a8b6ca724925558a163db68637e24881c4b52d25bb",
+      "bytes": 3619850,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093696_093824.npz",
+      "sha256": "b05d1dc9486198ad38f826f9e6af1e453b2858de5aa5f14e6efa3bbb7e0ac0ec",
+      "bytes": 4473866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093824_093952.npz",
+      "sha256": "eeaff1c6f429dcd40772c22a67bf0edc5102699f4c56a04a129a96d94041ff06",
+      "bytes": 3433994,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "093952_094080.npz",
+      "sha256": "ec1d93da2525451c1f56a64d6628d45f6cfd7fa1f22e24e23ff6e9070567060d",
+      "bytes": 3589130,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094080_094208.npz",
+      "sha256": "25bb661e5307fcb453b774837c89cb9150daa3be109f39496bff66abbf631dd2",
+      "bytes": 3749386,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094208_094336.npz",
+      "sha256": "1a178b19977b79d4290c12daa79fd92a2fed4b999f7093914761c800f1c52031",
+      "bytes": 3732490,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094336_094464.npz",
+      "sha256": "0893e825b7b9f3434412d2e8eca46ebb15c7f06780a5365bb7f0ef5baac0e924",
+      "bytes": 2681866,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094464_094592.npz",
+      "sha256": "afd1d377dde57f05546a04e49f3822a7a1bff5d138ba1c53e0e2f63128f56eed",
+      "bytes": 4812810,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094592_094720.npz",
+      "sha256": "86abc086972d519086a0efdc561fbb5574588b51c0c0ae5cd485b65eed04f820",
+      "bytes": 3966474,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094720_094848.npz",
+      "sha256": "6b584b20a0caa80453f2e614a6ec925551375c6317a6a35889b46f573d262a8b",
+      "bytes": 3580938,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094848_094976.npz",
+      "sha256": "6b5d8c501174d9320adb3070c07052ecc30c38918ac51bd022d02dd51d30e20a",
+      "bytes": 3629578,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "094976_095104.npz",
+      "sha256": "7b63d8d65a08d4c18a14facb6ca1df0af2bc11b903bb9604bb458db656fd855c",
+      "bytes": 3204106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095104_095232.npz",
+      "sha256": "38d3e2e8b67b0bee09f3f84055c5f3d7c302d33562f8d0d6770a7f4a258392fd",
+      "bytes": 3236362,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095232_095360.npz",
+      "sha256": "2cc3605ee4add02c5944383733b252a9365c6c14e95cbbbc6fc22a26860d7d22",
+      "bytes": 3727370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095360_095488.npz",
+      "sha256": "e73766a87047887a7235ccab4688bc331ac6901185ac547070ba872572b89782",
+      "bytes": 3631626,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095488_095616.npz",
+      "sha256": "dc268548893663d1fd2369fbeec7b59d049c10d1381005cd7636a1ec150d407b",
+      "bytes": 3023882,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095616_095744.npz",
+      "sha256": "7dbe1b2739b049008744e6885aa6e149a682203eab1cab7d2f76b89c869c13cf",
+      "bytes": 3396106,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095744_095872.npz",
+      "sha256": "92c6b5dd71c6c6b8bf101aa727d501bd74cfd06063133ad2eb293f1f4514fd91",
+      "bytes": 2848266,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "095872_096000.npz",
+      "sha256": "44c7ed469b62a90a3b029cd2264d9b64df29d8028181a64204e81f5a68c2d22b",
+      "bytes": 3846154,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096000_096128.npz",
+      "sha256": "89ffc5548805ba71ed324f148415d81ea0b7a503858bee36861f5ee2771b982e",
+      "bytes": 3922442,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096128_096256.npz",
+      "sha256": "defecb0ab2386ff54a16d11d76ba51fd69e3cfb37cc58298e345ad7ebe68a550",
+      "bytes": 4012042,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096256_096384.npz",
+      "sha256": "faf48f36184495fac4061a4eb504d840b49ab781e0ef0e22b11a3046425da08b",
+      "bytes": 3453450,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096384_096512.npz",
+      "sha256": "e9c776d78faf75468784712a14402b8a137307403517876bf4dbea1cfd145583",
+      "bytes": 3535370,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096512_096640.npz",
+      "sha256": "b52bde554bc0bba1b34f4a67ce32038578abf5c9261b6fd33cf19f38f72c8a8f",
+      "bytes": 3294218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096640_096768.npz",
+      "sha256": "909af24a60ef639e1b5c805c53d8bb167ba2b00f52ab3b367a1a0d3a90974be3",
+      "bytes": 3354122,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096768_096896.npz",
+      "sha256": "296543e1373ae1a3c70f2acdcbd0793556c1cc2fe3ce35fa692180aa9c533de0",
+      "bytes": 3328522,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "096896_097024.npz",
+      "sha256": "5730bde089e9d4a1b4bac371093daf9278a494dfe0738e436f04a116f7b68ca5",
+      "bytes": 3549706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097024_097152.npz",
+      "sha256": "7c902ece220901aaba700eede9e5642697825d7f6643d166eb0c9297b149ba31",
+      "bytes": 3120138,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097152_097280.npz",
+      "sha256": "e10d35e940b1f3528776182fa71d17e4e900b285b53a9b5589b3649d58e01e18",
+      "bytes": 3656714,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097280_097408.npz",
+      "sha256": "c1b276aa770cfef8788031eaa2ab911ff6fc7bd2934c21435c3baa20d1607718",
+      "bytes": 3009546,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097408_097536.npz",
+      "sha256": "2c22da6ae12b29b0cb3132c9ce7836459721a70d0ca0f0c23324e097a1147b33",
+      "bytes": 3264010,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097536_097664.npz",
+      "sha256": "505fbf5ba4a695826856f4e77ce51c29b6454a849053d90df9155b6ce2d7b56d",
+      "bytes": 2988554,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097664_097792.npz",
+      "sha256": "b9b42174b7ab28996cc0a48a25abf94e960e093b49c5b5dba01866e5d712df18",
+      "bytes": 3224074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097792_097920.npz",
+      "sha256": "6025c369b720d0eb65f8c4c1bf1dd3257735343ebad0595503195f293b032bef",
+      "bytes": 3480074,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "097920_098048.npz",
+      "sha256": "665c8c827ec6d4e6cf8eba62e47bcd8dbf8aa82d6082c374742446c708f5ccc0",
+      "bytes": 3843082,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098048_098176.npz",
+      "sha256": "38f85b7b03af38f4b22478ef00e04e438a15deda1b08843274605c8d01871c5c",
+      "bytes": 4208650,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098176_098304.npz",
+      "sha256": "3b10e51576db99cd2520ece141789790611788c0c2945f704637c3224337662b",
+      "bytes": 3283978,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098304_098432.npz",
+      "sha256": "d2cd659984429e4379a691ce372b1df016db74c2ac7857694a534eb2dcb38a6f",
+      "bytes": 3359242,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098432_098560.npz",
+      "sha256": "44d994895f584e519d6b937e8a66b31906342deb66da9922dabf2ad9d47ad314",
+      "bytes": 3286538,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098560_098688.npz",
+      "sha256": "eb932989bae50489245b079cf84e93b28646009bcecf1f61896677ff904700b5",
+      "bytes": 3415562,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098688_098816.npz",
+      "sha256": "d62577fdfebc58ac2e2c97647addda3571d29b5173c131fc6618c8bc9dfca475",
+      "bytes": 3978250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098816_098944.npz",
+      "sha256": "dafd0b3b67e9e25dffd47da897149fdffb795504691e3e410f4e74062a45009c",
+      "bytes": 3536906,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "098944_099072.npz",
+      "sha256": "d5af511ef289253c1c3a597e4103bdb74897c3eae754d28f36399ce1272a7368",
+      "bytes": 3466250,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099072_099200.npz",
+      "sha256": "ff971e9ff5a16b1d9ee05f0384402bdb7ace2bd201591245039a94a2027c288f",
+      "bytes": 3447306,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099200_099328.npz",
+      "sha256": "0b40eaae17e80c75a6eb52753a0f586d4545f5dc433f7b5384051ea173ac3c96",
+      "bytes": 3082762,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099328_099456.npz",
+      "sha256": "da19f99880738fa1cf89b89274b89d56e3269c01d201c22e611d44d6825cd2e5",
+      "bytes": 2996234,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099456_099584.npz",
+      "sha256": "0e912408bd3676f97511c3866800863c2d7d8b2be54bf9e37162162496942a6d",
+      "bytes": 3469834,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099584_099712.npz",
+      "sha256": "b4819db804f05c93bb0de915ed95de7fe68de2d623010856904f76bd1edc1830",
+      "bytes": 3358218,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099712_099840.npz",
+      "sha256": "3753dbbca21f0b8511f906c314e210d8f9a4266f51ee9611be45449de78e2111",
+      "bytes": 3316746,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099840_099968.npz",
+      "sha256": "8fa34e5ef301c1f593b02f118f9f162265e538a78e3cf1361ed4cb4840467596",
+      "bytes": 3165706,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "099968_100000.npz",
+      "sha256": "da8dc046db1924ba0d6fb7f556628d0b0f7047c49a5b5987c49c5d74f263945d",
+      "bytes": 833290,
+      "included": false
+    },
+    {
+      "method": "ColBERTv2",
+      "component": "document_ids_and_truncation.parquet",
+      "sha256": "ee0927db1ad659124d9ba55d42fb02cbeed4f177746daffe9e527a63409b2cce",
+      "bytes": 2054299,
+      "included": false
+    },
+    {
+      "method": "MultilingualE5",
+      "component": "document_ids_and_truncation.parquet",
+      "sha256": "968cc2c83cc9877bc6acdd56bb29c06879b709fc5b1844a562013ad7aeab2025",
+      "bytes": 2051039,
+      "included": false
+    },
+    {
+      "method": "MultilingualE5",
+      "component": "document_vectors.npy",
+      "sha256": "83e04114e69c0a43abc5838564505e5d69b720846e334a981556a56595ef2974",
+      "bytes": 307200128,
+      "included": false
+    },
+    {
+      "method": "SPLADE",
+      "component": "document_ids_and_truncation.parquet",
+      "sha256": "e7f47e3df1c87b9cec9d4a15885a860d61eda983fc88b59eb0918418b68f038c",
+      "bytes": 2051285,
+      "included": false
+    },
+    {
+      "method": "SPLADE",
+      "component": "document_vectors.npz",
+      "sha256": "857a34bd8dfe0e7b7fa91f05f53cbc554e48993cafacfcfaecd0c082657b630f",
+      "bytes": 42064763,
+      "included": false
+    },
+    {
+      "method": "GTEMultilingual",
+      "component": "document_ids_and_truncation.parquet",
+      "sha256": "f919c006e10ac23414f389c41c4fb257dbda0ca2cad194bf5513f6aee19f3195",
+      "bytes": 2068047,
+      "included": false
+    },
+    {
+      "method": "GTEMultilingual",
+      "component": "document_vectors.npy",
+      "sha256": "a6dc81657a534270dc8623d4454fbdda2b35484216e51fd75eae381448f37be2",
+      "bytes": 307200128,
+      "included": false
+    }
+  ],
+  "role": "Exact archived retrieval/index payload identities; no implicit download or mutable refresh"
+}

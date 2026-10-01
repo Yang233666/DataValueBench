@@ -1,0 +1,108 @@
+{
+  "methods": {
+    "implementations": {
+      "StandaloneUtility": "U({i}); exact utility oracle",
+      "LeaveOneOut": "U(N)-U(N\\{i}); exact utility oracle",
+      "ExactShapleyReference": "U0 analytical full85; enumerated local12 U0/U1, float64 with >=80-digit independent check",
+      "MonteCarloShapley": "Untruncated uniform permutation means starting at empty coalition",
+      "BetaShapley": "Pinned OpenDataVal alpha4 beta1 weights; m*w_k weighted untruncated permutation marginals",
+      "DataBanzhaf": "Bernoulli0.5 maximum sample reuse; included mean minus excluded mean",
+      "AME": "Pinned OpenDataVal four Bernoulli proportions; actual U(S), row zscore NaN→0, centered response, LassoCV coefficients"
+    },
+    "OpenDataVal_commit": "5c2856b95237a07ee4565638060e043f1e410822",
+    "model_snapshot": "No learned utility model; pinned AME library/source and execution code snapshots bound in canonical manifests",
+    "budgets": {
+      "MonteCarloShapley": [
+        50,
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "BetaShapley": [
+        100,
+        200,
+        500,
+        1000,
+        2000
+      ],
+      "DataBanzhaf": [
+        250,
+        500,
+        1000,
+        2000,
+        5000
+      ],
+      "AME_per_proportion": [
+        100,
+        250,
+        500,
+        1000
+      ]
+    },
+    "AME_proportions": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "AME_LassoCV": {
+      "sklearn_version": "1.7.2",
+      "constructor_parameters": {
+        "alphas": "warn",
+        "copy_X": true,
+        "cv": null,
+        "eps": 0.001,
+        "fit_intercept": true,
+        "max_iter": 1000,
+        "n_alphas": "deprecated",
+        "n_jobs": null,
+        "positive": false,
+        "precompute": "auto",
+        "random_state": "same method numpy.random.RandomState(seed)",
+        "selection": "cyclic",
+        "tol": 0.0001,
+        "verbose": false
+      },
+      "effective_default_notes": "cv=None uses default five folds; pinned alphas/n_alphas sentinels select automatic100-alpha path. Only random_state is explicitly supplied by the frozen AME implementation; all other values are pinned sklearn1.7.2 defaults."
+    },
+    "seeds": [
+      20260903,
+      20260904,
+      20260905,
+      20260906,
+      20260907
+    ],
+    "rng": "MC/Beta: SHA256 DVBench-v2-RQ4-PERMUTATIONS|seed first16bytes big-endian PCG64DXSM; Banzhaf uses BANZHAF-MSR namespace; AME RandomState(seed); exact methods deterministic",
+    "environment": {
+      "CPU_model": "AMD EPYC 7313P 16-Core Processor",
+      "OS": "Linux-5.15.0-190-generic-x86_64-with-glibc2.35",
+      "Python": "3.10.12",
+      "packages": {
+        "numpy": "1.26.4",
+        "scipy": "1.15.3",
+        "scikit-learn": "1.7.2",
+        "numba": "0.61.2",
+        "llvmlite": "0.44.0"
+      },
+      "CPU_threads": 1,
+      "host_exclusively_reserved": false,
+      "scope": "OneCPUthreadpermethodprocess; originaltimingreceipts authoritative; hostsharedwithotherapprovedjobs"
+    }
+  },
+  "experimental_design": {
+    "utility_conditions": [
+      "RQ4_U0_MEAN_CONTROL_v1.0",
+      "RQ4_U1_CROSSFIT_FLOW_PREDICTIVE_v1.0"
+    ],
+    "U0": "Empty=0; nonempty mean of fixed per-player mean historical accuracy",
+    "U1": "Five result-blind evidence-balanced folds,17players/fold; heldout-player macro(1-MAE), flow-conditioned coalition training mean with global training mean unseen-flow fallback; empty fold training contributes0; float64",
+    "crossfit_seed": 20260903,
+    "utility_model_fits_per_call": 0,
+    "information_track": "Utility oracle; exact targets/consequence outputs/held-out internals not method inputs",
+    "exactness": "5 result-blind12-player subsets;3 per observation-count quartile; SPARSE empty background and DENSE73player background;4096 coalitions/game;10games/utility",
+    "consequences": "Full k=0..85 addition/low-removal/high-removal; milestones1,5,10,20,40,60,85; no clipping; local k=0..12",
+    "human_dependencies": []
+  }
+}

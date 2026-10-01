@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "namespace": "DVBench-v2/RQ1/SPLIT/OUTER",
+      "raw_seed": 20260903
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/SPLIT/INNER",
+      "raw_seed": 20260913
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/MODEL/FINAL",
+      "raw_seed": 20260903
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/MODEL/FINAL",
+      "raw_seed": 20260904
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/MODEL/FINAL",
+      "raw_seed": 20260905
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/MODEL/FINAL",
+      "raw_seed": 20260906
+    },
+    {
+      "namespace": "DVBench-v2/RQ1/MODEL/FINAL",
+      "raw_seed": 20260907
+    },
+    {
+      "namespace": "DVBench-v2/RQ4/APPROXIMATION/REPLICATE",
+      "raw_seed": 20260903
+    },
+    {
+      "namespace": "DVBench-v2/RQ4/APPROXIMATION/REPLICATE",
+      "raw_seed": 20260904
+    },
+    {
+      "namespace": "DVBench-v2/RQ4/APPROXIMATION/REPLICATE",
+      "raw_seed": 20260905
+    },
+    {
+      "namespace": "DVBench-v2/RQ4/APPROXIMATION/REPLICATE",
+      "raw_seed": 20260906
+    },
+    {
+      "namespace": "DVBench-v2/RQ4/APPROXIMATION/REPLICATE",
+      "raw_seed": 20260907
+    }
+  ],
+  "grammar": "DVBench-v2/<RQ>/<COMPONENT>/<PURPOSE>",
+  "global_rng_used": false,
+  "seed_42_used": false
+}

@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "lambda": 0.0,
+      "sources": 6408,
+      "applicability_rate": 1.0,
+      "MetaCompat": 0.4951124652462547,
+      "GTE_SemanticILD": 0.32470975564387916,
+      "StructuredILD": 0.14953518931090262
+    },
+    {
+      "lambda": 0.25,
+      "sources": 6408,
+      "applicability_rate": 1.0,
+      "MetaCompat": 0.6944623004917994,
+      "GTE_SemanticILD": 0.27164180914038044,
+      "StructuredILD": 0.036043304656192154
+    },
+    {
+      "lambda": 0.5,
+      "sources": 6408,
+      "applicability_rate": 1.0,
+      "MetaCompat": 0.7383010333728136,
+      "GTE_SemanticILD": 0.21934170411737497,
+      "StructuredILD": 0.03222231842850236
+    },
+    {
+      "lambda": 0.75,
+      "sources": 6408,
+      "applicability_rate": 1.0,
+      "MetaCompat": 0.7416642049520246,
+      "GTE_SemanticILD": 0.2085841960690961,
+      "StructuredILD": 0.03277560841887289
+    },
+    {
+      "lambda": 1.0,
+      "sources": 6408,
+      "applicability_rate": 1.0,
+      "MetaCompat": 0.7419007818184843,
+      "GTE_SemanticILD": 0.1848402260171087,
+      "StructuredILD": 0.03397540561642052
+    }
+  ]
+}

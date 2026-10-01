@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite DataValueBench and identify the software version used."
+type: software
+version: 0.1.0
+title: DataValueBench
+authors:
+  - family-names: Yang
+    given-names: Yang
+  - family-names: Curry
+    given-names: Edward
+repository-code: "https://github.com/Yang233666/DataValueBench"
+license: MIT
+abstract: "Benchmark implementations and frozen inputs for parallel evaluations of workflow performance estimation, metadata retrieval, source-conditioned alternative ranking, and fixed-game contribution rules."

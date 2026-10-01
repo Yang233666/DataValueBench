@@ -1,0 +1,21 @@
+{
+  "method": "e5",
+  "revision": "d13f1b27baf31030b7fd040960d60d909913633f",
+  "dtype": "float32",
+  "dimension": 768,
+  "max_length": 512,
+  "truncation_side": "right",
+  "prefix": "passage: ",
+  "pooling": "attention_mask_mean_L2",
+  "sparse_pruning_threshold": null,
+  "environment": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.0",
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "rows": 100000,
+  "representation_sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+  "vector_sha256": "83e04114e69c0a43abc5838564505e5d69b720846e334a981556a56595ef2974"
+}

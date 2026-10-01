@@ -1,0 +1,19 @@
+{
+  "do_sample": true,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "max_new_tokens": 192,
+  "num_return_sequences": 1,
+  "thinking": false,
+  "dtype": "bfloat16",
+  "quantization": null,
+  "seed_source": "src/datavaluebench/rq2_query_generation.py",
+  "attempts": [
+    0,
+    1,
+    2
+  ]
+}

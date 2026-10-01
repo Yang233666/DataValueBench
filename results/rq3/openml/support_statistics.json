@@ -1,0 +1,1902 @@
+{
+  "ecosystem": "OML",
+  "conditions": [
+    {
+      "candidate_pool": "C100_v2",
+      "requested_depth": 5,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5354566385406693,
+            "GTE_SemanticILD": 0.2493076897041998,
+            "StructuredILD": 0.12113969391013182
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7718402833663585,
+            "GTE_SemanticILD": 0.16049771873987362,
+            "StructuredILD": 0.03069646502212111
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6200649341187615,
+            "GTE_SemanticILD": 0.18781026262371334,
+            "StructuredILD": 0.09530728878761234
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6638288105540688,
+            "GTE_SemanticILD": 0.11330709911091486,
+            "StructuredILD": 0.08214636503003481
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5788298921088273,
+            "GTE_SemanticILD": 0.21534100632175876,
+            "StructuredILD": 0.021252219750472996
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6465379228838047,
+            "GTE_SemanticILD": 0.22471992450428022,
+            "StructuredILD": 0.021067780663373677
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6462206893465147,
+            "GTE_SemanticILD": 0.2249695669761213,
+            "StructuredILD": 0.019531493000628244
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7676033319800568,
+            "GTE_SemanticILD": 0.20590154456884277,
+            "StructuredILD": 0.030700592240608317
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5209232969683276,
+            "GTE_SemanticILD": 0.2740008515832874,
+            "StructuredILD": 0.14239772638538756
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5466459904906895,
+            "GTE_SemanticILD": 0.2710833257463151,
+            "StructuredILD": 0.11987601824513928
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.53715253150926,
+            "GTE_SemanticILD": 0.34370008275823477,
+            "StructuredILD": 0.15352256366899952
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5354566385406693,
+            "GTE_SemanticILD": 0.2493076897041998,
+            "StructuredILD": 0.12113969391013182
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7718402833663585,
+            "GTE_SemanticILD": 0.16049771873987362,
+            "StructuredILD": 0.03069646502212111
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6200649341187615,
+            "GTE_SemanticILD": 0.18781026262371334,
+            "StructuredILD": 0.09530728878761234
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6638288105540688,
+            "GTE_SemanticILD": 0.11330709911091486,
+            "StructuredILD": 0.08214636503003481
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5788298921088273,
+            "GTE_SemanticILD": 0.21534100632175876,
+            "StructuredILD": 0.021252219750472996
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6465379228838047,
+            "GTE_SemanticILD": 0.22471992450428022,
+            "StructuredILD": 0.021067780663373677
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6462206893465147,
+            "GTE_SemanticILD": 0.2249695669761213,
+            "StructuredILD": 0.019531493000628244
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7676033319800568,
+            "GTE_SemanticILD": 0.20590154456884277,
+            "StructuredILD": 0.030700592240608317
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5209232969683276,
+            "GTE_SemanticILD": 0.2740008515832874,
+            "StructuredILD": 0.14239772638538756
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5466459904906895,
+            "GTE_SemanticILD": 0.2710833257463151,
+            "StructuredILD": 0.11987601824513928
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.53715253150926,
+            "GTE_SemanticILD": 0.34370008275823477,
+            "StructuredILD": 0.15352256366899952
+          }
+        }
+      ],
+      "comparison_sample_size": 6408,
+      "pareto_methods": [
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP",
+        "metapath2vec++",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C100_v2",
+      "requested_depth": 10,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5346823715954948,
+            "GTE_SemanticILD": 0.24987799316767456,
+            "StructuredILD": 0.12209400129275667
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7419007818184843,
+            "GTE_SemanticILD": 0.1848402260171087,
+            "StructuredILD": 0.03397540561642052
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5746641548894328,
+            "GTE_SemanticILD": 0.21896867526816557,
+            "StructuredILD": 0.10788135013643133
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6114888689082071,
+            "GTE_SemanticILD": 0.13990112797708482,
+            "StructuredILD": 0.09724819224250543
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5874604770704726,
+            "GTE_SemanticILD": 0.2145572463507284,
+            "StructuredILD": 0.02601606501912631
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6393868134627796,
+            "GTE_SemanticILD": 0.22714745326606398,
+            "StructuredILD": 0.029815714716559645
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6382433328823045,
+            "GTE_SemanticILD": 0.22739427804739648,
+            "StructuredILD": 0.027976519373032877
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7383010333728136,
+            "GTE_SemanticILD": 0.21934170411737497,
+            "StructuredILD": 0.03222231842850236
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5167123263786413,
+            "GTE_SemanticILD": 0.28173227544315743,
+            "StructuredILD": 0.13622918825380217
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5421705827176079,
+            "GTE_SemanticILD": 0.2712096050845746,
+            "StructuredILD": 0.12037644157273332
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5213192217147654,
+            "GTE_SemanticILD": 0.3242407300160054,
+            "StructuredILD": 0.14261096125565373
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5346823715954948,
+            "GTE_SemanticILD": 0.24987799316767456,
+            "StructuredILD": 0.12209400129275667
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7419007818184843,
+            "GTE_SemanticILD": 0.1848402260171087,
+            "StructuredILD": 0.03397540561642052
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5746641548894328,
+            "GTE_SemanticILD": 0.21896867526816557,
+            "StructuredILD": 0.10788135013643133
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6114888689082071,
+            "GTE_SemanticILD": 0.13990112797708482,
+            "StructuredILD": 0.09724819224250543
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5874604770704726,
+            "GTE_SemanticILD": 0.2145572463507284,
+            "StructuredILD": 0.02601606501912631
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6393868134627796,
+            "GTE_SemanticILD": 0.22714745326606398,
+            "StructuredILD": 0.029815714716559645
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6382433328823045,
+            "GTE_SemanticILD": 0.22739427804739648,
+            "StructuredILD": 0.027976519373032877
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7383010333728136,
+            "GTE_SemanticILD": 0.21934170411737497,
+            "StructuredILD": 0.03222231842850236
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5167123263786413,
+            "GTE_SemanticILD": 0.28173227544315743,
+            "StructuredILD": 0.13622918825380217
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5421705827176079,
+            "GTE_SemanticILD": 0.2712096050845746,
+            "StructuredILD": 0.12037644157273332
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5213192217147654,
+            "GTE_SemanticILD": 0.3242407300160054,
+            "StructuredILD": 0.14261096125565373
+          }
+        }
+      ],
+      "comparison_sample_size": 6408,
+      "pareto_methods": [
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP",
+        "metapath2vec++",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C100_v2",
+      "requested_depth": 20,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5351203933836524,
+            "GTE_SemanticILD": 0.25044003352381783,
+            "StructuredILD": 0.12183698782161878
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7094934773919008,
+            "GTE_SemanticILD": 0.2061681825789367,
+            "StructuredILD": 0.03973828505997895
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5373138273093987,
+            "GTE_SemanticILD": 0.23887606248464827,
+            "StructuredILD": 0.11403988272541192
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5634366251536165,
+            "GTE_SemanticILD": 0.16835380621076682,
+            "StructuredILD": 0.1131374881705927
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5946909804575632,
+            "GTE_SemanticILD": 0.21851352469392732,
+            "StructuredILD": 0.035723474577618666
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6247125380138758,
+            "GTE_SemanticILD": 0.22945179470786167,
+            "StructuredILD": 0.046955899188110634
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.623748082094684,
+            "GTE_SemanticILD": 0.22915358714318027,
+            "StructuredILD": 0.04609635699940199
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.707076125492005,
+            "GTE_SemanticILD": 0.22790018551914182,
+            "StructuredILD": 0.03915833743571871
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5174860106954525,
+            "GTE_SemanticILD": 0.28227900526964267,
+            "StructuredILD": 0.13245764498831375
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5351071297623408,
+            "GTE_SemanticILD": 0.2723541139064823,
+            "StructuredILD": 0.12277712270950562
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5224724377880602,
+            "GTE_SemanticILD": 0.30210797242368825,
+            "StructuredILD": 0.1327004329269735
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5351203933836524,
+            "GTE_SemanticILD": 0.25044003352381783,
+            "StructuredILD": 0.12183698782161878
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7094934773919008,
+            "GTE_SemanticILD": 0.2061681825789367,
+            "StructuredILD": 0.03973828505997895
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5373138273093987,
+            "GTE_SemanticILD": 0.23887606248464827,
+            "StructuredILD": 0.11403988272541192
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5634366251536165,
+            "GTE_SemanticILD": 0.16835380621076682,
+            "StructuredILD": 0.1131374881705927
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5946909804575632,
+            "GTE_SemanticILD": 0.21851352469392732,
+            "StructuredILD": 0.035723474577618666
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6247125380138758,
+            "GTE_SemanticILD": 0.22945179470786167,
+            "StructuredILD": 0.046955899188110634
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.623748082094684,
+            "GTE_SemanticILD": 0.22915358714318027,
+            "StructuredILD": 0.04609635699940199
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.707076125492005,
+            "GTE_SemanticILD": 0.22790018551914182,
+            "StructuredILD": 0.03915833743571871
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5174860106954525,
+            "GTE_SemanticILD": 0.28227900526964267,
+            "StructuredILD": 0.13245764498831375
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5351071297623408,
+            "GTE_SemanticILD": 0.2723541139064823,
+            "StructuredILD": 0.12277712270950562
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5224724377880602,
+            "GTE_SemanticILD": 0.30210797242368825,
+            "StructuredILD": 0.1327004329269735
+          }
+        }
+      ],
+      "comparison_sample_size": 6408,
+      "pareto_methods": [
+        "BM25",
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "Random",
+        "k-DPP",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C200_v2",
+      "requested_depth": 10,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.48891128600040235,
+            "GTE_SemanticILD": 0.2695296288659713,
+            "StructuredILD": 0.14506630245825392
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7442473030031407,
+            "GTE_SemanticILD": 0.18622272353001992,
+            "StructuredILD": 0.034151225581642984
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5684739285679138,
+            "GTE_SemanticILD": 0.22125195864622235,
+            "StructuredILD": 0.11084871907961938
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6111392075416917,
+            "GTE_SemanticILD": 0.13987968470706158,
+            "StructuredILD": 0.09738976208367228
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5596082516679413,
+            "GTE_SemanticILD": 0.2298472836397864,
+            "StructuredILD": 0.025407298988657342
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6249131171546984,
+            "GTE_SemanticILD": 0.23809207463193285,
+            "StructuredILD": 0.026863260543600897
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6243170378147358,
+            "GTE_SemanticILD": 0.23801815659739678,
+            "StructuredILD": 0.02485016375321191
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7397984588869234,
+            "GTE_SemanticILD": 0.22643789685195054,
+            "StructuredILD": 0.032656576575487574
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.47090456606209335,
+            "GTE_SemanticILD": 0.29393683886982735,
+            "StructuredILD": 0.16109630587877635
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.4997869419000557,
+            "GTE_SemanticILD": 0.2905532605773461,
+            "StructuredILD": 0.14245394057694064
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.4582785358470765,
+            "GTE_SemanticILD": 0.3579524034845524,
+            "StructuredILD": 0.18143607667781686
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.48891128600040235,
+            "GTE_SemanticILD": 0.2695296288659713,
+            "StructuredILD": 0.14506630245825392
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7442473030031407,
+            "GTE_SemanticILD": 0.18622272353001992,
+            "StructuredILD": 0.034151225581642984
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5684739285679138,
+            "GTE_SemanticILD": 0.22125195864622235,
+            "StructuredILD": 0.11084871907961938
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6111392075416917,
+            "GTE_SemanticILD": 0.13987968470706158,
+            "StructuredILD": 0.09738976208367228
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.5596082516679413,
+            "GTE_SemanticILD": 0.2298472836397864,
+            "StructuredILD": 0.025407298988657342
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6249131171546984,
+            "GTE_SemanticILD": 0.23809207463193285,
+            "StructuredILD": 0.026863260543600897
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.6243170378147358,
+            "GTE_SemanticILD": 0.23801815659739678,
+            "StructuredILD": 0.02485016375321191
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.7397984588869234,
+            "GTE_SemanticILD": 0.22643789685195054,
+            "StructuredILD": 0.032656576575487574
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.47090456606209335,
+            "GTE_SemanticILD": 0.29393683886982735,
+            "StructuredILD": 0.16109630587877635
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.4997869419000557,
+            "GTE_SemanticILD": 0.2905532605773461,
+            "StructuredILD": 0.14245394057694064
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6408,
+          "source_ids_sha256": "a3e1785deb206c8d533a28047ce5dd5cdd31d41f2da73ca0165b5fa86d4462d0",
+          "metrics": {
+            "MetaCompat": 0.4582785358470765,
+            "GTE_SemanticILD": 0.3579524034845524,
+            "StructuredILD": 0.18143607667781686
+          }
+        }
+      ],
+      "comparison_sample_size": 6408,
+      "pareto_methods": [
+        "Facility Location",
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C20_hist",
+      "requested_depth": 10,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6941473400266905,
+            "GTE_SemanticILD": 0.20615170996699486,
+            "StructuredILD": 0.05903713108606551
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7292200233358745,
+            "GTE_SemanticILD": 0.18189450658633105,
+            "StructuredILD": 0.05239781715468127
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7127813731112591,
+            "GTE_SemanticILD": 0.18336365903413832,
+            "StructuredILD": 0.048115383134958764
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7210409616293907,
+            "GTE_SemanticILD": 0.17262234233897392,
+            "StructuredILD": 0.05500179354781358
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7110218381313952,
+            "GTE_SemanticILD": 0.1887436096310692,
+            "StructuredILD": 0.043928238824711814
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7139004612429897,
+            "GTE_SemanticILD": 0.19002396807840985,
+            "StructuredILD": 0.048263486902623894
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7134438335150338,
+            "GTE_SemanticILD": 0.18915894714021517,
+            "StructuredILD": 0.047933565869583195
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7264224273156026,
+            "GTE_SemanticILD": 0.20569096514814333,
+            "StructuredILD": 0.055757879840678336
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6866555978469212,
+            "GTE_SemanticILD": 0.22576523535483364,
+            "StructuredILD": 0.061091221355226634
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6223,
+          "applicability_rate": 0.9711298377028714,
+          "metrics": {
+            "MetaCompat": 0.683460181351331,
+            "GTE_SemanticILD": 0.22233095026399244,
+            "StructuredILD": 0.06246485236799247
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6888137432211681,
+            "GTE_SemanticILD": 0.22812726860711433,
+            "StructuredILD": 0.06212761928387952
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.6870928984849727,
+            "GTE_SemanticILD": 0.21113269492196104,
+            "StructuredILD": 0.0602884112084588
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7225108858861671,
+            "GTE_SemanticILD": 0.18693739737497206,
+            "StructuredILD": 0.05362981381067972
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7056218928004092,
+            "GTE_SemanticILD": 0.18832800098618482,
+            "StructuredILD": 0.04920056784019982
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7141141703553167,
+            "GTE_SemanticILD": 0.17752625166780348,
+            "StructuredILD": 0.05635740862120531
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7040554832202015,
+            "GTE_SemanticILD": 0.1938351267203546,
+            "StructuredILD": 0.04504958609416021
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.707037276987417,
+            "GTE_SemanticILD": 0.1950662789744574,
+            "StructuredILD": 0.04934015974259885
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7065430682525735,
+            "GTE_SemanticILD": 0.19417669241522256,
+            "StructuredILD": 0.04900367913341113
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.7196404061661121,
+            "GTE_SemanticILD": 0.2113224072153457,
+            "StructuredILD": 0.05700031715370345
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.6796988628288644,
+            "GTE_SemanticILD": 0.2308101835532195,
+            "StructuredILD": 0.062171589867485055
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.683460181351331,
+            "GTE_SemanticILD": 0.22233095026399244,
+            "StructuredILD": 0.06246485236799247
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6223,
+          "source_ids_sha256": "7d56fe13b636f311760544000d8c58f3a918535935af471f5cd184e90894fe8a",
+          "metrics": {
+            "MetaCompat": 0.6819211664699015,
+            "GTE_SemanticILD": 0.2332424363381487,
+            "StructuredILD": 0.06323879827609949
+          }
+        }
+      ],
+      "comparison_sample_size": 6223,
+      "pareto_methods": [
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C20_v2",
+      "requested_depth": 10,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6365818706126438,
+            "GTE_SemanticILD": 0.20675047964068574,
+            "StructuredILD": 0.07246233792769533
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.719705170698477,
+            "GTE_SemanticILD": 0.1816778984701925,
+            "StructuredILD": 0.042047142088889516
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.653616119373449,
+            "GTE_SemanticILD": 0.18782967491720792,
+            "StructuredILD": 0.06547223293955233
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6630867064247247,
+            "GTE_SemanticILD": 0.16239625468377356,
+            "StructuredILD": 0.07147574667247229
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6590487402873751,
+            "GTE_SemanticILD": 0.1917974505929346,
+            "StructuredILD": 0.04540259232604459
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6710766086201588,
+            "GTE_SemanticILD": 0.19739429728646823,
+            "StructuredILD": 0.04688022882407194
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6701923707102908,
+            "GTE_SemanticILD": 0.19750072876515962,
+            "StructuredILD": 0.04672099612329594
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7184044486550644,
+            "GTE_SemanticILD": 0.1959372591658992,
+            "StructuredILD": 0.042596937757754756
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6280705076197239,
+            "GTE_SemanticILD": 0.23022095848480564,
+            "StructuredILD": 0.0770877942631267
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6166,
+          "applicability_rate": 0.962234706616729,
+          "metrics": {
+            "MetaCompat": 0.6289301212483586,
+            "GTE_SemanticILD": 0.22703550403551825,
+            "StructuredILD": 0.07534860666143027
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6322855760629016,
+            "GTE_SemanticILD": 0.2334182649291102,
+            "StructuredILD": 0.07638047870318239
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6285257787157228,
+            "GTE_SemanticILD": 0.21217540657757455,
+            "StructuredILD": 0.073597065248939
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.7128202104798126,
+            "GTE_SemanticILD": 0.1871413901537707,
+            "StructuredILD": 0.04297802748089116
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6444897542242608,
+            "GTE_SemanticILD": 0.1936376607672905,
+            "StructuredILD": 0.06740722001764204
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.654427276105515,
+            "GTE_SemanticILD": 0.16745464007203403,
+            "StructuredILD": 0.07344063474586617
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6519464369703053,
+            "GTE_SemanticILD": 0.19682878678325175,
+            "StructuredILD": 0.04591543538680534
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6634135833265041,
+            "GTE_SemanticILD": 0.2028303401136876,
+            "StructuredILD": 0.04799937776967077
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6624797412701454,
+            "GTE_SemanticILD": 0.20290717315294968,
+            "StructuredILD": 0.047823365722473886
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.711486077338485,
+            "GTE_SemanticILD": 0.20179351780024224,
+            "StructuredILD": 0.04358249003769972
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6206101991812953,
+            "GTE_SemanticILD": 0.23552802487774835,
+            "StructuredILD": 0.0776435762210903
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6289301212483586,
+            "GTE_SemanticILD": 0.22703550403551825,
+            "StructuredILD": 0.07534860666143027
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6166,
+          "source_ids_sha256": "8305e1ed988f075db4b5a0e3b027a8be8c91c7c93800045ff312e4f822beb58f",
+          "metrics": {
+            "MetaCompat": 0.6249906984650906,
+            "GTE_SemanticILD": 0.23885081756265006,
+            "StructuredILD": 0.07690850030345761
+          }
+        }
+      ],
+      "comparison_sample_size": 6166,
+      "pareto_methods": [
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP",
+        "metapath2vec++",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    },
+    {
+      "candidate_pool": "C50_v2",
+      "requested_depth": 10,
+      "method_descriptive": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5805732373300018,
+            "GTE_SemanticILD": 0.22979630268042514,
+            "StructuredILD": 0.09832361429979256
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.7372288008466467,
+            "GTE_SemanticILD": 0.1830502936853131,
+            "StructuredILD": 0.035103659861050455
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6074689124268821,
+            "GTE_SemanticILD": 0.19736485186308542,
+            "StructuredILD": 0.08742510959683644
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6274985854514249,
+            "GTE_SemanticILD": 0.14436291593486716,
+            "StructuredILD": 0.08856395916139577
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.6157181928857225,
+            "GTE_SemanticILD": 0.20266824848503598,
+            "StructuredILD": 0.029922077769547886
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.653478945835743,
+            "GTE_SemanticILD": 0.21509238416145754,
+            "StructuredILD": 0.03602486272073197
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.652059590650099,
+            "GTE_SemanticILD": 0.2152743812276749,
+            "StructuredILD": 0.034713532369973606
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.734653417858994,
+            "GTE_SemanticILD": 0.21029763696746953,
+            "StructuredILD": 0.03462872371664867
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.574380386431389,
+            "GTE_SemanticILD": 0.25279414596000543,
+            "StructuredILD": 0.10360542060988395
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6354,
+          "applicability_rate": 0.9915730337078652,
+          "metrics": {
+            "MetaCompat": 0.5868763576102329,
+            "GTE_SemanticILD": 0.247880090191298,
+            "StructuredILD": 0.0945059093303979
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "expected_sources": 6408,
+          "applicable_sources": 6408,
+          "applicability_rate": 1.0,
+          "metrics": {
+            "MetaCompat": 0.5864181383330538,
+            "GTE_SemanticILD": 0.2739814427045411,
+            "StructuredILD": 0.10192008661940377
+          }
+        }
+      ],
+      "all_method_comparison": [
+        {
+          "method": "Random",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.5775023562287249,
+            "GTE_SemanticILD": 0.2316405983991804,
+            "StructuredILD": 0.09895521311563966
+          }
+        },
+        {
+          "method": "MetaCompat",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.7352453293188509,
+            "GTE_SemanticILD": 0.18456712093475428,
+            "StructuredILD": 0.03530406518215126
+          }
+        },
+        {
+          "method": "BM25",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.6046722470094628,
+            "GTE_SemanticILD": 0.1988890698460267,
+            "StructuredILD": 0.0872121542685637
+          }
+        },
+        {
+          "method": "BGE-M3",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.624582562518004,
+            "GTE_SemanticILD": 0.14557332845923202,
+            "StructuredILD": 0.08921870130374596
+          }
+        },
+        {
+          "method": "PPR",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.612819564580586,
+            "GTE_SemanticILD": 0.2043530011662173,
+            "StructuredILD": 0.030174898023795853
+          }
+        },
+        {
+          "method": "node2vec",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.6509058469597273,
+            "GTE_SemanticILD": 0.21683372363240572,
+            "StructuredILD": 0.03621630963575095
+          }
+        },
+        {
+          "method": "metapath2vec++",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.6494664552857782,
+            "GTE_SemanticILD": 0.21701827568779158,
+            "StructuredILD": 0.034910622159988774
+          }
+        },
+        {
+          "method": "MMR",
+          "method_operating_condition": "lambda=0.50",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.7326480592236542,
+            "GTE_SemanticILD": 0.21204522214928592,
+            "StructuredILD": 0.03482483058005791
+          }
+        },
+        {
+          "method": "Facility Location",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.5717206247380664,
+            "GTE_SemanticILD": 0.254597564400667,
+            "StructuredILD": 0.10347645901368836
+          }
+        },
+        {
+          "method": "k-DPP",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.5868763576102329,
+            "GTE_SemanticILD": 0.247880090191298,
+            "StructuredILD": 0.0945059093303979
+          }
+        },
+        {
+          "method": "Farthest",
+          "method_operating_condition": "canonical",
+          "comparison_sample_size": 6354,
+          "source_ids_sha256": "709c4d6ce2723236f85213c862c194cb7617810f5bb645d2289d5b6a47b9705b",
+          "metrics": {
+            "MetaCompat": 0.5838606804802553,
+            "GTE_SemanticILD": 0.27596492315719584,
+            "StructuredILD": 0.10177680207144771
+          }
+        }
+      ],
+      "comparison_sample_size": 6354,
+      "pareto_methods": [
+        "Farthest",
+        "MMR",
+        "MetaCompat",
+        "k-DPP",
+        "metapath2vec++",
+        "node2vec"
+      ],
+      "pareto_status": "DESCRIPTIVE"
+    }
+  ],
+  "na_imputation": false
+}

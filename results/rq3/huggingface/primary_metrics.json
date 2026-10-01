@@ -1,0 +1,338 @@
+{
+  "comparison_sample_size": 100000,
+  "source_ids_sha256": "f73b46137d9ba994e6d0ed4f4c21344051c1464125450899617aa4db82977a51",
+  "bootstrap_replicates": 2000,
+  "index_arrays_sha256": "771a123c0415a550a1c895153ab7aa7a3e1c1f7b9ae784f54fb8c754d5133563",
+  "rows": [
+    {
+      "method": "Random",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5396980525292279,
+      "percentile_95_CI": [
+        0.5390491707787449,
+        0.5403631576133546
+      ]
+    },
+    {
+      "method": "Random",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.23564700993393223,
+      "percentile_95_CI": [
+        0.2352395473287097,
+        0.2360342425831386
+      ]
+    },
+    {
+      "method": "Random",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.16827982044274195,
+      "percentile_95_CI": [
+        0.1668878302672111,
+        0.1695888333468554
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.6094371518239803,
+      "percentile_95_CI": [
+        0.6087239357115899,
+        0.610156122796526
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.1978487818463418,
+      "percentile_95_CI": [
+        0.19733985042238422,
+        0.19833961841049824
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.07464446679844304,
+      "percentile_95_CI": [
+        0.07387755440501188,
+        0.07541562043843979
+      ]
+    },
+    {
+      "method": "BM25",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5555885627957863,
+      "percentile_95_CI": [
+        0.554838822051384,
+        0.5563815392009017
+      ]
+    },
+    {
+      "method": "BM25",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.22115142879271898,
+      "percentile_95_CI": [
+        0.22070615318253894,
+        0.22158462923345953
+      ]
+    },
+    {
+      "method": "BM25",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.14816674742057306,
+      "percentile_95_CI": [
+        0.1468817469706512,
+        0.14941356763475297
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5282543703027536,
+      "percentile_95_CI": [
+        0.52742810619664,
+        0.5291056684910336
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.15273533029863348,
+      "percentile_95_CI": [
+        0.15230372759271082,
+        0.15313115404905214
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.18795285836194206,
+      "percentile_95_CI": [
+        0.18649995782226214,
+        0.18938395564988428
+      ]
+    },
+    {
+      "method": "PPR",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5313502714160065,
+      "percentile_95_CI": [
+        0.5305737985735315,
+        0.5321274708402224
+      ]
+    },
+    {
+      "method": "PPR",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.22555288662137046,
+      "percentile_95_CI": [
+        0.22509429676326886,
+        0.22597366736276117
+      ]
+    },
+    {
+      "method": "PPR",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.18940372697201124,
+      "percentile_95_CI": [
+        0.1879778811923311,
+        0.19080595722465635
+      ]
+    },
+    {
+      "method": "node2vec",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5664737006058239,
+      "percentile_95_CI": [
+        0.5657524834846516,
+        0.5672054079344212
+      ]
+    },
+    {
+      "method": "node2vec",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.22253514675899608,
+      "percentile_95_CI": [
+        0.22214284033233198,
+        0.22291067250817356
+      ]
+    },
+    {
+      "method": "node2vec",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.1197990881618607,
+      "percentile_95_CI": [
+        0.11862846897997002,
+        0.1209783623826714
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5779941033961392,
+      "percentile_95_CI": [
+        0.5773256867902402,
+        0.5786864655242968
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.22785408488630074,
+      "percentile_95_CI": [
+        0.22744885005389626,
+        0.22822557642086058
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.08776463361470983,
+      "percentile_95_CI": [
+        0.08690927016765723,
+        0.0886179107864026
+      ]
+    },
+    {
+      "method": "MMR",
+      "method_operating_condition": "lambda=0.50",
+      "metric": "MetaCompat",
+      "point_estimate": 0.6002898557707862,
+      "percentile_95_CI": [
+        0.5995793129829576,
+        0.6010062362602403
+      ]
+    },
+    {
+      "method": "MMR",
+      "method_operating_condition": "lambda=0.50",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.2648553049255606,
+      "percentile_95_CI": [
+        0.2643363605036607,
+        0.2653439929741859
+      ]
+    },
+    {
+      "method": "MMR",
+      "method_operating_condition": "lambda=0.50",
+      "metric": "StructuredILD",
+      "point_estimate": 0.0902046112892471,
+      "percentile_95_CI": [
+        0.08935283753663602,
+        0.09105568426652326
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5371295207601077,
+      "percentile_95_CI": [
+        0.5364716997170856,
+        0.5378132499819335
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.24102710859538304,
+      "percentile_95_CI": [
+        0.24065357667157564,
+        0.24137437048813923
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.18609009686309466,
+      "percentile_95_CI": [
+        0.18464599187271805,
+        0.1874419751402642
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5414642137291733,
+      "percentile_95_CI": [
+        0.5408258397164173,
+        0.5421345652197729
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.246829730126413,
+      "percentile_95_CI": [
+        0.2464623589152091,
+        0.24718964023774143
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.16855940462266633,
+      "percentile_95_CI": [
+        0.16724545270017527,
+        0.16986590499899695
+      ]
+    },
+    {
+      "method": "Farthest",
+      "method_operating_condition": "canonical",
+      "metric": "MetaCompat",
+      "point_estimate": 0.5429060640230241,
+      "percentile_95_CI": [
+        0.5422280508315029,
+        0.5436066121293232
+      ]
+    },
+    {
+      "method": "Farthest",
+      "method_operating_condition": "canonical",
+      "metric": "GTE_SemanticILD",
+      "point_estimate": 0.29507183961862465,
+      "percentile_95_CI": [
+        0.2946485475586975,
+        0.29547787118186525
+      ]
+    },
+    {
+      "method": "Farthest",
+      "method_operating_condition": "canonical",
+      "metric": "StructuredILD",
+      "point_estimate": 0.19007825970614006,
+      "percentile_95_CI": [
+        0.18860127538618385,
+        0.19146059144849276
+      ]
+    }
+  ]
+}

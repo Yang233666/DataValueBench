@@ -1,0 +1,34 @@
+{
+  "co_primary": [
+    "MAE",
+    "R2",
+    "Spearman"
+  ],
+  "secondary": [
+    "RMSE",
+    "Pearson",
+    "Kendall"
+  ],
+  "aggregation": "pooled legitimate out-of-fold rows; arithmetic mean of metric values across five stochastic seeds, never averaged predictions",
+  "predictive_bootstrap": {
+    "draws": 2000,
+    "analysis_id": "PREDICTIVE",
+    "master_seed": 20260903,
+    "rng": "PCG64DXSM",
+    "interval": "percentile95%",
+    "units": {
+      "G0": "run_id",
+      "GD": "task_dataset_uid",
+      "GF": "flow_uid",
+      "GT": "20 contiguous timestamp blocks"
+    }
+  },
+  "NHST": "NONE",
+  "Holm": "NONE",
+  "seed_sd": {
+    "ddof": 0,
+    "divisor": 5,
+    "incomplete_seeds": "never compute subset SD"
+  },
+  "undefined_CI": "UNDEFINED_BOOTSTRAP_STATISTIC if any prescribed draw undefined; no deletion/redraw/imputation; report support counts"
+}

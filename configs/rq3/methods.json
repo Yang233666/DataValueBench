@@ -1,0 +1,225 @@
+{
+  "active": [
+    "BM25",
+    "BGE-M3",
+    "Facility Location",
+    "Farthest",
+    "MMR",
+    "MetaCompat",
+    "PPR",
+    "Random",
+    "k-DPP",
+    "metapath2vec++",
+    "node2vec"
+  ],
+  "parameters": {
+    "Random": {
+      "seed": 20260903,
+      "payload_prefix": "DVBench-v2-RQ3-RANDOM",
+      "sort": "SHA256 ascending then dataset ID",
+      "runtime_rng": false
+    },
+    "MetaCompat": {
+      "HF_weights": [
+        0.35,
+        0.2,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "OpenML_weights": [
+        0.4,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "OpenML_bins": [
+        10,
+        100,
+        1000,
+        10000
+      ],
+      "sort": "score descending then dataset ID"
+    },
+    "BM25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "(?u)\\b[\\w\\-:]+\\b",
+      "lowercase": true,
+      "idf": "ln(1+(N-df+0.5)/(df+0.5))",
+      "index_corpus": "full frozen ecosystem",
+      "sort": "score descending then dataset ID"
+    },
+    "BGE-M3": {
+      "model": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "dimension": 1024,
+      "stored_dtype": "float32",
+      "normalization": "explicit L2 in float32 matching M2",
+      "similarity": "inner product",
+      "sort": "score descending then dataset ID"
+    },
+    "PPR": {
+      "graph": "G_INCIDENCE_UNDIRECTED",
+      "alpha": 0.85,
+      "personalization": "source only",
+      "dangling": "source only",
+      "max_iter": 1000,
+      "tol": 1e-12,
+      "weight": null,
+      "sort": "score descending then dataset ID"
+    },
+    "node2vec": {
+      "graph": "G_INCIDENCE_UNDIRECTED",
+      "dimensions": 128,
+      "walk_length": 80,
+      "num_walks": 10,
+      "p": 1.0,
+      "q": 1.0,
+      "workers": 1,
+      "sg": 1,
+      "window": 10,
+      "min_count": 1,
+      "negative": 5,
+      "hs": 0,
+      "epochs": 5,
+      "sample": 0,
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ],
+      "package": "node2vec==0.5.0; gensim==4.3.3",
+      "alpha": 0.025,
+      "min_alpha": 0.0001,
+      "ns_exponent": 0.75,
+      "shrink_windows": true,
+      "hashfxn": "Python built-in hash",
+      "sorted_vocab": 1,
+      "batch_words": 10000,
+      "PYTHONHASHSEED": "0"
+    },
+    "metapath2vec++": {
+      "graph": "G_TYPED_RECIPROCAL",
+      "OpenML_metapaths": [
+        "D-InstanceBin-D",
+        "D-FeatureBin-D",
+        "D-ClassBin-D"
+      ],
+      "walk_length": 100,
+      "OpenML_walks_per_dataset_per_metapath": 3,
+      "embedding_dim": 128,
+      "window": 7,
+      "negative": 5,
+      "skipgram": true,
+      "min_count": 1,
+      "subsampling": 0,
+      "initial_learning_rate": 0.025,
+      "epochs": 5,
+      "negative_distribution": "unigram^0.75 within positive-context type",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ],
+      "HF_walks_per_dataset_per_metapath": 2,
+      "HF_metapaths": [
+        "D-Tag-D",
+        "D-TaskCategory-D",
+        "D-TaskContext-D",
+        "D-Language-D",
+        "D-License-D"
+      ]
+    },
+    "MMR": {
+      "quality": "MetaCompat",
+      "similarity": "clip((1+BGE cosine)/2,0,1)",
+      "lambda_grid": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "first": "highest MetaCompat",
+      "tie": "dataset ID",
+      "sequence": "full C_K"
+    },
+    "Facility Location": {
+      "ground_set": "C_K(s)",
+      "similarity": "clip((1+BGE cosine)/2,0,1)",
+      "objective": "sum_u max_v s(u,v)",
+      "optimizer": "NaiveGreedy",
+      "stopIfZeroGain": false,
+      "stopIfNegativeGain": false,
+      "tie": "dataset ID",
+      "sequence": "full ground set"
+    },
+    "k-DPP": {
+      "quality": "q=1+MetaCompat",
+      "features": "L2-normalized BGE-M3",
+      "kernel": "L=diag(q)XX^Tdiag(q)",
+      "dtype": "float64",
+      "symmetrize": true,
+      "negative_eigenvalue_failure": -1e-10,
+      "small_negative_rule": "clip and reconstruct",
+      "k": [
+        5,
+        10,
+        20
+      ],
+      "mode": "GS",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ],
+      "presentation_order": "MetaCompat descending then dataset ID",
+      "DPPy_wheel_sha256": "a770d6b906a9939a156e8e6f86d9d3b880edc1df8639106bff60b18fc1b483ab"
+    },
+    "Farthest": {
+      "first": "highest MetaCompat then dataset ID",
+      "vectors": "L2-normalized BGE-M3",
+      "distance": "Euclidean",
+      "criterion": "maximum minimum distance",
+      "tie": "dataset ID",
+      "sequence": "full ground set",
+      "depths": [
+        5,
+        10,
+        20
+      ]
+    },
+    "GTE SemanticILD": {
+      "external_repository": "Alibaba-NLP/new-impl",
+      "external_revision": "40ced75c3017eb27626c9d4ea981bde21a2662f4",
+      "model": "Alibaba-NLP/gte-multilingual-base",
+      "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+      "embedding_dim": 768,
+      "max_length": 8192,
+      "truncation_side": "right",
+      "normalize_embeddings": true,
+      "primary_dtype": "float32",
+      "instruction": null
+    }
+  },
+  "stochastic_methods": [
+    "node2vec",
+    "metapath2vec++",
+    "k-DPP"
+  ],
+  "seeds": [
+    20260903,
+    20260904,
+    20260905,
+    20260906,
+    20260907
+  ],
+  "deterministic_conditions": "one execution, no artificial seed replication"
+}

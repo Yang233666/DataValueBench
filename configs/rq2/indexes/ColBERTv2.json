@@ -1,0 +1,22 @@
+{
+  "checkpoint_revision": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+  "reference_code_distribution": "colbert-ai==0.2.22",
+  "parameters": {
+    "query_maxlen": 32,
+    "doc_maxlen": 180,
+    "dim": 128,
+    "similarity": "cosine",
+    "mask_punctuation": true,
+    "attend_to_mask_tokens": false
+  },
+  "dtype": "float32",
+  "environment": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.0",
+    "numpy": "2.2.6",
+    "safetensors": "0.8.0"
+  },
+  "rows": 100000,
+  "representation_sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+  "approximate_index_or_residual_compression_used": false
+}

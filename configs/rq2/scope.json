@@ -1,0 +1,31 @@
+{
+  "canonical_id": "RQ2-FR-AUTO-001",
+  "N_latent": 500,
+  "N_NL": 475,
+  "corpus_size": 100000,
+  "admitted_executed_methods": [
+    "Random",
+    "Popularity",
+    "MetadataCompleteness",
+    "TFIDF",
+    "BM25",
+    "SPLADE",
+    "MultilingualE5",
+    "BGEM3Dense",
+    "GTEMultilingual",
+    "ColBERTv2",
+    "ExactMetadataFilter",
+    "RRF"
+  ],
+  "deferred_reranking_methods": [
+    "BGEReranker",
+    "Qwen3Reranker8B"
+  ],
+  "query_authorities": {
+    "ASTRA_SEMANTIC_VALIDATION": 448,
+    "HUMAN": 27
+  },
+  "qrel_authority": "AUTO_META_QRELS: exact satisfaction of frozen latent predicates on normalized metadata; not human relevance",
+  "no_imputation_guarantee": true,
+  "unrealized_track_b_slots": 25
+}

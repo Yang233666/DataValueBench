@@ -1,0 +1,500 @@
+{"conditions": [{"field": "tags", "value": "long-video"}], "intent_id": "rq2i_8bf940fa474c624b", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "arxiv:2502.02737"}], "intent_id": "rq2i_d6f273003876aa3c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:qxn"}], "intent_id": "rq2i_5791883f4bc254e0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ape"}], "intent_id": "rq2i_948448b5e9806575", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "france"}], "intent_id": "rq2i_9ed1b450343c4e09", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "glam"}], "intent_id": "rq2i_b23277205c6c16bf", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:obo"}], "intent_id": "rq2i_6386056a0098e4ea", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "anthropic"}], "intent_id": "rq2i_08933e25cae4ed4e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "text-detection"}], "intent_id": "rq2i_d3eb249b4b8f6d56", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "annotations_creators:none"}], "intent_id": "rq2i_70a0a807b328739e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:shp"}], "intent_id": "rq2i_d9c07a6113610984", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ake"}], "intent_id": "rq2i_3d351a09481d4c3f", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "license:cc-by-nc-3.0"}], "intent_id": "rq2i_619be9f2f60cdbca", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gmv"}], "intent_id": "rq2i_a3bbe390b538cd71", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kpx"}], "intent_id": "rq2i_4a04a55e4f376b6d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:yml"}], "intent_id": "rq2i_58f8a9cadae437f0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:myw"}], "intent_id": "rq2i_65dc5ba449a9f1f7", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ino"}], "intent_id": "rq2i_cfcb4601edd73118", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "archive"}], "intent_id": "rq2i_1735e47da6968b8a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "hallucination-detection"}], "intent_id": "rq2i_5198ea3132ca9803", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tca"}], "intent_id": "rq2i_aeb41e840553bfb6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "transcriptomics"}], "intent_id": "rq2i_90eec3cd33386115", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tiv"}], "intent_id": "rq2i_08ac890554aa3169", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_ids:multi-label-image-classification"}], "intent_id": "rq2i_f45300096c35c471", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gfk"}], "intent_id": "rq2i_e6595276cf414f6e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "time series classification"}], "intent_id": "rq2i_12d89e6145d52f80", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:bjp"}], "intent_id": "rq2i_e96e25e8ea1e2ffa", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kms"}], "intent_id": "rq2i_0c3631a8b3bab7c6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "solana"}], "intent_id": "rq2i_bc129f2a5ee4cfc8", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kok"}], "intent_id": "rq2i_44c278bec4704049", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "llm-benchmark"}], "intent_id": "rq2i_695f701693fa8f12", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:wrs"}], "intent_id": "rq2i_5cfc89b637d33f6c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:atb"}], "intent_id": "rq2i_c00ab609327a5108", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zpv"}], "intent_id": "rq2i_710f74d1e52fa6c1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "scene-understanding"}], "intent_id": "rq2i_4be7a6a3b08f66f6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "mcp"}], "intent_id": "rq2i_e88d5391e3542ce4", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "arxiv:2103.06268"}], "intent_id": "rq2i_d889db41d39bc1f1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:chr"}], "intent_id": "rq2i_425c06d546b3cc17", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "mmlu"}], "intent_id": "rq2i_9ec58a961c863af9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zea"}], "intent_id": "rq2i_73798087be1995ca", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:brx"}], "intent_id": "rq2i_7a54423aa03ae68c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_ids:image-captioning"}], "intent_id": "rq2i_1d8a0290b0d4e1c1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "arxiv:2605.00674"}], "intent_id": "rq2i_bc3bd197b5e59527", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "books"}], "intent_id": "rq2i_4209ce80cf721b63", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:csb"}], "intent_id": "rq2i_40240bf1b1dc631c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:msa"}], "intent_id": "rq2i_1a57221964196681", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:lbe"}], "intent_id": "rq2i_0977d03fc4fd9277", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "llm-training"}], "intent_id": "rq2i_933b83268b119a1f", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:dsb"}], "intent_id": "rq2i_f46b48fef18ddd9c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:knc"}], "intent_id": "rq2i_e52be573a163aa16", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:bod"}], "intent_id": "rq2i_303cfbc6bc0b736d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nrf"}], "intent_id": "rq2i_ab962e308981a22e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tso"}], "intent_id": "rq2i_769199b5ae0dd130", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "license:creativeml-openrail-m"}], "intent_id": "rq2i_49d1ec6e286563b6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "distilabel"}], "intent_id": "rq2i_f4b9e3c412580fba", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cu"}], "intent_id": "rq2i_37e3389bc44e2334", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:got"}], "intent_id": "rq2i_9131a281a7d65737", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "grpo"}], "intent_id": "rq2i_48c4ec7b5e9f6239", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tat"}], "intent_id": "rq2i_d04dd8c29934acb0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_ids:sentiment-scoring"}], "intent_id": "rq2i_57f35af50ffb59b5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "burmese"}], "intent_id": "rq2i_a41311419bf95a3d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pwn"}], "intent_id": "rq2i_81162f50265d0b1e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:koi"}], "intent_id": "rq2i_372a12ae175859bd", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "ml-intern"}], "intent_id": "rq2i_a917af7bf81d9b8c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "stable-diffusion-xl"}], "intent_id": "rq2i_4c4dc92bc94a4894", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nor"}], "intent_id": "rq2i_97d7c216e7326b66", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "aloha"}], "intent_id": "rq2i_c593329234f9123c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "philosophy"}], "intent_id": "rq2i_1b5fa91c2c6aa953", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kaz"}], "intent_id": "rq2i_d30d3adf4d98994d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:hak"}], "intent_id": "rq2i_c4c50234c899f5da", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:uz"}], "intent_id": "rq2i_e8a6d6d2f70d8473", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nds"}], "intent_id": "rq2i_da95470b5882dd67", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:hsb"}], "intent_id": "rq2i_90ebd29afc04bcf6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_ids:multi-class-image-classification"}], "intent_id": "rq2i_cef39b15b90c9b46", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "franka"}], "intent_id": "rq2i_ba4ba05453a06768", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_ids:visual-question-answering"}], "intent_id": "rq2i_27ed31d9570e2b46", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ary"}], "intent_id": "rq2i_f08da00ad3d0b580", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "teleop"}], "intent_id": "rq2i_3e8207cae8f71970", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:fil"}], "intent_id": "rq2i_47d8cb24dfbd847a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "medical-imaging"}], "intent_id": "rq2i_72b1daba265a2956", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "modality:document"}], "intent_id": "rq2i_134cb1fa6c43c6a7", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:scn"}], "intent_id": "rq2i_c96c366307d2c562", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:image-text-to-text"}], "intent_id": "rq2i_5496b3cb5ac33a70", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:wo"}], "intent_id": "rq2i_7b5da827863adf64", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "multi-agent"}], "intent_id": "rq2i_694f8478f10502ac", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:br"}], "intent_id": "rq2i_5799f7a7840ea231", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ro"}], "intent_id": "rq2i_2554a8222d369a89", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:hun"}], "intent_id": "rq2i_e4d74a0f71cc41b8", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:depth-estimation"}], "intent_id": "rq2i_f6b926ca249bab45", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:id"}], "intent_id": "rq2i_3587d2eeb8d3d688", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:fa"}], "intent_id": "rq2i_c815895ee475e94a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "instruction-tuning"}], "intent_id": "rq2i_03631bd144463801", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kor"}], "intent_id": "rq2i_e15c95618560c525", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "dual-arm"}], "intent_id": "rq2i_a00702b6daedbc70", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "hdx"}], "intent_id": "rq2i_94876470ad4a4340", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tum"}], "intent_id": "rq2i_05b15e43d05a8845", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "forecasting"}], "intent_id": "rq2i_f228ae90ff033a5b", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "text-classification"}], "intent_id": "rq2i_901d817620ce86fb", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "vision-language"}], "intent_id": "rq2i_4dc692d34c58e97c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "gho"}], "intent_id": "rq2i_14260ad84092abc0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:mai"}], "intent_id": "rq2i_2c6feb9e0d58893c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:yor"}], "intent_id": "rq2i_a57b76aa0d8aa3b1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "software-engineering"}], "intent_id": "rq2i_73f6de5d7b644dcc", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "rl"}], "intent_id": "rq2i_5e266aaaf18a1a87", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:token-classification"}], "intent_id": "rq2i_60afaa8f2fdd643d", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "zero-shot-image-classification"}], "intent_id": "rq2i_e75969f9a681d789", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-video"}], "intent_id": "rq2i_3eaf5566ca5baa97", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-3d"}], "intent_id": "rq2i_8c161d8f7677baa8", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "unconditional-image-generation"}], "intent_id": "rq2i_ec33aa2bee0608c5", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "zero-shot-object-detection"}], "intent_id": "rq2i_d7e9c11e29727841", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "mask-generation"}], "intent_id": "rq2i_8bd8721b2406d702", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "audio-text-to-text"}], "intent_id": "rq2i_5c37ffe4a4cceb99", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "video-to-video"}], "intent_id": "rq2i_07a2b0f5448d669c", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "table-to-text"}], "intent_id": "rq2i_3b3d681ec81df8d1", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "document-question-answering"}], "intent_id": "rq2i_e5a8030a5917e2c5", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-audio"}], "intent_id": "rq2i_ef85be913567ba80", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "any-to-any"}], "intent_id": "rq2i_d5383afa04b20c71", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-to-text"}], "intent_id": "rq2i_9ade74b86d091248", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-3d"}], "intent_id": "rq2i_e7d65b0576d25502", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-speech"}], "intent_id": "rq2i_a0dda0a2894d12ba", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "token-classification"}], "intent_id": "rq2i_8ba266f9c841e50f", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "graph-ml"}], "intent_id": "rq2i_94d018a591718df9", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-text-to-text"}], "intent_id": "rq2i_997e79c4dfa29c9a", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-image"}], "intent_id": "rq2i_620adb63d36c4972", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-feature-extraction"}], "intent_id": "rq2i_c72765583e57d42c", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "audio-to-audio"}], "intent_id": "rq2i_8f8c32c011803003", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "video-text-to-text"}], "intent_id": "rq2i_3b477a5f02107ede", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "table-question-answering"}], "intent_id": "rq2i_7a450e661fe21b47", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "sentence-similarity"}], "intent_id": "rq2i_8d97433da371fb0c", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "reinforcement-learning"}], "intent_id": "rq2i_aeebf02db33350c1", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "audio-classification"}], "intent_id": "rq2i_9b24e25e827096ee", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-regression"}], "intent_id": "rq2i_0e9683923820e8a4", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "feature-extraction"}], "intent_id": "rq2i_7dff8a9cdb1ab26a", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "robotics"}], "intent_id": "rq2i_c614318d5025a984", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "automatic-speech-recognition"}], "intent_id": "rq2i_64e779ba46373b61", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-segmentation"}], "intent_id": "rq2i_a9996c6cd53ffaa9", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "question-answering"}], "intent_id": "rq2i_c829414c5fd31b49", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "time-series-forecasting"}], "intent_id": "rq2i_9dcffdf6d766e6be", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-classification"}], "intent_id": "rq2i_31c273aeb0afcb19", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-classification"}], "intent_id": "rq2i_f6e17c7ea76e12dc", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-classification"}], "intent_id": "rq2i_267dc9001ae3b042", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-retrieval"}], "intent_id": "rq2i_d398cb9c55c54f10", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-image"}], "intent_id": "rq2i_1f93722a01fc509e", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "other"}], "intent_id": "rq2i_2923101eed7ff922", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "unconditional-image-generation"}], "intent_id": "rq2i_fc16c8804ac5a9aa", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "any-to-any"}], "intent_id": "rq2i_ce651929b81f7dcb", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "mask-generation"}], "intent_id": "rq2i_c737a58d04775753", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-to-video"}], "intent_id": "rq2i_1acf327ebe5fac9c", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-to-3d"}], "intent_id": "rq2i_444ec5712c0772aa", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "depth-estimation"}], "intent_id": "rq2i_096d53d142999e11", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-text-to-image"}], "intent_id": "rq2i_167e55fd391a5eb0", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-to-video"}], "intent_id": "rq2i_0069568923ad0d65", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-to-3d"}], "intent_id": "rq2i_d2281d8bb527572b", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "voice-activity-detection"}], "intent_id": "rq2i_e3c021d226c670ca", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "rlhf"}], "intent_id": "rq2i_17a709b8e9098b8b", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "tabular-to-text"}], "intent_id": "rq2i_e0adb4c735362b70", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "video-to-video"}], "intent_id": "rq2i_900c002990efec1f", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "zero-shot-object-detection"}], "intent_id": "rq2i_181b64ac87fbc7a5", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "multiple-choice"}], "intent_id": "rq2i_3bd3350545ef1fce", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-to-speech"}], "intent_id": "rq2i_c9b94c30cfb6d538", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "fill-mask"}], "intent_id": "rq2i_53d934a0aac33a2d", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "audio-to-audio"}], "intent_id": "rq2i_65449ecac9da92eb", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "sentence-similarity"}], "intent_id": "rq2i_d86916d46a1fb8ed", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-text-to-text"}], "intent_id": "rq2i_e2ee74a6d1912824", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-to-image"}], "intent_id": "rq2i_8132e8d4d87d721f", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "video-text-to-text"}], "intent_id": "rq2i_aaeb7c6a2eab6abc", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-feature-extraction"}], "intent_id": "rq2i_344370e6ee04d382", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "preference-data"}], "intent_id": "rq2i_d17226b07bf841cc", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "natural-language-inference"}], "intent_id": "rq2i_b5e0ac0f46b2f7a6", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "graph-ml"}], "intent_id": "rq2i_7f8c1ac7f4dc6390", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "table-question-answering"}], "intent_id": "rq2i_ce667d0ae63851dd", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "tabular-classification"}], "intent_id": "rq2i_472d37d6aa7ae1cf", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "visual-question-answering"}], "intent_id": "rq2i_59388d4cfaf29a1f", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}], "intent_id": "rq2i_c41836f8ee13c85c", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "question-answering"}], "intent_id": "rq2i_056614ab12c99a20", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-classification"}], "intent_id": "rq2i_f9a603996a539705", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-classification"}], "intent_id": "rq2i_a87b649e5faefb75", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "tabular-regression"}], "intent_id": "rq2i_e6fe0ed75f180bf2", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "information-retrieval"}], "intent_id": "rq2i_5d2c5a4abbf684ee", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-to-text"}], "intent_id": "rq2i_890f2049562cbcf5", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "object-detection"}], "intent_id": "rq2i_d16147a8b92e1198", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "summarization"}], "intent_id": "rq2i_949e1550a3960a49", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "instruction"}], "intent_id": "rq2i_53e9f7ad7f9fe6e2", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "translation"}], "intent_id": "rq2i_d05b4d50007915f0", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "rug"}], "intent_id": "rq2i_50f742fa19c92a77", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "xon"}], "intent_id": "rq2i_17b6ae89d321ce7e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "usp"}], "intent_id": "rq2i_ebb459f578fabada", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "hvn"}], "intent_id": "rq2i_86c2cc8478a0594e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tbz"}], "intent_id": "rq2i_0bcae7f6a01191df", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tsz"}], "intent_id": "rq2i_94d210418ee6b70f", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tuc"}], "intent_id": "rq2i_311011a6cddf42f4", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ngu"}], "intent_id": "rq2i_a8e0547f37ad21de", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "amf"}], "intent_id": "rq2i_9f02c6672e6dba5e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "yal"}], "intent_id": "rq2i_4ab36eca59e491e0", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lif"}], "intent_id": "rq2i_bdbf4d4ea1390dd4", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "knv"}], "intent_id": "rq2i_f961db53796b3fc3", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "kiu"}], "intent_id": "rq2i_d20a5e0ee28bfb85", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "yaq"}], "intent_id": "rq2i_eba59e56f7b7c5d7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "poe"}], "intent_id": "rq2i_86c8f0bc90ca6e19", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "orv"}], "intent_id": "rq2i_a77f5498318155e4", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "crs"}], "intent_id": "rq2i_79072388a0219fb5", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tif"}], "intent_id": "rq2i_e3e065ebae3e819c", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mxb"}], "intent_id": "rq2i_8d3d64f3b67ab18a", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ino"}], "intent_id": "rq2i_5bd94e57cf9561aa", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "zpv"}], "intent_id": "rq2i_e802e72b9ff3cf09", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bzd"}], "intent_id": "rq2i_28d79461b3c4bbdc", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "aom"}], "intent_id": "rq2i_1115f6928b4dcd05", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "moh"}], "intent_id": "rq2i_31ebdf17a4c8fcfa", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "poh"}], "intent_id": "rq2i_1de1105ce8f41031", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "qxn"}], "intent_id": "rq2i_101509162c0be34f", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ava"}], "intent_id": "rq2i_6cfe4baac635bd1d", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "nde"}], "intent_id": "rq2i_9f586f0ac944299f", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mek"}], "intent_id": "rq2i_d2ae2fffba77c77a", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mzn"}], "intent_id": "rq2i_d44211451b5e00ba", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "gug"}], "intent_id": "rq2i_53dfa94e07c53ff0", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "nv"}], "intent_id": "rq2i_32b93142247844c5", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "taq"}], "intent_id": "rq2i_956e677faba72bc7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "vro"}], "intent_id": "rq2i_5db07bfef0d872a2", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "maz"}], "intent_id": "rq2i_72542a25e32520b2", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "nhg"}], "intent_id": "rq2i_36b9a295991058d5", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ikw"}], "intent_id": "rq2i_1c85aaa558b2cdd3", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "shi"}], "intent_id": "rq2i_1284ec4a44490805", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lus"}], "intent_id": "rq2i_46c2bfe11fae81a8", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "azz"}], "intent_id": "rq2i_78d7ebeee3c2e6bf", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mak"}], "intent_id": "rq2i_87e23691d35ad849", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mnw"}], "intent_id": "rq2i_60dcc6fd25b20f7d", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lez"}], "intent_id": "rq2i_1ec51bb273b9581a", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "srn"}], "intent_id": "rq2i_1659c59ead2a4326", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "pon"}], "intent_id": "rq2i_67dd9865ae747ba2", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "gag"}], "intent_id": "rq2i_9546ba2b970192c7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "vep"}], "intent_id": "rq2i_424bcdab61397fc7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "brh"}], "intent_id": "rq2i_1088c85220a7f066", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "chv"}], "intent_id": "rq2i_709650dbfdf76377", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bis"}], "intent_id": "rq2i_f594c6b4d1906131", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "qul"}], "intent_id": "rq2i_b8ea1f86f8f3d4e2", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bba"}], "intent_id": "rq2i_789aff7003c8b287", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "kac"}], "intent_id": "rq2i_73ed0dc6add5acf7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mlg"}], "intent_id": "rq2i_7167f69fc62950aa", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ti"}], "intent_id": "rq2i_79e2b0ceea627452", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bxr"}], "intent_id": "rq2i_1b1b40855d61665e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bo"}], "intent_id": "rq2i_fdc341f8ea7a9dba", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "wo"}], "intent_id": "rq2i_e7c8e55bcf4a84ab", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "co"}], "intent_id": "rq2i_90e6e2d96945e223", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tir"}], "intent_id": "rq2i_f788e7d05e229c7a", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "glg"}], "intent_id": "rq2i_f1512fcb1a3e9511", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "fo"}], "intent_id": "rq2i_0b1b9193e83a75a9", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ewe"}], "intent_id": "rq2i_00ae4d214a19b7da", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "io"}], "intent_id": "rq2i_b370579f8cfb2862", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "mrj"}], "intent_id": "rq2i_3c8441a7b85392a3", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "dv"}], "intent_id": "rq2i_40efa921586ddadf", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "szl"}], "intent_id": "rq2i_381b03fa1d4c0515", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "id"}], "intent_id": "rq2i_c46e775b0cb15cf7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "awa"}], "intent_id": "rq2i_7b0d13383eb0c0a8", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "my"}], "intent_id": "rq2i_2d6e8cd968bb0f0d", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "yor"}], "intent_id": "rq2i_83bbb6b3d55180af", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "kat"}], "intent_id": "rq2i_f3df72764f4d8ad4", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "da"}], "intent_id": "rq2i_d6f434aa62bcec39", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "jbo"}], "intent_id": "rq2i_6c4d87f88cb51a87", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "tpi"}], "intent_id": "rq2i_a71813836956e47e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "npi"}], "intent_id": "rq2i_d67106198a6db1c0", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "min"}], "intent_id": "rq2i_8135948912b01f03", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "pcm"}], "intent_id": "rq2i_039fe5430a35b9be", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lug"}], "intent_id": "rq2i_18cd340521513bbd", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "dz"}], "intent_id": "rq2i_49aa1c767eb26eeb", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "nya"}], "intent_id": "rq2i_ef291f2c2f949f69", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "gpl-2.0"}], "intent_id": "rq2i_2541cbb069bdc085", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "wtfpl"}], "intent_id": "rq2i_0a8eb148e4cd46f3", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-2.5"}], "intent_id": "rq2i_98e0e00f31005f94", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nc-3.0"}], "intent_id": "rq2i_b79b97fde8cfbed6", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "etalab-2.0"}], "intent_id": "rq2i_aef3a10222d202ec", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "pddl"}], "intent_id": "rq2i_fa03a1cd32cc92d7", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "c-uda"}], "intent_id": "rq2i_1340a3f8deeb835f", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "openrail++"}], "intent_id": "rq2i_6f5de3093189aef0", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cdla-sharing-1.0"}], "intent_id": "rq2i_ed67d00fa7e91c0c", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "bsd-2-clause"}], "intent_id": "rq2i_70e3e33c4c63fe1a", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nc-2.0"}], "intent_id": "rq2i_cf5f26522f4573c9", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "llama3.1"}], "intent_id": "rq2i_f28202df4c0d8560", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "bsd-3-clause"}], "intent_id": "rq2i_d7776d182efc4cfd", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "afl-3.0"}], "intent_id": "rq2i_6994fdea7e656771", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "openrail"}], "intent_id": "rq2i_f25d30949e94f5e7", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "gpl"}], "intent_id": "rq2i_8896d18d53b4a2ce", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "gfdl"}], "intent_id": "rq2i_630f8b74c1c86ff8", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "agpl-3.0"}], "intent_id": "rq2i_a01e7882ee564d5e", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nc-sa-3.0"}], "intent_id": "rq2i_707b3642a6f63eca", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cdla-permissive-2.0"}], "intent_id": "rq2i_6399e64e8ec64241", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "creativeml-openrail-m"}], "intent_id": "rq2i_0d71d68b9ed5e4a7", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "odbl"}], "intent_id": "rq2i_09de97e41ae67f78", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nd-4.0"}], "intent_id": "rq2i_268a63e911841f84", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-3.0"}], "intent_id": "rq2i_3735508564d87425", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-sa-4.0"}], "intent_id": "rq2i_3d4bc59e3878cbd6", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "odc-by"}], "intent_id": "rq2i_71dba41e854fc9dd", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc0-1.0"}], "intent_id": "rq2i_ce51b6e2d9122298", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_eeee11f156f0fb43", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc"}], "intent_id": "rq2i_bdd8520d266b42b6", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "mit"}], "intent_id": "rq2i_7c26e1e81816715d", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "unknown"}], "intent_id": "rq2i_8a6cf7bacc62567a", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_d8d7ed0333549ff3", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_e7f1ae83d028e18c", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-sa-3.0"}], "intent_id": "rq2i_ecf6d4e9ab817149", "operator": "AND"}
+{"conditions": [{"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_43eb237a0b22bfc0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "segmentation"}, {"field": "task_categories", "value": "image-classification"}], "intent_id": "rq2i_376894e3e889994e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:object-detection"}, {"field": "task_categories", "value": "other"}], "intent_id": "rq2i_2063e315dc3bd298", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kv"}, {"field": "task_categories", "value": "fill-mask"}], "intent_id": "rq2i_c944b778d14a7129", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:als"}, {"field": "task_categories", "value": "text-generation"}], "intent_id": "rq2i_41e4c4edb336501e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "3d"}, {"field": "task_categories", "value": "depth-estimation"}], "intent_id": "rq2i_f046cbacb18d1749", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:text-generation"}, {"field": "task_categories", "value": "time-series-forecasting"}], "intent_id": "rq2i_f94f2d80b9898042", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kn"}, {"field": "task_categories", "value": "text-classification"}], "intent_id": "rq2i_fec58085cb03beb5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "annotations_creators:expert-generated"}, {"field": "task_categories", "value": "image-classification"}], "intent_id": "rq2i_72f01ae1edb3db8b", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "computer-vision"}, {"field": "task_categories", "value": "image-to-text"}], "intent_id": "rq2i_024e4285f524f6ff", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "format:csv"}, {"field": "task_categories", "value": "video-classification"}], "intent_id": "rq2i_65013eb80ef29af4", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "image-editing"}, {"field": "task_categories", "value": "image-to-image"}], "intent_id": "rq2i_3a09a49ab725b2ac", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zu"}, {"field": "task_categories", "value": "text-generation"}], "intent_id": "rq2i_8389d63588600113", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "license:apache-2.0"}, {"field": "task_categories", "value": "image-to-text"}], "intent_id": "rq2i_375c2fdb8e5abf4d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "format:parquet"}, {"field": "task_categories", "value": "video-text-to-text"}], "intent_id": "rq2i_00a304a0d6326be4", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "tool-use"}, {"field": "task_categories", "value": "question-answering"}], "intent_id": "rq2i_6f3266ed881cd28b", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language_creators:found"}, {"field": "task_categories", "value": "question-answering"}], "intent_id": "rq2i_365cfe4345dada1c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tr"}, {"field": "task_categories", "value": "text-classification"}], "intent_id": "rq2i_4a371f3f70ece17a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "size_categories:10m<n<100m"}, {"field": "task_categories", "value": "question-answering"}], "intent_id": "rq2i_a7183788e541d458", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "multilinguality:multilingual"}, {"field": "task_contexts", "value": "instruction"}], "intent_id": "rq2i_a9692857519b8ff1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "source_datasets:original"}, {"field": "task_contexts", "value": "zero-shot-classification"}], "intent_id": "rq2i_978dd281bfe5049c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "paraphrase-identification"}, {"field": "task_contexts", "value": "natural-language-inference"}], "intent_id": "rq2i_38e8aee83e5b5cf5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:da"}, {"field": "task_contexts", "value": "image-to-text"}], "intent_id": "rq2i_db2c049346b5d2ce", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:text-classification"}, {"field": "task_contexts", "value": "text-to-speech"}], "intent_id": "rq2i_ec07c13d6d5600bc", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zu"}, {"field": "task_contexts", "value": "question-answering"}], "intent_id": "rq2i_88b9e31de5ed59a4", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:to"}, {"field": "task_contexts", "value": "text-generation"}], "intent_id": "rq2i_0338db06458a6095", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:depth-estimation"}, {"field": "task_contexts", "value": "robotics"}], "intent_id": "rq2i_64704007a3a78055", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:robotics"}, {"field": "task_contexts", "value": "visual-question-answering"}], "intent_id": "rq2i_1ebe7fbbfbf01e1a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pt"}, {"field": "task_contexts", "value": "text-retrieval"}], "intent_id": "rq2i_de692926041d1c39", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "image"}, {"field": "task_contexts", "value": "information-retrieval"}], "intent_id": "rq2i_ef4cd995630d203c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "food-security"}, {"field": "task_contexts", "value": "uncategorized"}], "intent_id": "rq2i_32daf073340afcf0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zh"}, {"field": "task_contexts", "value": "text-to-image"}], "intent_id": "rq2i_6786aecfa43ccfd5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "panda"}, {"field": "task_contexts", "value": "robotics"}], "intent_id": "rq2i_bf804327f68886e9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pt"}, {"field": "task_contexts", "value": "text-generation"}], "intent_id": "rq2i_529d29e04ce1a7ad", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zh"}, {"field": "task_contexts", "value": "robotics"}], "intent_id": "rq2i_6c1c023392d1876f", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zh"}, {"field": "task_contexts", "value": "text-retrieval"}], "intent_id": "rq2i_6d17143375db9d04", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gu"}, {"field": "task_contexts", "value": "text-generation"}], "intent_id": "rq2i_329a5748ba87e3cd", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:en"}, {"field": "task_contexts", "value": "text-classification"}], "intent_id": "rq2i_c131df336f039d14", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:snp"}, {"field": "language", "value": "cak"}], "intent_id": "rq2i_a3da5d5ec22242eb", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cab"}, {"field": "language", "value": "rro"}], "intent_id": "rq2i_821759c61c57ef84", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nas"}, {"field": "language", "value": "chd"}], "intent_id": "rq2i_385be80f4153eee5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ian"}, {"field": "language", "value": "rus"}], "intent_id": "rq2i_45661bfae61f8195", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:rwo"}, {"field": "language", "value": "kik"}], "intent_id": "rq2i_6d944083450c4994", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:fry"}, {"field": "language", "value": "ayr"}], "intent_id": "rq2i_c342f17070e4d166", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gux"}, {"field": "language", "value": "nhe"}], "intent_id": "rq2i_f785142f15a837aa", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:qxn"}, {"field": "language", "value": "sus"}], "intent_id": "rq2i_fe52fd228ffb357e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cav"}, {"field": "language", "value": "tel"}], "intent_id": "rq2i_e310d42f2f737a06", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cak"}, {"field": "language", "value": "tbg"}], "intent_id": "rq2i_f25bce7d33eede11", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:kek"}, {"field": "language", "value": "kms"}], "intent_id": "rq2i_fbd76e0394916915", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ssx"}, {"field": "language", "value": "cbr"}], "intent_id": "rq2i_a4303eabb6bf7f86", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cmn"}, {"field": "language", "value": "ata"}], "intent_id": "rq2i_3642f7447f5f1079", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:dje"}, {"field": "language", "value": "lin"}], "intent_id": "rq2i_20633be7a25099b4", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:srp"}, {"field": "language", "value": "zad"}], "intent_id": "rq2i_3435b1f06ca4df70", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ctu"}, {"field": "language", "value": "rmy"}], "intent_id": "rq2i_711fb2b9d986eadf", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gfk"}, {"field": "language", "value": "kqc"}], "intent_id": "rq2i_fa84be49ccddb4bf", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:amu"}, {"field": "language", "value": "ubu"}], "intent_id": "rq2i_5567f6ae91f74b80", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:bqc"}, {"field": "language", "value": "ubr"}], "intent_id": "rq2i_2a779c8d3653f04a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gfk"}, {"field": "language", "value": "nhe"}], "intent_id": "rq2i_a471452dc4fa4dbe", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ian"}, {"field": "language", "value": "gux"}], "intent_id": "rq2i_98da3f99689c948f", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:aey"}, {"field": "language", "value": "ksd"}], "intent_id": "rq2i_2c38fe83f1f8f937", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ppo"}, {"field": "language", "value": "agt"}], "intent_id": "rq2i_5974f96c3e9aad62", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:mos"}, {"field": "language", "value": "bam"}], "intent_id": "rq2i_47a7fe5d8a773254", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pi"}, {"field": "language", "value": "lij"}], "intent_id": "rq2i_a60dcf8819bd2375", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tt"}, {"field": "language", "value": "hif"}], "intent_id": "rq2i_05269943070c0d63", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:quy"}, {"field": "language", "value": "ha"}], "intent_id": "rq2i_4f99857b447b0546", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:iba"}, {"field": "language", "value": "pcm"}], "intent_id": "rq2i_fda252c79a94258e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:anp"}, {"field": "language", "value": "sa"}], "intent_id": "rq2i_fe9c845a1c1b6a4a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gor"}, {"field": "language", "value": "hu"}], "intent_id": "rq2i_2df529f2393dc41d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:sl"}, {"field": "language", "value": "gsw"}], "intent_id": "rq2i_e436c860c8620251", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tcy"}, {"field": "language", "value": "ab"}], "intent_id": "rq2i_95c441dc7b03612a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:din"}, {"field": "language", "value": "pam"}], "intent_id": "rq2i_2db4dcf88c9aeb84", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pdc"}, {"field": "language", "value": "lzh"}], "intent_id": "rq2i_684fe14d28116fc0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:shi"}, {"field": "language", "value": "es"}], "intent_id": "rq2i_50792a1413e53eec", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ell"}, {"field": "language", "value": "tpi"}], "intent_id": "rq2i_7cad7127023f3c47", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nrf"}, {"field": "language", "value": "lfn"}], "intent_id": "rq2i_0433764987bf098e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gsw"}, {"field": "language", "value": "yor"}], "intent_id": "rq2i_b9c68d112ea9edd0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:dyu"}, {"field": "language", "value": "sk"}], "intent_id": "rq2i_a49a4fb2e0f158a0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "long-horizon"}, {"field": "language", "value": "en"}], "intent_id": "rq2i_456a05c7644d67ae", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:qvw"}, {"field": "language", "value": "nya"}], "intent_id": "rq2i_f45839a3976c7546", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:lat"}, {"field": "language", "value": "pan"}], "intent_id": "rq2i_eecf99d729e9aa87", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tr"}, {"field": "language", "value": "zea"}], "intent_id": "rq2i_c6fa9f8a9a14cb1b", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ell"}, {"field": "language", "value": "run"}], "intent_id": "rq2i_d38c92b18ccd2c70", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:oci"}, {"field": "language", "value": "azb"}], "intent_id": "rq2i_f67db58ce414f18a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pdc"}, {"field": "language", "value": "lld"}], "intent_id": "rq2i_3d84aa6f091f91f5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:zgh"}, {"field": "language", "value": "mni"}], "intent_id": "rq2i_745a57bae7b39db9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:nno"}, {"field": "language", "value": "sun"}], "intent_id": "rq2i_93125e62d73d2db6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:io"}, {"field": "language", "value": "ay"}], "intent_id": "rq2i_6722d71747c31b5a", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:dsb"}, {"field": "language", "value": "gu"}], "intent_id": "rq2i_517a96c33374a8e9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cmn"}, {"field": "language", "value": "yue"}], "intent_id": "rq2i_601e53815bc67b77", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:azb"}, {"field": "language", "value": "sq"}], "intent_id": "rq2i_e48aa43b047b89e9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ti"}, {"field": "language", "value": "ks"}], "intent_id": "rq2i_f481a86137ad13b8", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:wo"}, {"field": "language", "value": "eo"}], "intent_id": "rq2i_8cad669097d716fd", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ce"}, {"field": "language", "value": "xal"}], "intent_id": "rq2i_5950596f315eedf6", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:srp"}, {"field": "language", "value": "kea"}], "intent_id": "rq2i_4d0b963e9c44ec37", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gla"}, {"field": "language", "value": "glg"}], "intent_id": "rq2i_90465c771c1563f0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ukr"}, {"field": "language", "value": "glg"}], "intent_id": "rq2i_7029ec77fb1865c0", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:awa"}, {"field": "language", "value": "tay"}], "intent_id": "rq2i_df78342ba2c3ca5e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gom"}, {"field": "language", "value": "nap"}], "intent_id": "rq2i_ab8576e8fa4ecae9", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:cbk"}, {"field": "language", "value": "wuu"}], "intent_id": "rq2i_cc5ccbb530db0161", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:it"}, {"field": "language", "value": "rm"}], "intent_id": "rq2i_d15fba06dd571d5c", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:tum"}, {"field": "language", "value": "azb"}], "intent_id": "rq2i_bdfa782966b3328e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:bm"}, {"field": "language", "value": "dv"}], "intent_id": "rq2i_871ec99c7e9d0140", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:li"}, {"field": "language", "value": "xal"}], "intent_id": "rq2i_f0beeb5e621a8dd5", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:gu"}, {"field": "language", "value": "gl"}], "intent_id": "rq2i_530db596dd6a4e51", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pfl"}, {"field": "language", "value": "zea"}], "intent_id": "rq2i_e69a9709135c59fa", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:ay"}, {"field": "language", "value": "my"}], "intent_id": "rq2i_8a63e7f0af1be739", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:sm"}, {"field": "language", "value": "ckb"}], "intent_id": "rq2i_41185722f4d4767e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "python-copilot"}, {"field": "license", "value": "other"}], "intent_id": "rq2i_8ac3c70663519072", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "sim"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_8621d65590e7f40e", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "library:datasets"}, {"field": "license", "value": "cc-by-nc-2.0"}], "intent_id": "rq2i_e82eb1d676ec72b1", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "earnings"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_a75dcb9e3da3ca01", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "ai-research"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_bdf939e194e0faba", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "modality:text"}, {"field": "license", "value": "cc-by-nc-sa-3.0"}], "intent_id": "rq2i_793f227c1441c0c2", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:fill-mask"}, {"field": "license", "value": "cc0-1.0"}], "intent_id": "rq2i_95d0843625914381", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:es"}, {"field": "license", "value": "cc0-1.0"}], "intent_id": "rq2i_e3b49d7a792012f2", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:tabular-regression"}, {"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_ef9bf38dfb63ed32", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "speech"}, {"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_c0aea0ba6fad46ca", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "world-model"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_d83a259b785ae375", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "modality:tabular"}, {"field": "license", "value": "cc-by-sa-4.0"}], "intent_id": "rq2i_879ba52dcaeb1d47", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "size_categories:1m<n<10m"}, {"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_441a61d699fb6104", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "size_categories:10k<n<100k"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_1a9c0984b79a0dbd", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "language:pt"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_09053abcec86452d", "operator": "AND"}
+{"conditions": [{"field": "tags", "value": "task_categories:text-generation"}, {"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_82765ca777afcb7b", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-classification"}, {"field": "task_contexts", "value": "tabular-to-text"}], "intent_id": "rq2i_28bd694313f06bf6", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "visual-question-answering"}, {"field": "task_contexts", "value": "summarization"}], "intent_id": "rq2i_213317484ce42229", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "question-answering"}, {"field": "task_contexts", "value": "tabular-to-text"}], "intent_id": "rq2i_8608f870a306f004", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-retrieval"}, {"field": "task_contexts", "value": "instruction"}], "intent_id": "rq2i_1b6db8043dd52a38", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-text"}, {"field": "task_contexts", "value": "instruction-tuning"}], "intent_id": "rq2i_699fc6512ddecee2", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-text"}, {"field": "task_contexts", "value": "translation"}], "intent_id": "rq2i_d3495d007aee22e8", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-text"}, {"field": "task_contexts", "value": "visual-document-retrieval"}], "intent_id": "rq2i_297874ac6d6243ef", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "video-classification"}, {"field": "task_contexts", "value": "video-text-to-text"}], "intent_id": "rq2i_519147337ff0fa75", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-classification"}, {"field": "task_contexts", "value": "audio-classification"}], "intent_id": "rq2i_3c6a63fd6d97e1be", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "other"}, {"field": "task_contexts", "value": "other"}], "intent_id": "rq2i_aa0f567c9b1f12cd", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "reinforcement-learning"}, {"field": "task_contexts", "value": "question-answering"}], "intent_id": "rq2i_9215e4ec81086a84", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-image"}, {"field": "task_contexts", "value": "text-to-image"}], "intent_id": "rq2i_47f40f8848c1d3a2", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "audio-classification"}, {"field": "task_contexts", "value": "audio-to-audio"}], "intent_id": "rq2i_cb493cc5d2e60ce9", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "automatic-speech-recognition"}, {"field": "language", "value": "lug"}], "intent_id": "rq2i_e3abc54c4565bf4c", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "automatic-speech-recognition"}, {"field": "language", "value": "ibo"}], "intent_id": "rq2i_d343033b0d7f29d9", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-retrieval"}, {"field": "language", "value": "spa"}], "intent_id": "rq2i_d0f6c1f1ddbf2baf", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "zero-shot-classification"}, {"field": "language", "value": "zh"}], "intent_id": "rq2i_7714187a9a844997", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-generation"}, {"field": "language", "value": "guc"}], "intent_id": "rq2i_23d0b2114f2a30e9", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "token-classification"}, {"field": "language", "value": "sk"}], "intent_id": "rq2i_6503c080fe2f2409", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-generation"}, {"field": "language", "value": "dty"}], "intent_id": "rq2i_d5d6977a05c32d8f", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "translation"}, {"field": "language", "value": "bo"}], "intent_id": "rq2i_abe8b13aa5db31c4", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "translation"}, {"field": "language", "value": "tl"}], "intent_id": "rq2i_b5b55b24b68c9620", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-generation"}, {"field": "language", "value": "vls"}], "intent_id": "rq2i_7d5a72ff93e2a1a3", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-generation"}, {"field": "language", "value": "ta"}], "intent_id": "rq2i_45259310ef126b99", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "question-answering"}, {"field": "language", "value": "fa"}], "intent_id": "rq2i_9002ffa18a11c5ca", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "translation"}, {"field": "language", "value": "he"}], "intent_id": "rq2i_dd2fcaa8b42ff888", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "token-classification"}, {"field": "language", "value": "pt"}], "intent_id": "rq2i_54046c584e60f5ec", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "depth-estimation"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_04c3f61bfb406fd0", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-to-speech"}, {"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_890e66acc87c9e60", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-regression"}, {"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_976797713f943ed0", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-ranking"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_1017525e033a2ce2", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-segmentation"}, {"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_4ebd3d2be630712e", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-text"}, {"field": "license", "value": "cc-by-sa-4.0"}], "intent_id": "rq2i_dede6fa2c2ba851f", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "translation"}, {"field": "license", "value": "unknown"}], "intent_id": "rq2i_f49744ef26a23d0f", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "multiple-choice"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_48ac4bc6d4507ad4", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "text-generation"}, {"field": "license", "value": "other"}], "intent_id": "rq2i_ea75c793e3455aa4", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "tabular-regression"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_969fa55ff300bcf4", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "token-classification"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_8b41bea261e1ccda", "operator": "AND"}
+{"conditions": [{"field": "task_categories", "value": "image-to-image"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_66aea79072c80422", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "uncategorized"}, {"field": "language", "value": "tha"}], "intent_id": "rq2i_fe671349ecbc30ce", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "translation"}, {"field": "language", "value": "pap"}], "intent_id": "rq2i_749778cf13fcfc0a", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "instruction-tuning"}, {"field": "language", "value": "tr"}], "intent_id": "rq2i_5706e435562b17c4", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "fill-mask"}, {"field": "language", "value": "diq"}], "intent_id": "rq2i_c52ace7bf19072af", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "sentence-similarity"}, {"field": "language", "value": "it"}], "intent_id": "rq2i_6c86ad6c924981f8", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}, {"field": "language", "value": "av"}], "intent_id": "rq2i_dc38cb7b91ba62ff", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-classification"}, {"field": "language", "value": "sr"}], "intent_id": "rq2i_40b9840bf7dd88f5", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "fill-mask"}, {"field": "language", "value": "jv"}], "intent_id": "rq2i_32679f011babe07b", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "fill-mask"}, {"field": "language", "value": "hr"}], "intent_id": "rq2i_133360d9de066629", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}, {"field": "language", "value": "pnt"}], "intent_id": "rq2i_3978659c71ac00db", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "fill-mask"}, {"field": "language", "value": "bn"}], "intent_id": "rq2i_24c7518047d525c6", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-classification"}, {"field": "language", "value": "de"}], "intent_id": "rq2i_e11f88d26985f393", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}, {"field": "language", "value": "da"}], "intent_id": "rq2i_315c45d9e109169f", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}, {"field": "language", "value": "multilingual"}], "intent_id": "rq2i_514ae892a7203e97", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "graph-ml"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_16433c4fcf235d9e", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "table-question-answering"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_cc2ad2ddc1758641", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "instruction-tuning"}, {"field": "license", "value": "odc-by"}], "intent_id": "rq2i_49a43635f8ccafac", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "audio-to-audio"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_9175771d6c97fb1c", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "audio-classification"}, {"field": "license", "value": "other"}], "intent_id": "rq2i_4e9875d5075d6b5c", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "image-classification"}, {"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_2b336054ff6ff0c2", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "sentiment-analysis"}, {"field": "license", "value": "unknown"}], "intent_id": "rq2i_a90bead7d2bb86e1", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "summarization"}, {"field": "license", "value": "other"}], "intent_id": "rq2i_f21f3851da0c03c5", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-classification"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_dfa8a1151d072bb7", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "reinforcement-learning"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_53088202610ba3eb", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-generation"}, {"field": "license", "value": "other"}], "intent_id": "rq2i_1b98e827e34375a7", "operator": "AND"}
+{"conditions": [{"field": "task_contexts", "value": "text-to-image"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_b83679f77b8a5825", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ne"}, {"field": "license", "value": "cc-by-sa-3.0"}], "intent_id": "rq2i_3bf17cdfd624fd11", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lo"}, {"field": "license", "value": "cc0-1.0"}], "intent_id": "rq2i_f04673c7430366c2", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ms"}, {"field": "license", "value": "cc-by-sa-4.0"}], "intent_id": "rq2i_352068409e27d1af", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "nap"}, {"field": "license", "value": "cc-by-sa-3.0"}], "intent_id": "rq2i_b995ebb2ed7c6254", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "eng"}, {"field": "license", "value": "cc-by-nc-sa-4.0"}], "intent_id": "rq2i_b51f9dab659bb34e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "el"}, {"field": "license", "value": "cc-by-sa-3.0"}], "intent_id": "rq2i_922f933647d325f3", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "hy"}, {"field": "license", "value": "cc-by-sa-4.0"}], "intent_id": "rq2i_791e41731b5d6a35", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "lv"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_a3b85ebaf10e18f7", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "sr"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_721da26aa6311e74", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "ja"}, {"field": "license", "value": "apache-2.0"}], "intent_id": "rq2i_0c9479988c1dfd06", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "sv"}, {"field": "license", "value": "cc-by-4.0"}], "intent_id": "rq2i_bbaa18d09f40981e", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "bn"}, {"field": "license", "value": "mit"}], "intent_id": "rq2i_aa697d3ce59aba17", "operator": "AND"}
+{"conditions": [{"field": "language", "value": "hi"}, {"field": "license", "value": "cc-by-nc-4.0"}], "intent_id": "rq2i_90ddae6140241300", "operator": "AND"}

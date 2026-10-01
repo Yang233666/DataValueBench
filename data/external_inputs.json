@@ -1,0 +1,225 @@
+[
+  {
+    "asset_id": "historical_observations",
+    "rq": [
+      "RQ1"
+    ],
+    "sha256": "092da252b8a574f57b2359a15fcbfb2d4a0f67c60204985532382dfe6783883f",
+    "bytes": 9686521,
+    "source_url": "https://www.openml.org/",
+    "included": false,
+    "reason": "Upstream snapshot redistribution rights not established; no blanket licence inferred.",
+    "acquisition": "Obtain original snapshot from benchmark authors subject to provider terms; immutable public download URL not established. Live API responses cannot substitute for this hash.",
+    "needed_for": "RQ1 estimator refitting"
+  },
+  {
+    "asset_id": "hf_metadata_snapshot",
+    "rq": [
+      "RQ2",
+      "RQ3"
+    ],
+    "sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+    "bytes": 31191316,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Upstream snapshot redistribution rights not established; no blanket licence inferred.",
+    "acquisition": "Obtain original snapshot from benchmark authors subject to provider terms; immutable public download URL not established. Live API responses cannot substitute for this hash.",
+    "needed_for": "Metadata serialization, retrieval/index rebuilding and RQ3 metric recomputation"
+  },
+  {
+    "asset_id": "rq4_observation_values",
+    "rq": [
+      "RQ4"
+    ],
+    "role": "Exact U1 utility-oracle input",
+    "sha256": "54d131d7071b920e8ef33016b4986abff9d642e673b3f345ce3bca9ec2875a04",
+    "bytes": 10139947,
+    "source_url": "https://www.openml.org/",
+    "included": false,
+    "reason": "Historical upstream observation snapshot redistribution basis not established; player/fold and U0 derived inputs are bundled.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "Exact U1 utility-oracle input"
+  },
+  {
+    "asset_id": "rq1_workflow_text",
+    "rq": [
+      "RQ1"
+    ],
+    "role": "Workflow TF-IDF and MiniLM upstream regeneration",
+    "sha256": "6c74f29f5564f4982cca530faefc280c2c9f881d130cf9aaad96f26280268bc8",
+    "bytes": 314036,
+    "source_url": "https://www.openml.org/",
+    "included": false,
+    "reason": "Serialized third-party flow descriptions/code-derived text: redistribution status not established; frozen MiniLM features and workflow IDs bundled.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "Workflow TF-IDF and MiniLM upstream regeneration"
+  },
+  {
+    "asset_id": "rq3_representation_0",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "RQ3 metadata/graph representation input",
+    "sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1",
+    "bytes": 31191316,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large external-derived representation or upstream metadata; not needed for bundled verification.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "RQ3 metadata/graph representation input"
+  },
+  {
+    "asset_id": "rq3_representation_1",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "RQ3 BGE candidate/ranking representation",
+    "sha256": "6bde838e08be2fc607ee8d7992e7337bbe11c3523541705cfd9485076ffdc09c",
+    "bytes": 409600128,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large external-derived representation or upstream metadata; not needed for bundled verification.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "RQ3 BGE candidate/ranking representation"
+  },
+  {
+    "asset_id": "rq3_representation_3",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "RQ3 BGE candidate/ranking representation",
+    "sha256": "0ab74a143e9b49e53105dbc03271fc23835f66c26a2382dc201a2d00367eddee",
+    "bytes": 8533543,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large external-derived representation or upstream metadata; not needed for bundled verification.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "RQ3 BGE candidate/ranking representation"
+  },
+  {
+    "asset_id": "rq3_representation_5",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "RQ3 GTE evaluation representation",
+    "sha256": "a6dc81657a534270dc8623d4454fbdda2b35484216e51fd75eae381448f37be2",
+    "bytes": 307200128,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large external-derived representation or upstream metadata; not needed for bundled verification.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "RQ3 GTE evaluation representation"
+  },
+  {
+    "asset_id": "rq3_representation_6",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "RQ3 GTE evaluation representation",
+    "sha256": "c9b9e00b319fb21fb3fb9d4107224ffbfa20389be8696e127f8d221b7a644a04",
+    "bytes": 1939412,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large external-derived representation or upstream metadata; not needed for bundled verification.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "RQ3 GTE evaluation representation"
+  },
+  {
+    "asset_id": "hf_historical_candidates",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "Historical C20 applicability-condition reconstruction",
+    "sha256": "181fb388b687c32b71a4747999042e281c335ef774f61bdea5ce409d7d9676fb",
+    "bytes": 11968628,
+    "source_url": "https://huggingface.co/datasets",
+    "included": false,
+    "reason": "Large historical derived intermediate; primary/nested candidates are bundled.",
+    "acquisition": "Obtain the exact recorded archive from benchmark authors subject to upstream terms; no immutable public archive URL is established. Verify hash before use.",
+    "needed_for": "Historical C20 applicability-condition reconstruction"
+  },
+  {
+    "asset_id": "openml_metadata",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "OpenML canonical metadata/structured and lexical representation",
+    "sha256": "c040db6d5ec0a60201337ec43411d6678aade9ba6ca5cdf3f176bf7c408a2c4a",
+    "bytes": 299333,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "OpenML canonical metadata/structured and lexical representation"
+  },
+  {
+    "asset_id": "openml_bge_vectors",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "BGE-M3 candidate and ranking representation",
+    "sha256": "91d13b661e51635b4e005bdb4a209360a67646791ef11e02655df97320e9b577",
+    "bytes": 26247296,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "BGE-M3 candidate and ranking representation"
+  },
+  {
+    "asset_id": "openml_bge_ids",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "BGE-M3 representation ordering",
+    "sha256": "d79588a9380608611fec836be31ad6e62e77439a86d6520df79eed7dc7d2ed86",
+    "bytes": 37351,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "BGE-M3 representation ordering"
+  },
+  {
+    "asset_id": "openml_gte_vectors",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "GTE SemanticILD evaluation vectors",
+    "sha256": "3da9370c287a81b2a7886154c55864c01bbad3f41a1566be9bc7dbdf1b262f70",
+    "bytes": 19685504,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "GTE SemanticILD evaluation vectors"
+  },
+  {
+    "asset_id": "openml_gte_ids",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "GTE representation ordering",
+    "sha256": "c00229e5c3cff7801384c232b3a76c6e1490292f447479d20cbfbdb856bfa932",
+    "bytes": 37412,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "GTE representation ordering"
+  },
+  {
+    "asset_id": "openml_historical_candidates",
+    "rq": [
+      "RQ3"
+    ],
+    "role": "Historical C20 applicability-condition candidates",
+    "sha256": "ba0ace55cda034f700790f85ffc041c1109029d3f9c7efb202e36641dfbf9354",
+    "bytes": 250920,
+    "included": false,
+    "source_url": "https://www.openml.org/",
+    "reason": "External upstream representation or large intermediate unnecessary for bundled verification.",
+    "acquisition": "Exact archive must be obtained from benchmark authors under applicable source terms; public immutable archive URL not established.",
+    "needed_for": "Historical C20 applicability-condition candidates"
+  }
+]

@@ -1,0 +1,15 @@
+# RQ3 · Source-conditioned alternative ranking
+
+OpenML (6,408 sources) and Hugging Face (100,000 sources) are separate evaluation ecosystems. The public source dictionaries retain original source positions. Candidate tables give 200 ordered candidate positions per source. C20, C50 and C100 are literal prefixes of C200 from exact construction, not newly ranked subsets. Lexical BM25, structured similarity and BGE-M3 semantic retrieval contribute exact top-1,000 channel lists fused with reciprocal-rank constant 60; the source itself is removed and ties use canonical IDs. MetaCompat and human labels do not select candidate membership.
+
+The primary condition is `C100`, k=10, with all-method common support of 6,408 and 100,000 respectively. The mapping to the unchanged machine-readable condition identifier is explained in [benchmark definitions](BENCHMARK.md). Candidate-size and depth sensitivity plus the historical applicability condition remain in released results; full historical C20 candidate inputs are external. The current primary/nested candidates are bundled in full.
+
+Methods include Random, MetaCompat, BM25, **BGE-M3**, PPR, node2vec, metapath2vec++, MMR, Facility Location, Farthest and exact k-DPP. `configs/rq3/methods.json` records parameters and seeds; condition files enumerate the executed cells. BGE-M3 supplies candidate construction and the dense ranking baseline. GTE supplies the separate SemanticILD evaluation representation. StructuredILD uses the specified normalized metadata structure.
+
+Report MetaCompat, GTE SemanticILD and StructuredILD separately. Some objectives or initializations directly use MetaCompat (MetaCompat, MMR, k-DPP and Farthest); this is an objective/evaluation overlap, not independent human-suitability evidence. Human suitability is not part of the reported analysis.
+
+Exact k-DPP is mathematically inapplicable when the preserved kernel's numerical rank is below k. No replacement sampler, smaller k, source deletion or zero imputation is introduced. Missing/invalid inputs remain errors. Support statistics retain expected/applicable counts and common intersections, with separate source dictionaries. Paired effects, Holm results and 2,000-replicate source-bootstrap intervals are released unchanged.
+
+The large common-support JSON is normalized into `support_statistics.json`, `common_support.parquet` and `data/rq3/<ecosystem>/sources.parquet`. `datavaluebench.verification.load_support` reverses this representation, preserving every member and its ordering. HF identity hashes preserve support without propagating an unsafe upstream name. Candidate positions join the same source dictionary. The public file labels use BGE-M3 consistently.
+
+`bash scripts/reproduce_rq3.sh` verifies both ecosystems, all 21,281,600 candidate identities and the exact result/support tables. It does not rerun rankers, graph training, embeddings or statistics. Full reconstruction requires the recorded representation, graph and historical-candidate inputs.

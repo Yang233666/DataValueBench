@@ -1,0 +1,244 @@
+{
+  "intervals": [
+    {
+      "condition": "G0",
+      "method_id": "RF_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.09130685571997128,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09075353664840058,
+        0.09186513186739159
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "05be414a5ccbefd10a3fcad59f943f445f60dc35a359b78c9cbadfd9ba593b23",
+      "per_seed_draw_metrics_sha256": "80b0e07cb473023cbffb0c76e1de10406df1bbf9d3df07b04ba8bf07051bc020"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RF_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.5248221061046551,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.519474328120459,
+        0.5299564217234912
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "05be414a5ccbefd10a3fcad59f943f445f60dc35a359b78c9cbadfd9ba593b23",
+      "per_seed_draw_metrics_sha256": "80b0e07cb473023cbffb0c76e1de10406df1bbf9d3df07b04ba8bf07051bc020"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RF_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.7640007339455412,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7613378026905407,
+        0.7666198156131484
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "05be414a5ccbefd10a3fcad59f943f445f60dc35a359b78c9cbadfd9ba593b23",
+      "per_seed_draw_metrics_sha256": "80b0e07cb473023cbffb0c76e1de10406df1bbf9d3df07b04ba8bf07051bc020"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RF_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.15719545534136825,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.08055168109417335,
+        0.16490437215154116
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "2237f3eb1090923b2ac1e36b7e87b650ecdcc7dabe0cbefa76c4b65331bde987",
+      "per_seed_draw_metrics_sha256": "c4d43712d7c49f280e4011f34c69dd59bbd6e9f4fe5f4b2bfaac48739730e015"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RF_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.06179922147730919,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.03500095669653065,
+        0.5227481001084481
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "2237f3eb1090923b2ac1e36b7e87b650ecdcc7dabe0cbefa76c4b65331bde987",
+      "per_seed_draw_metrics_sha256": "c4d43712d7c49f280e4011f34c69dd59bbd6e9f4fe5f4b2bfaac48739730e015"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RF_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.2645872950664936,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.22162476230518793,
+        0.6701025131899782
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "2237f3eb1090923b2ac1e36b7e87b650ecdcc7dabe0cbefa76c4b65331bde987",
+      "per_seed_draw_metrics_sha256": "c4d43712d7c49f280e4011f34c69dd59bbd6e9f4fe5f4b2bfaac48739730e015"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RF_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.11509939197470764,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0733926016941777,
+        0.1544219065429181
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "86d5e1b38cc5ed29c0dfc8b88d7c458991bd46fc1150d9a089036a28b1977155",
+      "per_seed_draw_metrics_sha256": "7ba85613284ab6677ffc33f185cd61c68ab2a793290d0edbad112fae5f8e7550"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RF_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.34044494307279904,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.15860911464410138,
+        0.47033379696023564
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "86d5e1b38cc5ed29c0dfc8b88d7c458991bd46fc1150d9a089036a28b1977155",
+      "per_seed_draw_metrics_sha256": "7ba85613284ab6677ffc33f185cd61c68ab2a793290d0edbad112fae5f8e7550"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RF_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.6744009269514615,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.42604552738371704,
+        0.7695566048780696
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "86d5e1b38cc5ed29c0dfc8b88d7c458991bd46fc1150d9a089036a28b1977155",
+      "per_seed_draw_metrics_sha256": "7ba85613284ab6677ffc33f185cd61c68ab2a793290d0edbad112fae5f8e7550"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RF_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.12302057303062393,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09365029163015216,
+        0.15610319607420003
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4f6205e58da8dba5aad3691218a14e5b128e9a6c50fe9864695215072ab3001e",
+      "per_seed_draw_metrics_sha256": "f7317dad75cc76aa59cd4f7db75abe1ca8e26853c800b772406d439bf279088f"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RF_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.004869328937507888,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3848947141182112,
+        0.15663487064637738
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4f6205e58da8dba5aad3691218a14e5b128e9a6c50fe9864695215072ab3001e",
+      "per_seed_draw_metrics_sha256": "f7317dad75cc76aa59cd4f7db75abe1ca8e26853c800b772406d439bf279088f"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RF_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.42207814975054114,
+      "seed_count": 5,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1821993645708506,
+        0.5969941834048903
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "4f6205e58da8dba5aad3691218a14e5b128e9a6c50fe9864695215072ab3001e",
+      "per_seed_draw_metrics_sha256": "f7317dad75cc76aa59cd4f7db75abe1ca8e26853c800b772406d439bf279088f"
+    }
+  ]
+}

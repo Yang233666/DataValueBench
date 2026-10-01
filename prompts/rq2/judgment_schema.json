@@ -1,0 +1,109 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "clarity": {
+      "additionalProperties": false,
+      "properties": {
+        "error_codes": {
+          "items": {
+            "enum": [
+              "AMBIGUOUS_SCOPE",
+              "AMBIGUOUS_RELATION",
+              "DATASET_SEARCH_INTENT_UNCLEAR"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "label": {
+          "enum": [
+            "PASS",
+            "FAIL"
+          ],
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "error_codes",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "fidelity": {
+      "additionalProperties": false,
+      "properties": {
+        "error_codes": {
+          "items": {
+            "enum": [
+              "MISSING_CONSTRAINT",
+              "ADDED_CONSTRAINT",
+              "WRONG_VALUE",
+              "LOGICAL_RELATION_CHANGED"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "label": {
+          "enum": [
+            "PASS",
+            "FAIL"
+          ],
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "error_codes",
+        "rationale"
+      ],
+      "type": "object"
+    },
+    "naturalness": {
+      "additionalProperties": false,
+      "properties": {
+        "error_codes": {
+          "items": {
+            "enum": [
+              "SCHEMA_LIKE",
+              "DATABASE_LIKE",
+              "UNGRAMMATICAL",
+              "UNNATURAL_QUERY"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "label": {
+          "enum": [
+            "PASS",
+            "FAIL"
+          ],
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "error_codes",
+        "rationale"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "fidelity",
+    "clarity",
+    "naturalness"
+  ],
+  "type": "object"
+}

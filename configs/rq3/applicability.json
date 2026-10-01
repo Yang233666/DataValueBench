@@ -1,0 +1,8 @@
+{
+  "method": "k-DPP",
+  "applicable": "numpy.linalg.matrix_rank(L, tol=None, hermitian=False) >= requested_depth",
+  "structural_NA": "NOT_APPLICABLE_STRUCTURAL_RANK_DEFICIENCY",
+  "kernel_implementation": "src/datavaluebench/rq3_ranking.py:kdpp_kernel",
+  "imputation": false,
+  "missing_or_invalid_inputs": "error, never structural N/A"
+}

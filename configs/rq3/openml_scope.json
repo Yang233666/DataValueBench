@@ -1,0 +1,35 @@
+{
+  "ecosystem": "OpenML",
+  "active_methods": [
+    "BM25",
+    "BGE-M3",
+    "Facility Location",
+    "Farthest",
+    "MMR",
+    "MetaCompat",
+    "PPR",
+    "Random",
+    "k-DPP",
+    "metapath2vec++",
+    "node2vec"
+  ],
+  "pool": "C100",
+  "requested_depth": 10,
+  "mmr_lambda": 0.5,
+  "primary_all_method_common_support": 6408,
+  "endpoints": [
+    "MetaCompat",
+    "GTE_SemanticILD",
+    "StructuredILD"
+  ],
+  "structural_na_status": "NOT_APPLICABLE_STRUCTURAL_RANK_DEFICIENCY",
+  "caveats": [
+    "Direct MetaCompat quality-objective or initialization use: MetaCompat, MMR, k-DPP, Farthest; retain objective/evaluation overlap disclosure.",
+    "BGE selection and GTE evaluation representations remain distinct; intrinsic StructuredILD is a separate diversity geometry.",
+    "Automatic metadata-defined quality is not independent human suitability; H25 excluded, separate and pending.",
+    "OpenML and HF remain separate; no pooled or cross-ecosystem score comparison.",
+    "NOT_APPLICABLE_STRUCTURAL_RANK_DEFICIENCY remains explicit; no N/A imputation or zero conversion, reduced requested k, kernel modification, or dropping deficient sources to manufacture applicability.",
+    "Compatibility and diversity endpoints remain separate; no universal scalar or winner ranking."
+  ],
+  "canonical_result_id": "RQ3-FR-OML-001"
+}

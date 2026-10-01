@@ -1,0 +1,65 @@
+{
+  "regimes": [
+    "G0",
+    "GT80",
+    "GD",
+    "GF"
+  ],
+  "conditions": [
+    "GM",
+    "TD_MEAN",
+    "FLOW_MEAN",
+    "TF_ADD",
+    "FREQ",
+    "ID_RIDGE",
+    "RIDGE_D",
+    "RIDGE_W_TFIDF",
+    "RIDGE_W_MINILM",
+    "RIDGE_DW_TFIDF",
+    "RIDGE_DW_MINILM",
+    "LGBM_D",
+    "LGBM_W_TFIDF",
+    "LGBM_W_MINILM",
+    "LGBM_DW_TFIDF",
+    "LGBM_DW_MINILM",
+    "HYB_TFIDF",
+    "HYB_MINILM",
+    "IMC_MINILM",
+    "RF_DW_MINILM"
+  ],
+  "gdf_status": "Not reported: prespecified support requirement not satisfied",
+  "gt80_globalmean_spearman": {
+    "source_binding": {
+      "sha256": "14800c43208695eb134cec07612dfba29c8e191e6013763cc4b96d2ea9716aa8",
+      "locator": [
+        "intervals",
+        107,
+        "total_prescribed_draws"
+      ],
+      "value": 2000,
+      "display": "2000"
+    },
+    "exact_source_row": {
+      "condition": "GT80",
+      "method_id": "GM",
+      "metric": "Spearman",
+      "point_estimate": null,
+      "ci_status": "UNDEFINED_BOOTSTRAP_STATISTIC",
+      "percentile_95_CI": null,
+      "total_prescribed_draws": 2000,
+      "defined_draws": 0,
+      "undefined_draws": 2000,
+      "undefined_fraction": 1.0,
+      "undefined_reason": "CONSTANT_TARGET_OR_PREDICTION_ON_RESAMPLED_OBSERVATIONS",
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "eda703da471edc47d80b2ea67ecee6a68e98964ffa57791367b818dd9d52ad7a"
+    },
+    "constant_vector_degeneracy": true,
+    "evaluation_row_count_is_separate_from_bootstrap_support": true,
+    "repair_record": {
+      "sha256": "0d009ffc5b88a97cf5f8407d2504a708a66d9fdcbb5a6fd49046dbb296326fd5",
+      "bytes": 9220
+    }
+  },
+  "canonical_result_id": "RQ1-FR-001"
+}

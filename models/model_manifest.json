@@ -1,0 +1,158 @@
+{
+  "models": [
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "rq": [
+        "RQ1"
+      ],
+      "role": "workflow representation",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "recorded_upstream_license": "apache-2.0",
+      "license_source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/raw/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "intfloat/multilingual-e5-base",
+      "revision": "d13f1b27baf31030b7fd040960d60d909913633f",
+      "rq": [
+        "RQ2"
+      ],
+      "role": "retrieval",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/intfloat/multilingual-e5-base/tree/d13f1b27baf31030b7fd040960d60d909913633f",
+      "recorded_upstream_license": "mit",
+      "license_source": "https://huggingface.co/intfloat/multilingual-e5-base/raw/d13f1b27baf31030b7fd040960d60d909913633f/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "naver/splade-cocondenser-ensembledistil",
+      "revision": "49cf4c7b0db5b870a401ddf5e2669993ef3699c7",
+      "rq": [
+        "RQ2"
+      ],
+      "role": "sparse retrieval",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/naver/splade-cocondenser-ensembledistil/tree/49cf4c7b0db5b870a401ddf5e2669993ef3699c7",
+      "recorded_upstream_license": "cc-by-nc-sa-4.0",
+      "license_source": "https://huggingface.co/naver/splade-cocondenser-ensembledistil/raw/49cf4c7b0db5b870a401ddf5e2669993ef3699c7/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "colbert-ir/colbertv2.0",
+      "revision": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+      "rq": [
+        "RQ2"
+      ],
+      "role": "late-interaction retrieval",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/colbert-ir/colbertv2.0/tree/c1e84128e85ef755c096a95bdb06b47793b13acf",
+      "recorded_upstream_license": "mit",
+      "license_source": "https://huggingface.co/colbert-ir/colbertv2.0/raw/c1e84128e85ef755c096a95bdb06b47793b13acf/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "rq": [
+        "RQ2",
+        "RQ3"
+      ],
+      "role": "RQ2 retrieval; RQ3 candidate construction and BGE-M3 ranking baseline",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/BAAI/bge-m3/tree/5617a9f61b028005a4858fdac845db406aefb181",
+      "recorded_upstream_license": "mit",
+      "license_source": "https://huggingface.co/BAAI/bge-m3/raw/5617a9f61b028005a4858fdac845db406aefb181/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "Alibaba-NLP/gte-multilingual-base",
+      "revision": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+      "rq": [
+        "RQ2",
+        "RQ3"
+      ],
+      "role": "RQ2 retrieval; separate RQ3 SemanticILD evaluation space",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base/tree/9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+      "recorded_upstream_license": "apache-2.0",
+      "license_source": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base/raw/9bbca17d9273fd0d03d5725c7a4b0f6b45142062/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "Alibaba-NLP/new-impl",
+      "revision": "40ced75c3017eb27626c9d4ea981bde21a2662f4",
+      "rq": [
+        "RQ2",
+        "RQ3"
+      ],
+      "role": "GTE external implementation code",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/Alibaba-NLP/new-impl/tree/40ced75c3017eb27626c9d4ea981bde21a2662f4",
+      "recorded_upstream_license": "apache-2.0",
+      "license_source": "https://huggingface.co/Alibaba-NLP/new-impl/raw/40ced75c3017eb27626c9d4ea981bde21a2662f4/README.md"
+    },
+    {
+      "provider": "Hugging Face upstream repository",
+      "model_id": "Qwen/Qwen3-14B",
+      "revision": "ec3b5103878832857b9e0f6ab32eb37ee5e28e9a",
+      "rq": [
+        "RQ2"
+      ],
+      "role": "natural-language query generation",
+      "required_for_bundled_verification": false,
+      "download_required_for_inference": true,
+      "weights_included": false,
+      "source_url": "https://huggingface.co/Qwen/Qwen3-14B/tree/ec3b5103878832857b9e0f6ab32eb37ee5e28e9a",
+      "recorded_upstream_license": "apache-2.0",
+      "license_source": "https://huggingface.co/Qwen/Qwen3-14B/raw/ec3b5103878832857b9e0f6ab32eb37ee5e28e9a/README.md"
+    },
+    {
+      "provider": "OpenAI",
+      "model_id": "gpt-6-astra",
+      "revision": null,
+      "reasoning_effort": "medium",
+      "rq": [
+        "RQ2"
+      ],
+      "role": "semantic fidelity validation of generated query against latent intent",
+      "required_for_bundled_verification": false,
+      "remote_access_required_for_rerun": true,
+      "immutable_revision_available": false,
+      "license_source": "https://openai.com/policies/services-agreement/",
+      "recorded_upstream_license": "Hosted service terms; no weights distributed"
+    }
+  ],
+  "learned_benchmark_methods": {
+    "RQ1": {
+      "Ridge": "scikit-learn==1.7.2",
+      "RandomForest": "scikit-learn==1.7.2",
+      "LightGBM": "lightgbm==4.6.0",
+      "IMC": "Exact AltMin source hash in configs/rq1/estimators.json"
+    },
+    "RQ3": {
+      "node2vec": "node2vec==0.5.0; gensim==4.3.3; five seeds",
+      "metapath2vec++": "Exact implementation and parameters in configs/rq3/methods.json"
+    },
+    "RQ4": {
+      "AME": "scikit-learn==1.7.2 LassoCV; OpenDataVal commit 5c2856b95237a07ee4565638060e043f1e410822"
+    }
+  },
+  "fitted_weights_included": false
+}

@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "k1": 1.5,
+    "b": 0.75,
+    "idf": "ln(1+(N-df+.5)/(df+.5))",
+    "token_pattern": "(?u)\\b[\\w\\-:]+\\b",
+    "query_repetitions": "sequencepreserved"
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2"
+  },
+  "rows": 100000,
+  "representation_sha256": "9cc932662bab2ef9d2ca8ef356fdeabad259dffad6c9989fa93c127001ff01a1"
+}

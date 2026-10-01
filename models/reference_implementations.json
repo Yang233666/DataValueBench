@@ -1,0 +1,16 @@
+{
+  "IMC": {
+    "repository": "https://github.com/pizilber/IMC",
+    "commit": "6c7d49e84e227db59eb465fe8b5b87576cfe5852",
+    "path": "Python/algorithms/AltMin.py",
+    "git_blob": "d8b95da4f6ff0c6790466ed0e4f603554752933d",
+    "sha256": "c9637ef529d22d93d4336bb75457ab062fbd722cafbf2a792915c302393b9a1c",
+    "required_for_verification": false
+  },
+  "OpenDataVal": {
+    "repository": "https://github.com/opendataval/opendataval",
+    "commit": "5c2856b95237a07ee4565638060e043f1e410822",
+    "role": "RQ4 BetaShapley and AME reference",
+    "required_for_verification": false
+  }
+}

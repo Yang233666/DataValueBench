@@ -1,0 +1,22 @@
+{
+  "primary_metrics": [
+    "ndcg_at_10",
+    "map"
+  ],
+  "bootstrap_replicates": 10000,
+  "randomization_replicates": 20000,
+  "percentile_method": "linear",
+  "bootstrap_design": "SHA256 integer modulo n of DVBench-v2-RQ2-BOOTSTRAP-v1.0|seed=20260903|n={n}|replicate={b}|draw={j}",
+  "randomization_design": "First hex digit <8 gives -1 else +1; DVBench-v2-RQ2-RANDOMIZATION-v1.0|seed=20260904|n={n}|replicate={b}|intent_position={j}",
+  "workload_sensitivity_seed": 20260905,
+  "workload_sensitivity_namespace": "DVBench-v2-RQ2-WORKLOAD-SENSITIVITY-v1.0",
+  "workload_sizes": [
+    50,
+    100,
+    250,
+    475
+  ],
+  "subsample_replicates": 20,
+  "design_hashes_location": "results/rq2/statistics.json",
+  "human_relevance_statistics_included": false
+}

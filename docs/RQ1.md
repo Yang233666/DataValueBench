@@ -1,0 +1,11 @@
+# RQ1 · Workflow performance estimation
+
+The historical cohort contains 106,907 observations from 105,807 runs, 85 one-to-one task/dataset pairs and 1,005 flows. Observation rows are not silently deduplicated. `data/rq1/observation_identities.parquet` retains the exact row keys and resolved IDs. The accuracy values and historical timestamp/function content remain an external prerequisite pending redistribution clearance.
+
+G0 is run-grouped generalization; GT80 is the prespecified temporal train/test condition; GD holds out task/dataset groups; GF holds out flows. Author-assigned outer and inner split memberships are included for those four conditions. GDF is not reported because its support requirement is unmet. No substitute condition or stopped efficiency result is released.
+
+Twenty reported method/representation conditions are listed in `configs/rq1/scope.json`. Implementations include global/group/additive/frequency baselines, Ridge, Random Forest, LightGBM and IMC. `estimators.json` records the exact grids and seeds. Intrinsic preprocessing and workflow TF-IDF are training-fitted. MiniLM uses a pinned pretrained checkpoint; IMC uses a pinned AltMin reference and cannot substitute another factorizer. Selection uses three inner folds and macro MAE; ambiguous configuration ties fail rather than inventing a tie rule.
+
+MAE, R² and Spearman are the co-primary endpoints. The released results preserve secondary numerical outputs and 2,000-draw percentile intervals. G0 resamples runs, GD task/dataset groups, GF flows, and temporal evaluation uses 20 contiguous timestamp blocks. Stochastic metric values are averaged over the five recorded seeds; predictions are not averaged first. No RQ1 NHST or Holm procedure is claimed. GT80 GlobalMean has a constant prediction vector: Spearman remains undefined, with 0 defined and 2,000 undefined bootstrap draws.
+
+`bash scripts/reproduce_rq1.sh` verifies checksums, reported method/regime support, historical IDs, split references and the undefined-statistic contract. It does not refit estimators or rerun bootstrap sampling. Full estimator execution also needs the exact observation values, workflow serialization and model/reference dependencies (the exact intrinsic features used in the reported results and frozen MiniLM vectors are bundled) identified in the external-input guide.

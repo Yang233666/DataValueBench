@@ -1,0 +1,3 @@
+# Method-specific inference environments
+
+The verification requirements are not a universal inference lock. Preserve the method-specific runtime values in `configs/rq2/indexes/`. Some retrieval indexes were created with Torch 2.6.0+cu124, Transformers 4.57.0 and NumPy 2.2.6; do not replace those with the verification environment. RQ1 tree construction uses LightGBM 4.6.0 and scikit-learn 1.7.2. RQ3 graph configurations pin node2vec 0.5.0 and gensim 4.3.3. Exact checkpoint revisions are in `models/model_manifest.json`. No inference environment or full rebuild was installed or executed as part of this package's verification.

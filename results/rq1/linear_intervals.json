@@ -1,0 +1,2377 @@
+{
+  "intervals": [
+    {
+      "condition": "G0",
+      "method_id": "FLOW_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.10130386445785602,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10071132075640994,
+        0.10185707565503994
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "43d2b9f28451bfefc70655ea6084e91772725756d9ba0dfc91e7365ef54ef272"
+    },
+    {
+      "condition": "G0",
+      "method_id": "FLOW_MEAN",
+      "metric": "R2",
+      "point_estimate": 0.46636902533304325,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.4610800375243175,
+        0.4716899591568498
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "43d2b9f28451bfefc70655ea6084e91772725756d9ba0dfc91e7365ef54ef272"
+    },
+    {
+      "condition": "G0",
+      "method_id": "FLOW_MEAN",
+      "metric": "Spearman",
+      "point_estimate": 0.7302587386585304,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7274017699048145,
+        0.7332271460616218
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "43d2b9f28451bfefc70655ea6084e91772725756d9ba0dfc91e7365ef54ef272"
+    },
+    {
+      "condition": "G0",
+      "method_id": "FREQ",
+      "metric": "MAE",
+      "point_estimate": 0.09489852115813277,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09427569929208247,
+        0.09549098575911028
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "297103f9751a3ae9bc42e593ab33dcfed7de1e7fe20e900b1e18ef563932b68a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "FREQ",
+      "metric": "R2",
+      "point_estimate": 0.4883875419271183,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.48295467379711937,
+        0.49383425750016474
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "297103f9751a3ae9bc42e593ab33dcfed7de1e7fe20e900b1e18ef563932b68a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "FREQ",
+      "metric": "Spearman",
+      "point_estimate": 0.7486129241926935,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7456903378472088,
+        0.7514843352544827
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "297103f9751a3ae9bc42e593ab33dcfed7de1e7fe20e900b1e18ef563932b68a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "GM",
+      "metric": "MAE",
+      "point_estimate": 0.16626862572270956,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1656638653181168,
+        0.166830787265497
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "52d9f0e418eb729d35998dda618b57762015d942d93ca79184e1cf3cf5e89b30"
+    },
+    {
+      "condition": "G0",
+      "method_id": "GM",
+      "metric": "R2",
+      "point_estimate": -1.787136670716727e-05,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -6.927106629953662e-05,
+        -3.5008947642190125e-06
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "52d9f0e418eb729d35998dda618b57762015d942d93ca79184e1cf3cf5e89b30"
+    },
+    {
+      "condition": "G0",
+      "method_id": "GM",
+      "metric": "Spearman",
+      "point_estimate": -0.0054546041129278165,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.011474311908909898,
+        0.00042127511622447436
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "52d9f0e418eb729d35998dda618b57762015d942d93ca79184e1cf3cf5e89b30"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TD_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.1608104806595032,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1602113411364819,
+        0.16140054116205504
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "f920f3789e21fb58e9c6ad3e46db2ecc4b178d7291b4eb57149373421c3f4499"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TD_MEAN",
+      "metric": "R2",
+      "point_estimate": 0.04444614687800563,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.041607929325716116,
+        0.04719628114476735
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "f920f3789e21fb58e9c6ad3e46db2ecc4b178d7291b4eb57149373421c3f4499"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TD_MEAN",
+      "metric": "Spearman",
+      "point_estimate": 0.04455856855306671,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.03870955478468297,
+        0.05032861088446053
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "f920f3789e21fb58e9c6ad3e46db2ecc4b178d7291b4eb57149373421c3f4499"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TF_ADD",
+      "metric": "MAE",
+      "point_estimate": 0.098565492317711,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09801027267328964,
+        0.09911267400941216
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "b5f275a200d954619f1b5a7253763983c92ea13bbe883dd897d696d8183261d7"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TF_ADD",
+      "metric": "R2",
+      "point_estimate": 0.49875963474620977,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.49354810085887024,
+        0.5037978437100943
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "b5f275a200d954619f1b5a7253763983c92ea13bbe883dd897d696d8183261d7"
+    },
+    {
+      "condition": "G0",
+      "method_id": "TF_ADD",
+      "metric": "Spearman",
+      "point_estimate": 0.7347625150976698,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7318605917484774,
+        0.7376223836819559
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "b5f275a200d954619f1b5a7253763983c92ea13bbe883dd897d696d8183261d7"
+    },
+    {
+      "condition": "G0",
+      "method_id": "ID_RIDGE",
+      "metric": "MAE",
+      "point_estimate": 0.09501208331992415,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09443489719425818,
+        0.09557535189043703
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "e7a52b69e531f9b116d2bcaeccda47984611c4d67ab3f74f69e520a233c3afd9"
+    },
+    {
+      "condition": "G0",
+      "method_id": "ID_RIDGE",
+      "metric": "R2",
+      "point_estimate": 0.5079270527121644,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.5027587292466414,
+        0.5129755175980653
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "e7a52b69e531f9b116d2bcaeccda47984611c4d67ab3f74f69e520a233c3afd9"
+    },
+    {
+      "condition": "G0",
+      "method_id": "ID_RIDGE",
+      "metric": "Spearman",
+      "point_estimate": 0.7562025120491503,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7535157654325461,
+        0.7588265242164847
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "e7a52b69e531f9b116d2bcaeccda47984611c4d67ab3f74f69e520a233c3afd9"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_D",
+      "metric": "MAE",
+      "point_estimate": 0.1631575287119287,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.16256179180453428,
+        0.1637429977618366
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "ea426a9fc7eb05f61323fbefcc3b1e77c26d75c6c7000401ae9948d12886680a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_D",
+      "metric": "R2",
+      "point_estimate": 0.027498940775624203,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.025312553904067323,
+        0.02948331236237094
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "ea426a9fc7eb05f61323fbefcc3b1e77c26d75c6c7000401ae9948d12886680a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_D",
+      "metric": "Spearman",
+      "point_estimate": 0.03456342101707161,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.028873325906014213,
+        0.04034083853366016
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "ea426a9fc7eb05f61323fbefcc3b1e77c26d75c6c7000401ae9948d12886680a"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.09826791386582591,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0976880347571661,
+        0.09883721930689432
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "14606f3ada9c5e7d47f0bf1ed43aac41c89a2171a74e61c05680ed6d95fb8126"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.4846689599217493,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.4794048292615682,
+        0.48984831394454437
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "14606f3ada9c5e7d47f0bf1ed43aac41c89a2171a74e61c05680ed6d95fb8126"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.7452734375681261,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7424408704011558,
+        0.7480011777041775
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "14606f3ada9c5e7d47f0bf1ed43aac41c89a2171a74e61c05680ed6d95fb8126"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.09780477466496104,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09723009148240636,
+        0.0983794648659259
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "0f05b2d0db46685b3822eb6bd853aa1eece02c3de723e93631cd7ec18d86b9b8"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.48950304069121586,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.4841455772577119,
+        0.49464529468601304
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "0f05b2d0db46685b3822eb6bd853aa1eece02c3de723e93631cd7ec18d86b9b8"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.7470073028769757,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.744177916446053,
+        0.7496484316109104
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "0f05b2d0db46685b3822eb6bd853aa1eece02c3de723e93631cd7ec18d86b9b8"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.10167575167792724,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10108586560657558,
+        0.10223672638015414
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "6ba3062ec72892aa6c6c96258db4dbb4a9fab0cd0851ed473f3414244ee2a9ff"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.463433420893511,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.4581713640070994,
+        0.46880541148228666
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "6ba3062ec72892aa6c6c96258db4dbb4a9fab0cd0851ed473f3414244ee2a9ff"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.7286356031997532,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7256812671798591,
+        0.7315876294287027
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "6ba3062ec72892aa6c6c96258db4dbb4a9fab0cd0851ed473f3414244ee2a9ff"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.10116458448819768,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10057510583289252,
+        0.10172627335446006
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "8d7dffeb2ee135ecb3d60e0141d8bbd0e834ebc054916753eef0c0df6c94784c"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.46823746280556644,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.46295055065084395,
+        0.4734718226787834
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "8d7dffeb2ee135ecb3d60e0141d8bbd0e834ebc054916753eef0c0df6c94784c"
+    },
+    {
+      "condition": "G0",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.7317133622500513,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.7287622053590492,
+        0.7346549460976003
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "e6f56ad05a1c8ea441e57afca170deeb1c36ef0514129e4f38e74ca86312242c",
+      "draw_metrics_sha256": "8d7dffeb2ee135ecb3d60e0141d8bbd0e834ebc054916753eef0c0df6c94784c"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FLOW_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.16267388283990467,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09630298692735355,
+        0.16918863860964872
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ad3ebfa087883a1b396d9c90927d666270fc63a6fc4132f55801fd1c713cdbca"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FLOW_MEAN",
+      "metric": "R2",
+      "point_estimate": 0.042949997863977796,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.006440039521735258,
+        0.1976737750779169
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ad3ebfa087883a1b396d9c90927d666270fc63a6fc4132f55801fd1c713cdbca"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FLOW_MEAN",
+      "metric": "Spearman",
+      "point_estimate": 0.1968864267207643,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13858506547043312,
+        0.5422674543136462
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ad3ebfa087883a1b396d9c90927d666270fc63a6fc4132f55801fd1c713cdbca"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FREQ",
+      "metric": "MAE",
+      "point_estimate": 0.1683644360736083,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0992241264464215,
+        0.17511473945936545
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FREQ",
+      "metric": "R2",
+      "point_estimate": -0.0015763332473646141,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.25498049148407725,
+        -0.001239098274588013
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "FREQ",
+      "metric": "Spearman",
+      "point_estimate": -0.12021743417235613,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.335286272551843,
+        0.0467817990951513
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "GM",
+      "metric": "MAE",
+      "point_estimate": 0.1683644360736083,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0992241264464215,
+        0.17511473945936545
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "GM",
+      "metric": "R2",
+      "point_estimate": -0.0015763332473646141,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.25498049148407725,
+        -0.001239098274588013
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "GM",
+      "metric": "Spearman",
+      "point_estimate": -0.12021743417235613,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.335286272551843,
+        0.0467817990951513
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TD_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.1683644360736083,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0992241264464215,
+        0.17511473945936545
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TD_MEAN",
+      "metric": "R2",
+      "point_estimate": -0.0015763332473646141,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.25498049148407725,
+        -0.001239098274588013
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TD_MEAN",
+      "metric": "Spearman",
+      "point_estimate": -0.12021743417235613,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.335286272551843,
+        0.0467817990951513
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "287bdffbe3f1643db688e1081402abcafca4e8d05455635705041d34c750f410"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TF_ADD",
+      "metric": "MAE",
+      "point_estimate": 0.1654154392578615,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0945599247156108,
+        0.1725886847511673
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "1c836d22e1a56ce66517c414cad190f24dc8fb0a0b97c19e64c7b9268d5326b0"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TF_ADD",
+      "metric": "R2",
+      "point_estimate": 0.02565150353022161,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.06934633485477452,
+        0.1719700285946768
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "1c836d22e1a56ce66517c414cad190f24dc8fb0a0b97c19e64c7b9268d5326b0"
+    },
+    {
+      "condition": "GD",
+      "method_id": "TF_ADD",
+      "metric": "Spearman",
+      "point_estimate": 0.15945289564667078,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10106910778281131,
+        0.5339928292693851
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "1c836d22e1a56ce66517c414cad190f24dc8fb0a0b97c19e64c7b9268d5326b0"
+    },
+    {
+      "condition": "GD",
+      "method_id": "ID_RIDGE",
+      "metric": "MAE",
+      "point_estimate": 0.19119366127098758,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10200576570422594,
+        0.19959449151153089
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "43ca8147532a0da439610e950c48822b065671a5837f143f194a7abc0fbaf7e5"
+    },
+    {
+      "condition": "GD",
+      "method_id": "ID_RIDGE",
+      "metric": "R2",
+      "point_estimate": -0.10438020783434698,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.13540307202758173,
+        0.11225001169557967
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "43ca8147532a0da439610e950c48822b065671a5837f143f194a7abc0fbaf7e5"
+    },
+    {
+      "condition": "GD",
+      "method_id": "ID_RIDGE",
+      "metric": "Spearman",
+      "point_estimate": 0.142890658487236,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.021250460549346664,
+        0.3203933999388032
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "43ca8147532a0da439610e950c48822b065671a5837f143f194a7abc0fbaf7e5"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_D",
+      "metric": "MAE",
+      "point_estimate": 0.1887829701997115,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1199793151135425,
+        0.1956460805637026
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "29d34be81f154d1b9bff13a200179d2a2912579025b043a8044da29dee15cfd9"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_D",
+      "metric": "R2",
+      "point_estimate": -0.08203300532086688,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.21426098904341345,
+        0.09800067182483192
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "29d34be81f154d1b9bff13a200179d2a2912579025b043a8044da29dee15cfd9"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_D",
+      "metric": "Spearman",
+      "point_estimate": -0.006605196278311491,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.07937277329913967,
+        0.3580966664616056
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "29d34be81f154d1b9bff13a200179d2a2912579025b043a8044da29dee15cfd9"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.15600952013075292,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0943311032091097,
+        0.16238966707605496
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "7de3e6285a87c52861f7604e62a29f95ad18bd2cdf2ec2a16f9796c8b41ded3c"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": -0.03508481292920784,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.17225970285654715,
+        0.3545206784046286
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "7de3e6285a87c52861f7604e62a29f95ad18bd2cdf2ec2a16f9796c8b41ded3c"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.15415943790735698,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.11489762349053935,
+        0.6695994258778689
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "7de3e6285a87c52861f7604e62a29f95ad18bd2cdf2ec2a16f9796c8b41ded3c"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.1591468776918374,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.07992657920262772,
+        0.16724315431190942
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ee9d1f8a5d85aa809fd69a37d5c5823f371341e0db661b19184d02d89cfad450"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.07028338864085892,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.05183421804016736,
+        0.40645917127826253
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ee9d1f8a5d85aa809fd69a37d5c5823f371341e0db661b19184d02d89cfad450"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.3378569049646109,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.29306939302448126,
+        0.6967870577165237
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "ee9d1f8a5d85aa809fd69a37d5c5823f371341e0db661b19184d02d89cfad450"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.14744533293037498,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.10540036080404522,
+        0.15620937350616748
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "642c8ec82915529764d00dfdc6dd5b6d8af8336c97879b51335c2d2a68062ff3"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "R2",
+      "point_estimate": -0.006468574139889549,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.22080154978289995,
+        0.028127942079373844
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "642c8ec82915529764d00dfdc6dd5b6d8af8336c97879b51335c2d2a68062ff3"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.27691166865722205,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.23781130555713534,
+        0.45158584039017224
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "642c8ec82915529764d00dfdc6dd5b6d8af8336c97879b51335c2d2a68062ff3"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.13434765324812475,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09439308277693813,
+        0.1483370032235927
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "b673f6f47a3b105ac652867a92c10f1267ec8e820f065b1b83cecbc8791abf19"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "R2",
+      "point_estimate": -0.17735320134014176,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.2014245361503306,
+        0.20289010815350603
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "b673f6f47a3b105ac652867a92c10f1267ec8e820f065b1b83cecbc8791abf19"
+    },
+    {
+      "condition": "GD",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.3060660168839393,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.2895315320055587,
+        0.5425736702142449
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "9f124242238776474222abb1873fd962aef29028f47b34d962a526ce9a8cff22",
+      "draw_metrics_sha256": "b673f6f47a3b105ac652867a92c10f1267ec8e820f065b1b83cecbc8791abf19"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FLOW_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.1716797357466489,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.14466989333392902,
+        0.19936723579884635
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FLOW_MEAN",
+      "metric": "R2",
+      "point_estimate": -0.07606763324700139,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3292077408058849,
+        -0.009883114369553834
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FLOW_MEAN",
+      "metric": "Spearman",
+      "point_estimate": -0.4044976635595351,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.6234673125741054,
+        0.11961776103358225
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FREQ",
+      "metric": "MAE",
+      "point_estimate": 0.1716797357466489,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.14466989333392902,
+        0.19936723579884635
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FREQ",
+      "metric": "R2",
+      "point_estimate": -0.07606763324700139,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3292077408058849,
+        -0.009883114369553834
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "FREQ",
+      "metric": "Spearman",
+      "point_estimate": -0.4044976635595351,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.6234673125741054,
+        0.11961776103358225
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "GM",
+      "metric": "MAE",
+      "point_estimate": 0.1716797357466489,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.14466989333392902,
+        0.19936723579884635
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "GM",
+      "metric": "R2",
+      "point_estimate": -0.07606763324700139,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3292077408058849,
+        -0.009883114369553834
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "GM",
+      "metric": "Spearman",
+      "point_estimate": -0.4044976635595351,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.6234673125741054,
+        0.11961776103358225
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "1b5c2647a2dd6c6a8b11b6969052cdd2e63e941836db8662e2c8d70922155cfd"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TD_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.16766449612595768,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13764870079904207,
+        0.19601863780761472
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TD_MEAN",
+      "metric": "R2",
+      "point_estimate": -0.050971965742646175,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.30057097867308014,
+        0.05974390036076927
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TD_MEAN",
+      "metric": "Spearman",
+      "point_estimate": -0.3212143398493284,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.5363583950171338,
+        0.17192712958842002
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TF_ADD",
+      "metric": "MAE",
+      "point_estimate": 0.16766449612595768,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13764870079904207,
+        0.19601863780761472
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TF_ADD",
+      "metric": "R2",
+      "point_estimate": -0.050971965742646175,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.30057097867308014,
+        0.05974390036076927
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "TF_ADD",
+      "metric": "Spearman",
+      "point_estimate": -0.3212143398493284,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.5363583950171338,
+        0.17192712958842002
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "c4b1e79df4608735f31a57838927bb6bd136f31e427f4d2ffeeb56d5b2e5d6b6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "ID_RIDGE",
+      "metric": "MAE",
+      "point_estimate": 0.13684988073165016,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09013558470584974,
+        0.18876389258274726
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "4c60de7d3e62d30db4e4dc2cd52e3ae67d7cb0dda15d99ccd3fdd4450a59cca6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "ID_RIDGE",
+      "metric": "R2",
+      "point_estimate": -0.13621353259947866,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.5267527370228953,
+        0.11676346949866628
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "4c60de7d3e62d30db4e4dc2cd52e3ae67d7cb0dda15d99ccd3fdd4450a59cca6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "ID_RIDGE",
+      "metric": "Spearman",
+      "point_estimate": -0.03496289193554393,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.33565415178609814,
+        0.38938234348794404
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "4c60de7d3e62d30db4e4dc2cd52e3ae67d7cb0dda15d99ccd3fdd4450a59cca6"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_D",
+      "metric": "MAE",
+      "point_estimate": 0.1696203937597728,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.14046868756860484,
+        0.1981888698805453
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "ebca656a9daa0aa833501a01d565be59960eb91ba2d6b070707082ec4764cc24"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_D",
+      "metric": "R2",
+      "point_estimate": -0.0641237229446503,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3150763463848976,
+        0.03328735388875349
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "ebca656a9daa0aa833501a01d565be59960eb91ba2d6b070707082ec4764cc24"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_D",
+      "metric": "Spearman",
+      "point_estimate": -0.32798285251850595,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.541280887832437,
+        0.16705638076944054
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "ebca656a9daa0aa833501a01d565be59960eb91ba2d6b070707082ec4764cc24"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.128512925789285,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09922230081034504,
+        0.16279215235096287
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "31c285059556613e405b5424ccf8b0edc8eb54215cf6e4eacab2952680752aff"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.2715010242879391,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.04770841146092212,
+        0.41930550750950574
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "31c285059556613e405b5424ccf8b0edc8eb54215cf6e4eacab2952680752aff"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.584169356455618,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.2616885571021337,
+        0.7088146862745018
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "31c285059556613e405b5424ccf8b0edc8eb54215cf6e4eacab2952680752aff"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.11931374109198961,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.07943918506955369,
+        0.15757160194220787
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "b6cea831c9ba610928d1be8d30f04529132bff9226bafca016ab916b0b72e5ae"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.30898856469503555,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.056969024186021636,
+        0.4573797140785206
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "b6cea831c9ba610928d1be8d30f04529132bff9226bafca016ab916b0b72e5ae"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.6208258529173496,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.3224964299400265,
+        0.7492753435118508
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "b6cea831c9ba610928d1be8d30f04529132bff9226bafca016ab916b0b72e5ae"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.12515326347601316,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09458860497991278,
+        0.15888741012202226
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "bbbbb9222f080c3d532729f4df80b3a8bfdb5b5c3215e1a83e0940749fc6879e"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "R2",
+      "point_estimate": 0.26365948913617165,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.04565397367637068,
+        0.4170283014209632
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "bbbbb9222f080c3d532729f4df80b3a8bfdb5b5c3215e1a83e0940749fc6879e"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.5993569609325093,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.30409923026080904,
+        0.7068294276635009
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "bbbbb9222f080c3d532729f4df80b3a8bfdb5b5c3215e1a83e0940749fc6879e"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.12733740704921737,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.08628127628861412,
+        0.1685809498056186
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "6c2c98ca85eebcb20e51f61f576c3f1152ce5464e1506b5209d76d5a0ccddf77"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.2261105322678334,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.02300736376209617,
+        0.3616935762958332
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "6c2c98ca85eebcb20e51f61f576c3f1152ce5464e1506b5209d76d5a0ccddf77"
+    },
+    {
+      "condition": "GF",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.5791098375726167,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.25881966475015133,
+        0.7219814963601942
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "8171773bf46443ce45d51d96222783946f01f1afbe49077f3ae4852cad42419b",
+      "draw_metrics_sha256": "6c2c98ca85eebcb20e51f61f576c3f1152ce5464e1506b5209d76d5a0ccddf77"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FLOW_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.14268113077575395,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.11955041594462149,
+        0.16920774830178414
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "2d156885363230d18981ad5fe994c6283c0c9efa8ba4084f856a45f449414d45"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FLOW_MEAN",
+      "metric": "R2",
+      "point_estimate": -0.0995743757797487,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.795203217833461,
+        0.07367612855191535
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "2d156885363230d18981ad5fe994c6283c0c9efa8ba4084f856a45f449414d45"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FLOW_MEAN",
+      "metric": "Spearman",
+      "point_estimate": 0.38829255594794704,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.20468589497639264,
+        0.4966650646355472
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "2d156885363230d18981ad5fe994c6283c0c9efa8ba4084f856a45f449414d45"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FREQ",
+      "metric": "MAE",
+      "point_estimate": 0.15368764118858755,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13067469444235924,
+        0.17794813429857953
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "79e202fa8888a5ac2a7d68cb1c7c76cbe4d54d66647048d7d43f8a3db8f7bf0f"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FREQ",
+      "metric": "R2",
+      "point_estimate": -0.20693247046593277,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -1.105845243707968,
+        0.010549203303421238
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "79e202fa8888a5ac2a7d68cb1c7c76cbe4d54d66647048d7d43f8a3db8f7bf0f"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "FREQ",
+      "metric": "Spearman",
+      "point_estimate": 0.1459095104977577,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.04883112829936567,
+        0.313922086096328
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "79e202fa8888a5ac2a7d68cb1c7c76cbe4d54d66647048d7d43f8a3db8f7bf0f"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "GM",
+      "metric": "MAE",
+      "point_estimate": 0.16172170895875654,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.14452106329129955,
+        0.18314317156520257
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "eda703da471edc47d80b2ea67ecee6a68e98964ffa57791367b818dd9d52ad7a"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "GM",
+      "metric": "R2",
+      "point_estimate": -0.26150641724566426,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -1.2190505769070399,
+        -0.029595248909612314
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "eda703da471edc47d80b2ea67ecee6a68e98964ffa57791367b818dd9d52ad7a"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "GM",
+      "metric": "Spearman",
+      "point_estimate": null,
+      "ci_status": "UNDEFINED_BOOTSTRAP_STATISTIC",
+      "percentile_95_CI": null,
+      "total_prescribed_draws": 2000,
+      "defined_draws": 0,
+      "undefined_draws": 2000,
+      "undefined_fraction": 1.0,
+      "undefined_reason": "CONSTANT_TARGET_OR_PREDICTION_ON_RESAMPLED_OBSERVATIONS",
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "eda703da471edc47d80b2ea67ecee6a68e98964ffa57791367b818dd9d52ad7a"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TD_MEAN",
+      "metric": "MAE",
+      "point_estimate": 0.15541281133373505,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13370916006715491,
+        0.1789052682991629
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "5ef3fb1897cda2740219664409e9c6dcf403f99fb50c1b282993107cbad9a199"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TD_MEAN",
+      "metric": "R2",
+      "point_estimate": -0.22009646835670282,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -1.1162468011793156,
+        -0.009070096571728565
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "5ef3fb1897cda2740219664409e9c6dcf403f99fb50c1b282993107cbad9a199"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TD_MEAN",
+      "metric": "Spearman",
+      "point_estimate": -0.3035577714070436,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.5066985302098096,
+        -0.08399134683344024
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "5ef3fb1897cda2740219664409e9c6dcf403f99fb50c1b282993107cbad9a199"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TF_ADD",
+      "metric": "MAE",
+      "point_estimate": 0.14430159302956236,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.11949071877682271,
+        0.17081385858908482
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "7ffb0d3f4d0300b082ecb0e77ec04b03d140687219e8eb7ce1f26f07afde837d"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TF_ADD",
+      "metric": "R2",
+      "point_estimate": -0.13387003130910524,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.8793731058798594,
+        0.05050817379942154
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "7ffb0d3f4d0300b082ecb0e77ec04b03d140687219e8eb7ce1f26f07afde837d"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "TF_ADD",
+      "metric": "Spearman",
+      "point_estimate": 0.12834674727279788,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.1478259514810977,
+        0.3937647468551488
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "7ffb0d3f4d0300b082ecb0e77ec04b03d140687219e8eb7ce1f26f07afde837d"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "ID_RIDGE",
+      "metric": "MAE",
+      "point_estimate": 0.1073800440354224,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0809548010900378,
+        0.14279450003012928
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "90ea9979161216401706f84c8c5784735b0f0fa7de8690eb0466d550c35b91fa"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "ID_RIDGE",
+      "metric": "R2",
+      "point_estimate": 0.03465891991470116,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.07444848246501576,
+        0.07985353192916929
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "90ea9979161216401706f84c8c5784735b0f0fa7de8690eb0466d550c35b91fa"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "ID_RIDGE",
+      "metric": "Spearman",
+      "point_estimate": 0.1908552323076504,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.06460583629896721,
+        0.42589821487035256
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "90ea9979161216401706f84c8c5784735b0f0fa7de8690eb0466d550c35b91fa"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_D",
+      "metric": "MAE",
+      "point_estimate": 0.15584064825651395,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.13455338876795772,
+        0.17920896328178015
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "e026e80a6e62e0112a70730b0e1951053668a0c60192d862e92e27e9ae9fd704"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_D",
+      "metric": "R2",
+      "point_estimate": -0.22141801078533563,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -1.1226526647728925,
+        -0.009246927737759092
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "e026e80a6e62e0112a70730b0e1951053668a0c60192d862e92e27e9ae9fd704"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_D",
+      "metric": "Spearman",
+      "point_estimate": -0.2808309146379065,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.49515090044720644,
+        -0.04297808761673169
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "e026e80a6e62e0112a70730b0e1951053668a0c60192d862e92e27e9ae9fd704"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.12588460399777074,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.09330814169472154,
+        0.16588793519071487
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "1b473557123b61b0df91b8c902315fe564858b2321638307a6333cf83cf08e8b"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "R2",
+      "point_estimate": -0.16658209905484167,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.4057298852077346,
+        0.04412196953712717
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "1b473557123b61b0df91b8c902315fe564858b2321638307a6333cf83cf08e8b"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.10209838756435019,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.20969256382301238,
+        0.38668030383299895
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "1b473557123b61b0df91b8c902315fe564858b2321638307a6333cf83cf08e8b"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.1297266772460587,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1049496000942535,
+        0.15926239022101005
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "b342d53caced3a8032b6890c04d402871276c0b1481ad04db59a379488677418"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "R2",
+      "point_estimate": -0.02720601713622095,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.4964348068203347,
+        0.08819188953616947
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "b342d53caced3a8032b6890c04d402871276c0b1481ad04db59a379488677418"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_DW_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.10774357435694083,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.17455079386008057,
+        0.38074238826785883
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "b342d53caced3a8032b6890c04d402871276c0b1481ad04db59a379488677418"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "MAE",
+      "point_estimate": 0.12047723715299649,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.08206538642598651,
+        0.17157938092692165
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "27eab80c7f0fe9101d343f0b17072e526e0dae5d7554f8eedf47612d75642671"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "R2",
+      "point_estimate": -0.328321520270098,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.6993161667621286,
+        0.14937087056635745
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "27eab80c7f0fe9101d343f0b17072e526e0dae5d7554f8eedf47612d75642671"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_MINILM",
+      "metric": "Spearman",
+      "point_estimate": 0.11228807370354978,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.1997703289396615,
+        0.3855146467686265
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "27eab80c7f0fe9101d343f0b17072e526e0dae5d7554f8eedf47612d75642671"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "MAE",
+      "point_estimate": 0.12199477213997806,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.0978238959011779,
+        0.1540851093688498
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "3b7c782105d4eb43504299e1902a57a00857eebf07b8f8306e0c7fc24f123498"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "R2",
+      "point_estimate": 0.021091968614621148,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        -0.3107925656074717,
+        0.1175375700591767
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "3b7c782105d4eb43504299e1902a57a00857eebf07b8f8306e0c7fc24f123498"
+    },
+    {
+      "condition": "GT80",
+      "method_id": "RIDGE_W_TFIDF",
+      "metric": "Spearman",
+      "point_estimate": 0.34414728685950297,
+      "ci_status": "DEFINED",
+      "percentile_95_CI": [
+        0.1296995650568636,
+        0.5431363943095203
+      ],
+      "total_prescribed_draws": 2000,
+      "defined_draws": 2000,
+      "undefined_draws": 0,
+      "undefined_fraction": 0.0,
+      "undefined_reason": null,
+      "design_sha256": "369ae24e7b31619fc7ea52c6eda22486a6088711321ea99d95683b75db39e9cc",
+      "draw_metrics_sha256": "3b7c782105d4eb43504299e1902a57a00857eebf07b8f8306e0c7fc24f123498"
+    }
+  ]
+}

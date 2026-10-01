@@ -1,0 +1,980 @@
+{
+  "cells": [
+    {
+      "method": "Random",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": 0.0,
+      "method_operating_condition": "lambda=0.00",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": 0.25,
+      "method_operating_condition": "lambda=0.25",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": 0.75,
+      "method_operating_condition": "lambda=0.75",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": 1.0,
+      "method_operating_condition": "lambda=1.00",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C20_v2",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C50_v2",
+      "candidate_pool_size": 50,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C200_v2",
+      "candidate_pool_size": 200,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 5,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C100_v2",
+      "candidate_pool_size": 100,
+      "requested_depth": 20,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Random",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "MetaCompat",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BM25",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "BGE-M3",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "PPR",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "node2vec",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "metapath2vec++",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "MMR",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": 0.5,
+      "method_operating_condition": "lambda=0.50",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "Facility Location",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    },
+    {
+      "method": "k-DPP",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        20260903,
+        20260904,
+        20260905,
+        20260906,
+        20260907
+      ]
+    },
+    {
+      "method": "Farthest",
+      "candidate_pool": "C20_hist",
+      "candidate_pool_size": 20,
+      "requested_depth": 10,
+      "lambda": null,
+      "method_operating_condition": "canonical",
+      "seeds": [
+        null
+      ]
+    }
+  ],
+  "method_conditions": 81
+}

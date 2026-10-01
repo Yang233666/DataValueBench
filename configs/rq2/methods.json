@@ -1,0 +1,77 @@
+{
+  "methods": [
+    {
+      "family": "query-independent sanity",
+      "manifest_sha256": "ed97cb5cae87f70140931b9d96c44de992d3dad4b6ca1db4653401e77eef67eb",
+      "method": "Random",
+      "track": "B"
+    },
+    {
+      "family": "query-independent sanity",
+      "manifest_sha256": "ed97cb5cae87f70140931b9d96c44de992d3dad4b6ca1db4653401e77eef67eb",
+      "method": "Popularity",
+      "track": "B"
+    },
+    {
+      "family": "query-independent sanity",
+      "manifest_sha256": "ed97cb5cae87f70140931b9d96c44de992d3dad4b6ca1db4653401e77eef67eb",
+      "method": "MetadataCompleteness",
+      "track": "B"
+    },
+    {
+      "family": "classical sparse",
+      "manifest_sha256": "dd44e3cb3c42ea033b429ddb5572b41cb5e9ff07fab9ead3f7e8baadda2a91d5",
+      "method": "TFIDF",
+      "track": "B"
+    },
+    {
+      "family": "classical sparse",
+      "manifest_sha256": "8633c0de016236639a0e7767358a2611707d11ec15809d999738cd9599260a33",
+      "method": "BM25",
+      "track": "B"
+    },
+    {
+      "family": "modern sparse",
+      "manifest_sha256": "3334a797dcfc30f8639ca82815480309a10aebdcb1922f4d68c9565249528cde",
+      "method": "SPLADE",
+      "track": "B"
+    },
+    {
+      "family": "historical dense",
+      "manifest_sha256": "a6316b3ada70e3ebc648fcc3a97c70d3ae91e62ce4ac37a059c9ab62b4601dea",
+      "method": "MultilingualE5",
+      "track": "B"
+    },
+    {
+      "family": "contemporary dense",
+      "manifest_sha256": "ad06a4b8a1b48f0a10250d075b11310a62858ac3b0dede14cd2df794c3498861",
+      "method": "BGEM3Dense",
+      "track": "B"
+    },
+    {
+      "family": "contemporary dense",
+      "manifest_sha256": "b2b5daff7b04dbd825615bc9f4ea483c902fb7b9222fea76d6217f55a95ef30e",
+      "method": "GTEMultilingual",
+      "track": "B"
+    },
+    {
+      "family": "late interaction",
+      "manifest_sha256": "1fd16ddb63aabb2d27f6850d46b2d7f643846fc1e6ad0778c3c981c2df547c57",
+      "method": "ColBERTv2",
+      "track": "B"
+    },
+    {
+      "family": "structured reference",
+      "manifest_sha256": null,
+      "method": "ExactMetadataFilter",
+      "track": "A"
+    },
+    {
+      "family": "sparse+dense hybrid",
+      "manifest_sha256": null,
+      "method": "RRF",
+      "track": "B"
+    }
+  ],
+  "rrf_reference": "tests/v2/test_rq2_exact_retrieval.py::test_random_identity_only_and_fixed_rrf_ties"
+}
